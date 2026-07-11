@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "id": "elora",
+      "role": "Primary Learning Guide"
+    },
+    {
+      "id": "professor",
+      "role": "Theory"
+    },
+    {
+      "id": "trader",
+      "role": "Execution"
+    },
+    {
+      "id": "analyst",
+      "role": "Macro and Context"
+    },
+    {
+      "id": "risk",
+      "role": "Risk and Funded Accounts"
+    },
+    {
+      "id": "coach",
+      "role": "Psychology"
+    },
+    {
+      "id": "examiner",
+      "role": "Assessment"
+    }
+  ]
+}

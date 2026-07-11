@@ -1,0 +1,439 @@
+[
+  {
+    "id": "L00-M01",
+    "title": "Why Markets Exist",
+    "time": "15 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "financial_literacy",
+      "market_mechanics"
+    ],
+    "prerequisites": [],
+    "objective": "Explain the economic purpose of financial markets before learning how to trade them.",
+    "why": "A learner who sees a market only as a place to win money will misunderstand nearly every later concept. Markets help transfer ownership, allocate capital, manage risk, and discover prices.",
+    "core": [
+      "Primary markets connect issuers with capital; secondary markets let existing claims change hands.",
+      "Futures and derivatives can transfer price risk between participants with different needs.",
+      "The displayed price is the latest result of interacting orders, not a promise about the future."
+    ],
+    "scenario": "A European manufacturer expects a US-dollar payment in three months and wants less currency uncertainty. Another participant is willing to accept that exposure because of a different forecast or business need. The same market serves both.",
+    "exercise": "Write one sentence explaining how an airline, a pension fund, and a short-term trader might each use a financial market.",
+    "quiz": [
+      [
+        "Which is a core market function?",
+        "Transferring ownership, capital, and risk."
+      ],
+      [
+        "Do all participants seek the same outcome?",
+        "No."
+      ],
+      [
+        "Does an indicator create price?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating the market as a machine designed to pay traders.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS",
+      "CME_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M02",
+    "title": "Investing, Trading, Speculation, and Gambling",
+    "time": "18 minutes",
+    "visual": "06_mastery_loop.png",
+    "competencies": [
+      "financial_literacy",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Distinguish activities by decision process rather than by holding period or outcome.",
+    "why": "A short holding period does not automatically make an activity gambling. The important differences are evidence, risk limits, repeatability, and whether the decision has a rational basis.",
+    "core": [
+      "Investing usually seeks participation in longer-term economic value or cash flows.",
+      "Trading seeks to manage a shorter-term opportunity with a defined thesis, invalidation, and risk.",
+      "Speculation accepts uncertainty in pursuit of gain and can be disciplined or reckless.",
+      "Gambling behavior appears when hope, excitement, or uncontrolled size replaces a tested process."
+    ],
+    "scenario": "Two people buy the same index. One follows a diversified ten-year plan. The other uses extreme leverage after reading a social-media prediction. The instrument is identical; the process is not.",
+    "exercise": "Classify three past market decisions as investment, disciplined trade, or gambling behavior. Explain each classification without referring to whether it made money.",
+    "quiz": [
+      [
+        "Can a profitable trade be a poor decision?",
+        "Yes."
+      ],
+      [
+        "Is holding time the only distinction?",
+        "No."
+      ],
+      [
+        "What matters most?",
+        "Process, evidence, and risk."
+      ]
+    ],
+    "mistake": "Judging decision quality only by the profit or loss.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L00-M03",
+    "title": "Who Participates in Markets?",
+    "time": "18 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Identify major participant groups and understand why their motives differ.",
+    "why": "A hedge, an investment, a market-making action, and a speculative trade can produce similar transactions for very different reasons.",
+    "core": [
+      "Hedgers seek to reduce an existing commercial or portfolio risk.",
+      "Speculators intentionally accept price risk in pursuit of profit.",
+      "Investors allocate capital according to longer-term objectives.",
+      "Market makers quote prices and manage inventory risk.",
+      "Brokers provide customer access and route or execute orders.",
+      "Exchanges and clearing systems establish rules, matching, and post-trade obligations."
+    ],
+    "scenario": "A gold producer sells futures to stabilize revenue while a macro fund buys because it expects lower real yields. The matched transaction does not reveal each participant's complete motive.",
+    "exercise": "Create a two-column table: participant and likely objective. Include a bank, pension fund, airline, market maker, day trader, and central bank.",
+    "quiz": [
+      [
+        "Who commonly reduces commercial price risk?",
+        "A hedger."
+      ],
+      [
+        "Who provides market access to customers?",
+        "A broker."
+      ],
+      [
+        "Does a trade print reveal motive with certainty?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming every large transaction is directional speculation.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS"
+    ]
+  },
+  {
+    "id": "L00-M04",
+    "title": "Exchanges, Brokers, Clearing, and Settlement",
+    "time": "20 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M03"
+    ],
+    "objective": "Trace a transaction from the learner's instruction through execution and settlement.",
+    "why": "A platform makes execution look instant, but legal relationships, routing, matching or dealer execution, clearing, and settlement sit behind a click.",
+    "core": [
+      "A broker receives the client instruction and provides market access.",
+      "An exchange or trading venue applies its rules and matches compatible orders.",
+      "Clearing manages obligations and counterparty risk according to the market structure.",
+      "Settlement completes the transfer of cash and the financial instrument.",
+      "CFDs, exchange-traded futures, and shares can have materially different execution and legal structures."
+    ],
+    "scenario": "A learner presses Buy and sees a confirmation. Behind that message may be routing, execution at a venue or dealer, trade confirmation, clearing, and settlement.",
+    "exercise": "Draw the transaction path for one exchange-traded share order and one OTC CFD order. Highlight where their structures differ.",
+    "quiz": [
+      [
+        "Who usually provides the learner's access?",
+        "The broker."
+      ],
+      [
+        "Where are compatible exchange orders matched?",
+        "At a trading venue or exchange."
+      ],
+      [
+        "Is every product centrally cleared?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming all instruments and brokers use the same execution model.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_EXECUTION",
+      "FINRA_LIFECYCLE"
+    ]
+  },
+  {
+    "id": "L00-M05",
+    "title": "Bid, Ask, and the Last Traded Price",
+    "time": "18 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "chart_reading"
+    ],
+    "prerequisites": [
+      "L00-M04"
+    ],
+    "objective": "Differentiate the last traded price from current executable quotations.",
+    "why": "The last price shown on a chart is not automatically available for a new order.",
+    "core": [
+      "The bid is the highest displayed price a buyer is currently willing to pay.",
+      "The ask is the lowest displayed price a seller is currently willing to accept.",
+      "The last price records a completed transaction and may no longer be available.",
+      "Quotes can change before an order reaches the market.",
+      "Different venues, data feeds, instruments, and brokers can display slightly different prices."
+    ],
+    "scenario": "The chart shows 100.00, while the best ask is 100.03. An immediate market buy is likely to execute at the ask or worse, not automatically at 100.00.",
+    "exercise": "On a demo platform, record bid, ask, spread, and last price five times during an active session.",
+    "quiz": [
+      [
+        "Which quotation is relevant to an immediate buy?",
+        "The ask."
+      ],
+      [
+        "Is the last price guaranteed for a new order?",
+        "No."
+      ],
+      [
+        "What does the last price represent?",
+        "A completed transaction."
+      ]
+    ],
+    "mistake": "Using the last candle close as a guaranteed execution price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "TV_ORDER_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M06",
+    "title": "The Bid-Ask Spread and Liquidity",
+    "time": "20 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L00-M05"
+    ],
+    "objective": "Explain the spread as an immediate cost and a partial clue about liquidity.",
+    "why": "An aggressive buyer crosses to the ask and an aggressive seller crosses to the bid. This matters especially in frequent trading and thin markets.",
+    "core": [
+      "Spread equals best ask minus best bid.",
+      "Tighter spreads often accompany liquid conditions, but top-of-book size alone does not fully describe liquidity.",
+      "Spreads can widen around news, session changes, quiet hours, or stress.",
+      "Total transaction cost may include spread, commission, fees, financing, and slippage."
+    ],
+    "scenario": "Gold has a normal spread before a major release. Seconds before the announcement, quotations widen and available depth changes, increasing execution uncertainty.",
+    "exercise": "Compare the spread of the same instrument during its primary session and during a quiet period. Record the difference and possible reason.",
+    "quiz": [
+      [
+        "How is spread calculated?",
+        "Best ask minus best bid."
+      ],
+      [
+        "Can the spread change quickly?",
+        "Yes."
+      ],
+      [
+        "Is spread the only cost?",
+        "No."
+      ]
+    ],
+    "mistake": "Backtesting without realistic spread and transaction-cost assumptions.",
+    "evidence": "Market fact",
+    "sources": [
+      "FINRA_ORDERS",
+      "FINRA_LIFECYCLE",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M07",
+    "title": "Market Orders: Execution First",
+    "time": "20 minutes",
+    "visual": "04_slippage.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M06"
+    ],
+    "objective": "Understand what a market order prioritizes and what it cannot guarantee.",
+    "why": "Market orders seek execution against available liquidity. In fast or thin conditions, the actual average price can differ significantly from the expected price.",
+    "core": [
+      "A market order seeks immediate execution against available opposite-side liquidity.",
+      "It offers high execution certainty in normal conditions but no exact price guarantee.",
+      "A large order can fill at several price levels.",
+      "Slippage is the difference between a referenced or expected price and actual execution."
+    ],
+    "scenario": "A large buy order enters a thin ask book. The first units fill near the best ask; the remainder consumes higher offers, producing a worse average price.",
+    "exercise": "Use the order-book illustration to estimate how a small and a large market order could receive different average fills.",
+    "quiz": [
+      [
+        "What does a market order prioritize?",
+        "Execution."
+      ],
+      [
+        "Does it guarantee an exact price?",
+        "No."
+      ],
+      [
+        "Can one order fill at multiple prices?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Using market orders around high-impact news without considering liquidity and slippage.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M08",
+    "title": "Limit Orders: Price First",
+    "time": "20 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M07"
+    ],
+    "objective": "Understand the trade-off between price control and execution uncertainty.",
+    "why": "A limit order protects the permitted price but cannot force another participant to trade with you.",
+    "core": [
+      "A buy limit can execute at the limit price or lower.",
+      "A sell limit can execute at the limit price or higher.",
+      "A limit order can partially fill, remain unfilled, or lose queue priority after modification.",
+      "A historical price touch does not prove that every waiting order filled."
+    ],
+    "scenario": "Price touches a learner's buy limit and rises immediately. The learner assumes a fill, but insufficient sell volume reached the order after earlier orders in the queue.",
+    "exercise": "Define the execution condition for a buy limit at 99.50 and a sell limit at 101.20. Give one reason each might remain unfilled.",
+    "quiz": [
+      [
+        "What does a limit order control?",
+        "The permitted execution price."
+      ],
+      [
+        "Is execution guaranteed?",
+        "No."
+      ],
+      [
+        "Can a limit order partially fill?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Treating every historical touch as a filled limit order in a backtest.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M09",
+    "title": "Stop and Stop-Limit Orders",
+    "time": "22 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "risk_management",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M08"
+    ],
+    "objective": "Distinguish a stop trigger from a guaranteed exit price.",
+    "why": "A stop defines when another order activates. It does not guarantee the exact execution price during a gap or rapid move.",
+    "core": [
+      "A stop order generally becomes a market order after the trigger condition is met.",
+      "A stop-limit becomes a limit order after activation.",
+      "A stop may slip but prioritizes execution.",
+      "A stop-limit controls price but can remain unfilled, leaving exposure open.",
+      "Broker and venue rules must be checked because implementation details can differ."
+    ],
+    "scenario": "A long position gaps below its stop. The stop activates and sells into the next available bids. A stop-limit might not execute if the market is already below its limit.",
+    "exercise": "For a long position, explain the difference between a stop at 98 and a stop-limit with trigger 98 and limit 97.80.",
+    "quiz": [
+      [
+        "What does a stop order become after activation?",
+        "A market order."
+      ],
+      [
+        "What does a stop-limit become?",
+        "A limit order."
+      ],
+      [
+        "Which can remain unfilled after activation?",
+        "A stop-limit."
+      ]
+    ],
+    "mistake": "Calling the stop trigger a guaranteed exit price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_STOP",
+      "FINRA_STOP",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M10",
+    "title": "Risk, Leverage, and Survival",
+    "time": "25 minutes",
+    "visual": "05_leverage.png",
+    "competencies": [
+      "risk_management",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M02",
+      "L00-M09"
+    ],
+    "objective": "Explain why controlled exposure and survival come before strategy optimization.",
+    "why": "A valid analysis can still produce a loss. Excessive size converts ordinary uncertainty into account-threatening damage.",
+    "core": [
+      "Risk is uncertainty that can negatively affect capital or financial welfare.",
+      "Leverage creates exposure larger than the cash committed.",
+      "Margin is collateral, not the maximum possible loss.",
+      "Position size should come from acceptable account risk and the distance to invalidation, not the maximum leverage offered.",
+      "A professional plan sets per-trade and daily loss limits before considering targets."
+    ],
+    "scenario": "Two learners use the same setup and stop distance. One risks 0.5% of capital; the other risks 20%. The market outcome is the same, but the consequences for survival are radically different.",
+    "exercise": "For a EUR 10,000 account, calculate the cash amount represented by 0.25%, 0.5%, 1%, and 2%. Explain which is more appropriate for a novice simulation plan and why.",
+    "quiz": [
+      [
+        "Is margin the maximum possible loss?",
+        "No."
+      ],
+      [
+        "What should determine position size?",
+        "Accepted account risk and invalidation distance."
+      ],
+      [
+        "Does leverage improve a trading edge?",
+        "No."
+      ]
+    ],
+    "mistake": "Choosing the position size first and forcing the stop to fit afterward.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  }
+]

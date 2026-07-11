@@ -1,0 +1,112 @@
+{
+  "SEC_ORDERS": {
+    "title": "Types of Orders - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders",
+    "kind": "official"
+  },
+  "SEC_EXECUTION": {
+    "title": "Executing an Order - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/executing-order",
+    "kind": "official"
+  },
+  "SEC_STOP": {
+    "title": "Stop, Stop-Limit, and Trailing Stop Orders - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15",
+    "kind": "official"
+  },
+  "FINRA_ORDERS": {
+    "title": "Order Types - FINRA",
+    "url": "https://www.finra.org/investors/investing/investment-products/stocks/order-types",
+    "kind": "official"
+  },
+  "FINRA_LIFECYCLE": {
+    "title": "How Online Stock Trading Works - FINRA",
+    "url": "https://www.finra.org/investors/insights/online-trade-lifecycle",
+    "kind": "official"
+  },
+  "FINRA_STOP": {
+    "title": "Stop Orders During Volatile Markets - FINRA",
+    "url": "https://www.finra.org/investors/insights/stop-orders-factors-consider-during-volatile-markets",
+    "kind": "official"
+  },
+  "CME_HEDGERS": {
+    "title": "Understanding the Role of Hedgers - CME Group",
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/understanding-the-role-of-hedgers",
+    "kind": "official"
+  },
+  "CME_SPECULATORS": {
+    "title": "Understanding the Role of Speculators - CME Group",
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/understanding-the-role-of-speculators",
+    "kind": "official"
+  },
+  "CME_ORDERS": {
+    "title": "Futures Order Types - CME Group",
+    "url": "https://www.cmegroup.com/education/courses/things-to-know-before-trading-cme-futures/futures-order-types",
+    "kind": "official"
+  },
+  "CME_RISK": {
+    "title": "Position and Risk Management - CME Group",
+    "url": "https://www.cmegroup.com/education/courses/things-to-know-before-trading-cme-futures/position-and-risk-management",
+    "kind": "official"
+  },
+  "CME_VIDEO": {
+    "title": "Introduction to Futures - CME Group YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLkJQh4MWlJksEOMuHaYxkK0-yHsrhS8kW",
+    "kind": "video"
+  },
+  "TV_ORDER_VIDEO": {
+    "title": "Placing Orders on Charts - TradingView video",
+    "url": "https://www.youtube.com/watch?v=DuhcjrwSRDQ",
+    "kind": "video"
+  },
+  "INVESTOR_STOCKS": {
+    "title": "Stocks - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "kind": "official"
+  },
+  "INVESTOR_ETFS": {
+    "title": "Exchange-Traded Funds (ETFs) - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2",
+    "kind": "official"
+  },
+  "FINRA_EXTENDED": {
+    "title": "Extended-Hours Trading: Know the Risks - FINRA",
+    "url": "https://www.finra.org/investors/insights/extended-hours-trading",
+    "kind": "official"
+  },
+  "FINRA_TIME": {
+    "title": "Trading Terms: Time Parameters and Qualifiers - FINRA",
+    "url": "https://www.finra.org/investors/insights/time-parameters-qualifiers-stock-orders",
+    "kind": "official"
+  },
+  "CFTC_FUTURES": {
+    "title": "Basics of Futures Trading - CFTC",
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/FuturesMarketBasics/index.htm",
+    "kind": "official"
+  },
+  "CFTC_FOREX": {
+    "title": "Eight Things You Should Know Before Trading Forex - CFTC",
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CustomerAdvisory_MustKnowForex.html",
+    "kind": "official"
+  },
+  "TV_SUPPORT": {
+    "title": "TradingView Help Center",
+    "url": "https://www.tradingview.com/support/",
+    "kind": "official"
+  },
+  "BLS_CALENDAR": {
+    "title": "BLS Release Calendar",
+    "url": "https://www.bls.gov/schedule/",
+    "kind": "official"
+  },
+  "FED_CALENDAR": {
+    "title": "Federal Reserve FOMC Calendars and Information",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "kind": "official"
+  },
+  "BEA_RELEASES": {
+    "title": "BEA News Release Schedule",
+    "url": "https://www.bea.gov/news/schedule",
+    "kind": "official"
+  }
+}

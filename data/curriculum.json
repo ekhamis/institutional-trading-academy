@@ -1,0 +1,51 @@
+{
+  "academy": "Institutional Trading Academy",
+  "version": "0.3",
+  "levels": [
+    {
+      "id": "L0",
+      "title": "Financial Literacy",
+      "missions": 8
+    },
+    {
+      "id": "L1",
+      "title": "Market Foundations",
+      "missions": 12
+    },
+    {
+      "id": "L2",
+      "title": "Price and Structure",
+      "missions": 14
+    },
+    {
+      "id": "L3",
+      "title": "Volume and Auction",
+      "missions": 12
+    },
+    {
+      "id": "L4",
+      "title": "Liquidity and Order Flow",
+      "missions": 16
+    },
+    {
+      "id": "L5",
+      "title": "Planning and Execution",
+      "missions": 14
+    },
+    {
+      "id": "L6",
+      "title": "Psychology and Performance",
+      "missions": 12
+    },
+    {
+      "id": "L7",
+      "title": "Specializations",
+      "missions": 40
+    }
+  ],
+  "authored_missions": 20,
+  "content_status": {
+    "en-US": "missions_01_20_authored",
+    "ar": "structure_only"
+  }
+}

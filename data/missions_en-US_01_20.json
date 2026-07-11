@@ -1,0 +1,893 @@
+[
+  {
+    "id": "L00-M01",
+    "title": "Why Markets Exist",
+    "time": "15 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "financial_literacy",
+      "market_mechanics"
+    ],
+    "prerequisites": [],
+    "objective": "Explain the economic purpose of financial markets before learning how to trade them.",
+    "why": "A learner who sees a market only as a place to win money will misunderstand nearly every later concept. Markets help transfer ownership, allocate capital, manage risk, and discover prices.",
+    "core": [
+      "Primary markets connect issuers with capital; secondary markets let existing claims change hands.",
+      "Futures and derivatives can transfer price risk between participants with different needs.",
+      "The displayed price is the latest result of interacting orders, not a promise about the future."
+    ],
+    "scenario": "A European manufacturer expects a US-dollar payment in three months and wants less currency uncertainty. Another participant is willing to accept that exposure because of a different forecast or business need. The same market serves both.",
+    "exercise": "Write one sentence explaining how an airline, a pension fund, and a short-term trader might each use a financial market.",
+    "quiz": [
+      [
+        "Which is a core market function?",
+        "Transferring ownership, capital, and risk."
+      ],
+      [
+        "Do all participants seek the same outcome?",
+        "No."
+      ],
+      [
+        "Does an indicator create price?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating the market as a machine designed to pay traders.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS",
+      "CME_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M02",
+    "title": "Investing, Trading, Speculation, and Gambling",
+    "time": "18 minutes",
+    "visual": "06_mastery_loop.png",
+    "competencies": [
+      "financial_literacy",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Distinguish activities by decision process rather than by holding period or outcome.",
+    "why": "A short holding period does not automatically make an activity gambling. The important differences are evidence, risk limits, repeatability, and whether the decision has a rational basis.",
+    "core": [
+      "Investing usually seeks participation in longer-term economic value or cash flows.",
+      "Trading seeks to manage a shorter-term opportunity with a defined thesis, invalidation, and risk.",
+      "Speculation accepts uncertainty in pursuit of gain and can be disciplined or reckless.",
+      "Gambling behavior appears when hope, excitement, or uncontrolled size replaces a tested process."
+    ],
+    "scenario": "Two people buy the same index. One follows a diversified ten-year plan. The other uses extreme leverage after reading a social-media prediction. The instrument is identical; the process is not.",
+    "exercise": "Classify three past market decisions as investment, disciplined trade, or gambling behavior. Explain each classification without referring to whether it made money.",
+    "quiz": [
+      [
+        "Can a profitable trade be a poor decision?",
+        "Yes."
+      ],
+      [
+        "Is holding time the only distinction?",
+        "No."
+      ],
+      [
+        "What matters most?",
+        "Process, evidence, and risk."
+      ]
+    ],
+    "mistake": "Judging decision quality only by the profit or loss.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L00-M03",
+    "title": "Who Participates in Markets?",
+    "time": "18 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Identify major participant groups and understand why their motives differ.",
+    "why": "A hedge, an investment, a market-making action, and a speculative trade can produce similar transactions for very different reasons.",
+    "core": [
+      "Hedgers seek to reduce an existing commercial or portfolio risk.",
+      "Speculators intentionally accept price risk in pursuit of profit.",
+      "Investors allocate capital according to longer-term objectives.",
+      "Market makers quote prices and manage inventory risk.",
+      "Brokers provide customer access and route or execute orders.",
+      "Exchanges and clearing systems establish rules, matching, and post-trade obligations."
+    ],
+    "scenario": "A gold producer sells futures to stabilize revenue while a macro fund buys because it expects lower real yields. The matched transaction does not reveal each participant's complete motive.",
+    "exercise": "Create a two-column table: participant and likely objective. Include a bank, pension fund, airline, market maker, day trader, and central bank.",
+    "quiz": [
+      [
+        "Who commonly reduces commercial price risk?",
+        "A hedger."
+      ],
+      [
+        "Who provides market access to customers?",
+        "A broker."
+      ],
+      [
+        "Does a trade print reveal motive with certainty?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming every large transaction is directional speculation.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS"
+    ]
+  },
+  {
+    "id": "L00-M04",
+    "title": "Exchanges, Brokers, Clearing, and Settlement",
+    "time": "20 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M03"
+    ],
+    "objective": "Trace a transaction from the learner's instruction through execution and settlement.",
+    "why": "A platform makes execution look instant, but legal relationships, routing, matching or dealer execution, clearing, and settlement sit behind a click.",
+    "core": [
+      "A broker receives the client instruction and provides market access.",
+      "An exchange or trading venue applies its rules and matches compatible orders.",
+      "Clearing manages obligations and counterparty risk according to the market structure.",
+      "Settlement completes the transfer of cash and the financial instrument.",
+      "CFDs, exchange-traded futures, and shares can have materially different execution and legal structures."
+    ],
+    "scenario": "A learner presses Buy and sees a confirmation. Behind that message may be routing, execution at a venue or dealer, trade confirmation, clearing, and settlement.",
+    "exercise": "Draw the transaction path for one exchange-traded share order and one OTC CFD order. Highlight where their structures differ.",
+    "quiz": [
+      [
+        "Who usually provides the learner's access?",
+        "The broker."
+      ],
+      [
+        "Where are compatible exchange orders matched?",
+        "At a trading venue or exchange."
+      ],
+      [
+        "Is every product centrally cleared?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming all instruments and brokers use the same execution model.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_EXECUTION",
+      "FINRA_LIFECYCLE"
+    ]
+  },
+  {
+    "id": "L00-M05",
+    "title": "Bid, Ask, and the Last Traded Price",
+    "time": "18 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "chart_reading"
+    ],
+    "prerequisites": [
+      "L00-M04"
+    ],
+    "objective": "Differentiate the last traded price from current executable quotations.",
+    "why": "The last price shown on a chart is not automatically available for a new order.",
+    "core": [
+      "The bid is the highest displayed price a buyer is currently willing to pay.",
+      "The ask is the lowest displayed price a seller is currently willing to accept.",
+      "The last price records a completed transaction and may no longer be available.",
+      "Quotes can change before an order reaches the market.",
+      "Different venues, data feeds, instruments, and brokers can display slightly different prices."
+    ],
+    "scenario": "The chart shows 100.00, while the best ask is 100.03. An immediate market buy is likely to execute at the ask or worse, not automatically at 100.00.",
+    "exercise": "On a demo platform, record bid, ask, spread, and last price five times during an active session.",
+    "quiz": [
+      [
+        "Which quotation is relevant to an immediate buy?",
+        "The ask."
+      ],
+      [
+        "Is the last price guaranteed for a new order?",
+        "No."
+      ],
+      [
+        "What does the last price represent?",
+        "A completed transaction."
+      ]
+    ],
+    "mistake": "Using the last candle close as a guaranteed execution price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "TV_ORDER_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M06",
+    "title": "The Bid-Ask Spread and Liquidity",
+    "time": "20 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L00-M05"
+    ],
+    "objective": "Explain the spread as an immediate cost and a partial clue about liquidity.",
+    "why": "An aggressive buyer crosses to the ask and an aggressive seller crosses to the bid. This matters especially in frequent trading and thin markets.",
+    "core": [
+      "Spread equals best ask minus best bid.",
+      "Tighter spreads often accompany liquid conditions, but top-of-book size alone does not fully describe liquidity.",
+      "Spreads can widen around news, session changes, quiet hours, or stress.",
+      "Total transaction cost may include spread, commission, fees, financing, and slippage."
+    ],
+    "scenario": "Gold has a normal spread before a major release. Seconds before the announcement, quotations widen and available depth changes, increasing execution uncertainty.",
+    "exercise": "Compare the spread of the same instrument during its primary session and during a quiet period. Record the difference and possible reason.",
+    "quiz": [
+      [
+        "How is spread calculated?",
+        "Best ask minus best bid."
+      ],
+      [
+        "Can the spread change quickly?",
+        "Yes."
+      ],
+      [
+        "Is spread the only cost?",
+        "No."
+      ]
+    ],
+    "mistake": "Backtesting without realistic spread and transaction-cost assumptions.",
+    "evidence": "Market fact",
+    "sources": [
+      "FINRA_ORDERS",
+      "FINRA_LIFECYCLE",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M07",
+    "title": "Market Orders: Execution First",
+    "time": "20 minutes",
+    "visual": "04_slippage.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M06"
+    ],
+    "objective": "Understand what a market order prioritizes and what it cannot guarantee.",
+    "why": "Market orders seek execution against available liquidity. In fast or thin conditions, the actual average price can differ significantly from the expected price.",
+    "core": [
+      "A market order seeks immediate execution against available opposite-side liquidity.",
+      "It offers high execution certainty in normal conditions but no exact price guarantee.",
+      "A large order can fill at several price levels.",
+      "Slippage is the difference between a referenced or expected price and actual execution."
+    ],
+    "scenario": "A large buy order enters a thin ask book. The first units fill near the best ask; the remainder consumes higher offers, producing a worse average price.",
+    "exercise": "Use the order-book illustration to estimate how a small and a large market order could receive different average fills.",
+    "quiz": [
+      [
+        "What does a market order prioritize?",
+        "Execution."
+      ],
+      [
+        "Does it guarantee an exact price?",
+        "No."
+      ],
+      [
+        "Can one order fill at multiple prices?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Using market orders around high-impact news without considering liquidity and slippage.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M08",
+    "title": "Limit Orders: Price First",
+    "time": "20 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M07"
+    ],
+    "objective": "Understand the trade-off between price control and execution uncertainty.",
+    "why": "A limit order protects the permitted price but cannot force another participant to trade with you.",
+    "core": [
+      "A buy limit can execute at the limit price or lower.",
+      "A sell limit can execute at the limit price or higher.",
+      "A limit order can partially fill, remain unfilled, or lose queue priority after modification.",
+      "A historical price touch does not prove that every waiting order filled."
+    ],
+    "scenario": "Price touches a learner's buy limit and rises immediately. The learner assumes a fill, but insufficient sell volume reached the order after earlier orders in the queue.",
+    "exercise": "Define the execution condition for a buy limit at 99.50 and a sell limit at 101.20. Give one reason each might remain unfilled.",
+    "quiz": [
+      [
+        "What does a limit order control?",
+        "The permitted execution price."
+      ],
+      [
+        "Is execution guaranteed?",
+        "No."
+      ],
+      [
+        "Can a limit order partially fill?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Treating every historical touch as a filled limit order in a backtest.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M09",
+    "title": "Stop and Stop-Limit Orders",
+    "time": "22 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "risk_management",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M08"
+    ],
+    "objective": "Distinguish a stop trigger from a guaranteed exit price.",
+    "why": "A stop defines when another order activates. It does not guarantee the exact execution price during a gap or rapid move.",
+    "core": [
+      "A stop order generally becomes a market order after the trigger condition is met.",
+      "A stop-limit becomes a limit order after activation.",
+      "A stop may slip but prioritizes execution.",
+      "A stop-limit controls price but can remain unfilled, leaving exposure open.",
+      "Broker and venue rules must be checked because implementation details can differ."
+    ],
+    "scenario": "A long position gaps below its stop. The stop activates and sells into the next available bids. A stop-limit might not execute if the market is already below its limit.",
+    "exercise": "For a long position, explain the difference between a stop at 98 and a stop-limit with trigger 98 and limit 97.80.",
+    "quiz": [
+      [
+        "What does a stop order become after activation?",
+        "A market order."
+      ],
+      [
+        "What does a stop-limit become?",
+        "A limit order."
+      ],
+      [
+        "Which can remain unfilled after activation?",
+        "A stop-limit."
+      ]
+    ],
+    "mistake": "Calling the stop trigger a guaranteed exit price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_STOP",
+      "FINRA_STOP",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M10",
+    "title": "Risk, Leverage, and Survival",
+    "time": "25 minutes",
+    "visual": "05_leverage.png",
+    "competencies": [
+      "risk_management",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M02",
+      "L00-M09"
+    ],
+    "objective": "Explain why controlled exposure and survival come before strategy optimization.",
+    "why": "A valid analysis can still produce a loss. Excessive size converts ordinary uncertainty into account-threatening damage.",
+    "core": [
+      "Risk is uncertainty that can negatively affect capital or financial welfare.",
+      "Leverage creates exposure larger than the cash committed.",
+      "Margin is collateral, not the maximum possible loss.",
+      "Position size should come from acceptable account risk and the distance to invalidation, not the maximum leverage offered.",
+      "A professional plan sets per-trade and daily loss limits before considering targets."
+    ],
+    "scenario": "Two learners use the same setup and stop distance. One risks 0.5% of capital; the other risks 20%. The market outcome is the same, but the consequences for survival are radically different.",
+    "exercise": "For a EUR 10,000 account, calculate the cash amount represented by 0.25%, 0.5%, 1%, and 2%. Explain which is more appropriate for a novice simulation plan and why.",
+    "quiz": [
+      [
+        "Is margin the maximum possible loss?",
+        "No."
+      ],
+      [
+        "What should determine position size?",
+        "Accepted account risk and invalidation distance."
+      ],
+      [
+        "Does leverage improve a trading edge?",
+        "No."
+      ]
+    ],
+    "mistake": "Choosing the position size first and forcing the stop to fit afterward.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L01-M01",
+    "title": "Candlesticks and OHLC: What One Bar Actually Says",
+    "time": "22 minutes",
+    "visual": "07_candlestick_ohlc.png",
+    "competencies": [
+      "chart_reading",
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M05"
+    ],
+    "objective": "Read open, high, low, and close values without attaching unsupported stories to a candle shape.",
+    "why": "Candles compress a period of trading into four prices. They are useful summaries, but a candle does not reveal every order, participant, or reason behind the move.",
+    "core": [
+      "The open is the first recorded price for the selected interval; the close is the last recorded price for that interval.",
+      "The high and low mark the interval extremes.",
+      "A candle body shows the distance between open and close; wicks show prices traded beyond the body.",
+      "The same market move appears differently when the timeframe changes.",
+      "A single candle is evidence of price movement, not a complete trading signal."
+    ],
+    "scenario": "A five-minute candle opens at 100, trades to 103, falls to 99, and closes at 102. A learner calls it bullish. A professional description first records the OHLC facts, then asks where it formed and what preceded it.",
+    "exercise": "Draw a candle for O=50, H=55, L=48, C=53. Then redraw the same values when C=49. Label every component.",
+    "quiz": [
+      [
+        "What four prices define an OHLC bar?",
+        "Open, high, low, and close."
+      ],
+      [
+        "Does a long wick prove manipulation?",
+        "No."
+      ],
+      [
+        "Can the same data look different on another timeframe?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Memorizing candle names while ignoring location, timeframe, and context.",
+    "evidence": "Market fact plus analytical practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M02",
+    "title": "Timeframes and Multi-Timeframe Context",
+    "time": "24 minutes",
+    "visual": "08_timeframes_context.png",
+    "competencies": [
+      "chart_reading",
+      "market_structure"
+    ],
+    "prerequisites": [
+      "L01-M01"
+    ],
+    "objective": "Explain how higher and lower timeframes answer different questions without letting a small chart override broader context.",
+    "why": "A market can be rising on the daily chart, correcting on the hourly chart, and rallying on the five-minute chart at the same time. These statements can all be true.",
+    "core": [
+      "Higher timeframes compress more trading and usually define broader structure.",
+      "Lower timeframes reveal execution detail but contain more noise.",
+      "Analysis should assign a purpose to each timeframe: context, setup, or trigger.",
+      "A lower-timeframe reversal may be only a pullback inside a higher-timeframe trend.",
+      "Timeframe selection should match the expected holding period and risk plan."
+    ],
+    "scenario": "The daily chart is in an uptrend. The hourly chart is pulling back. The five-minute chart breaks upward. The correct interpretation depends on whether the five-minute move confirms the end of the hourly pullback or is only temporary noise.",
+    "exercise": "Create a three-row plan using Daily for context, 1H for setup, and 5m for execution. Write one question each timeframe must answer.",
+    "quiz": [
+      [
+        "Can different timeframes show different trends?",
+        "Yes."
+      ],
+      [
+        "Which timeframe should define strategic bias?",
+        "The designated higher context timeframe."
+      ],
+      [
+        "Should a two-minute signal automatically reverse a daily bias?",
+        "No."
+      ]
+    ],
+    "mistake": "Changing timeframe until a preferred trade appears.",
+    "evidence": "Analytical practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M03",
+    "title": "Trading Sessions, Opens, and Market Overlap",
+    "time": "25 minutes",
+    "visual": "09_sessions_overlap.png",
+    "competencies": [
+      "market_mechanics",
+      "session_analysis"
+    ],
+    "prerequisites": [
+      "L00-M04",
+      "L01-M02"
+    ],
+    "objective": "Recognize how exchange hours, regional sessions, and overlaps influence liquidity and volatility.",
+    "why": "Participation is not evenly distributed across the day. A strategy tested during a liquid open may behave very differently during a quiet period or extended hours.",
+    "core": [
+      "Cash equities trade around an exchange-defined regular session, with separate pre-market and after-hours conditions where available.",
+      "Futures and foreign exchange may trade for longer hours, but liquidity still changes by time of day.",
+      "Session opens can reprice markets as new participants and information arrive.",
+      "Overlaps may increase activity, while off-hours can bring wider spreads and thinner depth.",
+      "Daylight-saving changes can shift local clock times relative to another region."
+    ],
+    "scenario": "A stock has a narrow spread during the main US session but a much wider spread after hours. The chart still prints prices, yet execution quality and available liquidity are different.",
+    "exercise": "Build a session table for your local timezone with London open, New York cash open, and the London-New York overlap. Add a daylight-saving reminder.",
+    "quiz": [
+      [
+        "Is liquidity constant throughout the day?",
+        "No."
+      ],
+      [
+        "Why can extended hours be riskier?",
+        "Lower liquidity, wider spreads, and higher volatility can occur."
+      ],
+      [
+        "Do long trading hours guarantee deep liquidity at every moment?",
+        "No."
+      ]
+    ],
+    "mistake": "Backtesting at one session and trading the same rules at every hour.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "FINRA_EXTENDED",
+      "FINRA_TIME"
+    ]
+  },
+  {
+    "id": "L01-M04",
+    "title": "Volatility and ATR: Measuring Movement, Not Direction",
+    "time": "26 minutes",
+    "visual": "10_atr_volatility.png",
+    "competencies": [
+      "volatility",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M01"
+    ],
+    "objective": "Use range and Average True Range as context for movement and risk without treating volatility as a directional forecast.",
+    "why": "Stops, targets, and expectations should account for how much an instrument normally moves. A fixed ten-point stop can be huge in one regime and insignificant in another.",
+    "core": [
+      "Volatility describes the magnitude and variability of price movement.",
+      "True range accounts for the current high-low range and gaps from the previous close.",
+      "ATR averages true range over a selected lookback.",
+      "ATR rises after larger ranges and falls after quieter ranges; it does not predict direction.",
+      "ATR settings depend on timeframe, instrument, and purpose."
+    ],
+    "scenario": "Two instruments both trade at 100. One has a daily ATR of 1; the other has a daily ATR of 8. The same two-point stop represents very different market breathing room.",
+    "exercise": "Record the current 14-period ATR for one instrument on Daily, 1H, and 5m. Compare your proposed stop distance to each ATR and explain the relevant comparison.",
+    "quiz": [
+      [
+        "Does ATR indicate bullish or bearish direction?",
+        "No."
+      ],
+      [
+        "What does rising ATR suggest?",
+        "Recent ranges are expanding."
+      ],
+      [
+        "Should ATR be identical across timeframes?",
+        "No."
+      ]
+    ],
+    "mistake": "Buying because ATR rises or using ATR without a structural invalidation level.",
+    "evidence": "Indicator definition plus risk-management practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M05",
+    "title": "Gaps, Repricing, and the Market Open",
+    "time": "23 minutes",
+    "visual": "11_gaps_open.png",
+    "competencies": [
+      "chart_reading",
+      "session_analysis"
+    ],
+    "prerequisites": [
+      "L01-M01",
+      "L01-M03"
+    ],
+    "objective": "Identify a gap and distinguish the observation from assumptions about whether it must fill.",
+    "why": "A gap can reflect new information or a discontinuity between sessions. Traders often turn the visible space into a rule that price must return, but no such guarantee exists.",
+    "core": [
+      "A gap appears when the next traded range does not overlap a prior reference range.",
+      "Stocks commonly gap after earnings or news outside the regular session.",
+      "Futures can show weekend or session gaps depending on chart settings and trading hours.",
+      "A gap may fill, partially fill, or remain open.",
+      "The opening auction and early liquidity can produce rapid repricing and slippage."
+    ],
+    "scenario": "A company reports earnings after the close and opens 8% higher the next day. The gap is evidence that market participants accepted materially different prices; it is not automatically a short signal.",
+    "exercise": "Find three historical gaps. Label the catalyst if known, initial direction, maximum extension, whether the gap filled, and how long that took.",
+    "quiz": [
+      [
+        "Must every gap fill?",
+        "No."
+      ],
+      [
+        "Can news outside regular hours contribute to a gap?",
+        "Yes."
+      ],
+      [
+        "Is an unfilled gap alone a complete setup?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading against every gap because \u201call gaps fill.\u201d",
+    "evidence": "Market observation plus analytical practice",
+    "sources": [
+      "FINRA_EXTENDED"
+    ]
+  },
+  {
+    "id": "L01-M06",
+    "title": "Stocks, ETFs, Futures, Forex, and CFDs",
+    "time": "30 minutes",
+    "visual": "12_instrument_map.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L00-M01",
+      "L00-M10"
+    ],
+    "objective": "Compare major instrument types by ownership, contract structure, trading venue, leverage, expiry, and counterparty risk.",
+    "why": "A symbol that tracks the S&P 500 may represent an ETF share, a futures contract, a CFD, or another derivative. Similar-looking charts do not mean identical rights, costs, or risks.",
+    "core": [
+      "A stock represents an ownership interest in a company.",
+      "An ETF is a pooled product whose shares trade on an exchange and may track a basket or strategy.",
+      "A futures contract is a standardized agreement with defined terms and an expiry or settlement process.",
+      "Retail forex commonly involves leveraged over-the-counter trading through a dealer or broker.",
+      "A CFD is a broker-provided derivative in permitted jurisdictions; the learner must understand local regulation and counterparty terms."
+    ],
+    "scenario": "SPY, an S&P 500 futures contract, and an S&P 500 CFD all respond to related market forces, yet they differ in contract size, trading hours, fees, tax treatment, regulation, and counterparty exposure.",
+    "exercise": "Create a comparison matrix for SPY, ES futures, and one broker\u2019s index CFD. Include ownership, expiry, minimum size, spread/commission, financing, market hours, and regulator.",
+    "quiz": [
+      [
+        "Does buying a CFD make you a shareholder?",
+        "No."
+      ],
+      [
+        "Does a futures contract have standardized terms?",
+        "Yes."
+      ],
+      [
+        "Can related instruments have different costs and risks?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Choosing an instrument only because its chart looks familiar.",
+    "evidence": "Market fact and product-risk practice",
+    "sources": [
+      "INVESTOR_STOCKS",
+      "INVESTOR_ETFS",
+      "CFTC_FUTURES",
+      "CFTC_FOREX"
+    ]
+  },
+  {
+    "id": "L01-M07",
+    "title": "Chart Platforms, Brokers, and Data Feeds",
+    "time": "25 minutes",
+    "visual": "13_data_pipeline.png",
+    "competencies": [
+      "platform_literacy",
+      "data_quality"
+    ],
+    "prerequisites": [
+      "L00-M04",
+      "L01-M06"
+    ],
+    "objective": "Describe the path from venue and data vendor to chart platform and broker execution.",
+    "why": "The chart, broker, and underlying exchange can be separate systems. Small differences in symbols, feeds, sessions, and aggregation can produce different candles and indicator values.",
+    "core": [
+      "A charting platform displays data obtained from one or more providers.",
+      "A broker routes or internalizes orders according to its execution model and product.",
+      "The same market can have multiple symbols, contract months, composite feeds, or broker-specific prices.",
+      "Session settings and adjusted data can change historical candles.",
+      "Platform tools should support analysis; they do not guarantee execution quality."
+    ],
+    "scenario": "Two learners compare a gold CFD chart with COMEX gold futures. The broad direction is similar, but exact highs, lows, spreads, and session behavior differ because the instruments and feeds are not identical.",
+    "exercise": "For one instrument, record platform, symbol, exchange or broker, data status, timezone, session setting, and whether the series is adjusted or continuous.",
+    "quiz": [
+      [
+        "Can two legitimate feeds print slightly different candles?",
+        "Yes."
+      ],
+      [
+        "Is a chart platform always the executing broker?",
+        "No."
+      ],
+      [
+        "Why document the exact symbol?",
+        "To make analysis and review reproducible."
+      ]
+    ],
+    "mistake": "Assuming every symbol with the same nickname is the same product.",
+    "evidence": "Platform and market-data practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M08",
+    "title": "Real-Time, Delayed, and Historical Data",
+    "time": "22 minutes",
+    "visual": "14_data_quality.png",
+    "competencies": [
+      "data_quality",
+      "platform_literacy"
+    ],
+    "prerequisites": [
+      "L01-M07"
+    ],
+    "objective": "Verify whether a chart is real-time, delayed, replayed, or historical before making a time-sensitive decision.",
+    "why": "A clean chart is not necessarily current. Exchanges may require separate market-data permissions, and platforms can display delayed or vendor-dependent information.",
+    "core": [
+      "Real-time data is delivered with minimal distribution delay under the relevant entitlement.",
+      "Delayed data can be suitable for education but unsuitable for live execution decisions.",
+      "Historical and replay modes deliberately show past data.",
+      "Bid/ask data, last-trade data, and indicative prices are different information types.",
+      "Data quality checks belong in every trading checklist."
+    ],
+    "scenario": "A learner sees a breakout on a delayed index feed and enters through a separate broker whose live price has already moved far beyond the planned level.",
+    "exercise": "Audit five symbols on your platform. Record feed source, delay indicator, exchange entitlement, last-trade time, and comparison with your execution venue.",
+    "quiz": [
+      [
+        "Can delayed data look visually normal?",
+        "Yes."
+      ],
+      [
+        "Should a live order be based on an unverified delayed feed?",
+        "No."
+      ],
+      [
+        "Are bid/ask and last price identical concepts?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming a moving screen equals exchange-grade real-time data.",
+    "evidence": "Data-quality practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M09",
+    "title": "Economic Calendars, Scheduled Risk, and News",
+    "time": "28 minutes",
+    "visual": "15_economic_calendar.png",
+    "competencies": [
+      "macro_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M03",
+      "L01-M04"
+    ],
+    "objective": "Use official release schedules to identify event risk without pretending to know the market reaction in advance.",
+    "why": "Employment, inflation, growth, and central-bank decisions can sharply change volatility, spreads, and liquidity. The release time is knowable; the size and direction of the reaction are not.",
+    "core": [
+      "An economic calendar lists scheduled releases and events.",
+      "Official statistical agencies and central banks are primary sources for timing and published data.",
+      "Consensus forecasts are estimates, not facts.",
+      "A release can cause slippage, spread expansion, and rapid two-way movement.",
+      "The correct response may be reduced size, wider planned risk, waiting, or no trade."
+    ],
+    "scenario": "Inflation data is released at 14:30 local platform time. Price first spikes upward, then reverses sharply. A directional guess was fragile; an event-risk plan was controllable.",
+    "exercise": "Build tomorrow\u2019s event-risk sheet using official sources. Include release time, affected markets, expected volatility window, and your rule for trading or standing aside.",
+    "quiz": [
+      [
+        "Is the release time usually more knowable than the market reaction?",
+        "Yes."
+      ],
+      [
+        "Is a consensus forecast guaranteed?",
+        "No."
+      ],
+      [
+        "Can spreads and slippage increase around news?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Treating the \u201chigh impact\u201d label as a guaranteed direction.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "BLS_CALENDAR",
+      "FED_CALENDAR",
+      "BEA_RELEASES"
+    ]
+  },
+  {
+    "id": "L01-M10",
+    "title": "Foundation Assessment: Read the Market Screen",
+    "time": "40 minutes",
+    "visual": "16_market_screen_assessment.png",
+    "competencies": [
+      "chart_reading",
+      "instrument_literacy",
+      "data_quality",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M01",
+      "L01-M02",
+      "L01-M03",
+      "L01-M04",
+      "L01-M05",
+      "L01-M06",
+      "L01-M07",
+      "L01-M08",
+      "L01-M09"
+    ],
+    "objective": "Demonstrate that you can identify what is on a trading screen before analyzing direction or placing a trade.",
+    "why": "Most avoidable beginner errors occur before strategy: wrong symbol, wrong session, wrong timeframe, delayed data, misunderstood product, or unrecognized event risk.",
+    "core": [
+      "Identify the instrument and legal product.",
+      "Confirm venue or broker, contract month if relevant, and price currency.",
+      "Confirm timeframe, timezone, session, and data status.",
+      "Read OHLC and current volatility context.",
+      "Check scheduled event risk and define a no-trade condition."
+    ],
+    "scenario": "You receive a screenshot labeled \u201cNAS100.\u201d It has no visible broker, exchange, data status, timezone, or contract specification. The professional answer is not immediately bullish or bearish; it is a list of missing facts.",
+    "exercise": "Complete the Market Screen Verification Checklist for three instruments: SPY, a DAX futures contract, and a gold CFD. Then explain which comparisons are valid and which are not.",
+    "quiz": [
+      [
+        "What comes before directional analysis?",
+        "Instrument and data verification."
+      ],
+      [
+        "Can a nickname uniquely identify a legal product?",
+        "Not always."
+      ],
+      [
+        "What is a valid outcome when key information is missing?",
+        "No decision until verified."
+      ]
+    ],
+    "mistake": "Starting with pattern recognition before confirming the screen itself.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "INVESTOR_STOCKS",
+      "INVESTOR_ETFS",
+      "CFTC_FUTURES",
+      "TV_SUPPORT"
+    ]
+  }
+]

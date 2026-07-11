@@ -1,0 +1,11 @@
+INSTITUTIONAL TRADING ACADEMY — GITHUB UPLOAD
+
+1. Extract this ZIP completely.
+2. Open the extracted folder.
+3. Double-click PUBLISH_TO_GITHUB.cmd
+
+Alternative PowerShell command from this folder:
+
+powershell -ExecutionPolicy Bypass -File .\PUBLISH_TO_GITHUB.ps1
+
+The repository is private by default.
