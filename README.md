@@ -2,14 +2,15 @@
 
 English-first, dual-language-ready trading and market-intelligence education platform.
 
-## Current build candidate
+## Current release
 
-- Version: **0.6.0** on `build/v0.6.0` (unpublished; latest release remains v0.5.0)
+- Version: **0.6.0** (published from validated commit `144ed6431bb6710af0f33f7bc4d09ef4b9b7d964`)
 - Canonical language: **English (`en-US`)**
 - Arabic: **architecture and RTL scaffolding only; content deferred until English lock**
 - Authored missions: **50**
 - Handbook: English Missions 01-50 source package and prior PDF/DOCX handbook assets
 - Prototype: browser dashboard in `prototype/`
+- Release package: `institutional-trading-academy-v0.6.0.zip` on the GitHub v0.6.0 release
 
 ## Repository structure
 

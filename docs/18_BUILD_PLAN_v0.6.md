@@ -2,7 +2,7 @@
 
 ## Status
 
-Release candidate ready on branch `build/v0.6.0`. Version `0.5.0` remains the latest published release; v0.6.0 must not be published until the candidate is merged to `main` with authorization and canonical validation succeeds there.
+Completed and published. Version `0.6.0` was validated on `main` at commit `144ed6431bb6710af0f33f7bc4d09ef4b9b7d964` and published as the latest GitHub release.
 
 ## Goal
 
@@ -21,7 +21,7 @@ Begin the Volume and Auction track with a practical, evidence-based introduction
 9. L03-M09 - No-Trade Volume Conditions and Data Limitations
 10. L03-M10 - Volume and Auction Assessment
 
-All ten structured mission drafts are integrated into `data/missions_en-US_01_50.json`, with matching English lesson files and completed illustrations 37 through 46. The build candidate remains unpublished.
+All ten structured missions are integrated into `data/missions_en-US_01_50.json`, with matching English lesson files and completed illustrations 37 through 46. They are included in the published v0.6.0 release.
 
 ## Acceptance criteria
 
@@ -43,4 +43,4 @@ All ten structured mission drafts are integrated into `data/missions_en-US_01_50
 
 ## Exact next action
 
-Commit and push the verified release candidate to `build/v0.6.0`. After explicit merge authorization, merge it to `main`, verify the `Validate and package` workflow succeeds, then manually dispatch `Publish release` from `main` with tag `v0.6.0`.
+Preserve the verified v0.6.0 tag and release package. Define the next roadmap increment before beginning new curriculum or product work; do not append unreleased scope to v0.6.0.
