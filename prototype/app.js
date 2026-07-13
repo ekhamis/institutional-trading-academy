@@ -1,1 +1,0 @@
-document.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>console.log(b.textContent.trim())));
