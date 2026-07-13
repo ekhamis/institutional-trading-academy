@@ -21,7 +21,7 @@ Begin the Volume and Auction track with a practical, evidence-based introduction
 9. L03-M09 - No-Trade Volume Conditions and Data Limitations
 10. L03-M10 - Volume and Auction Assessment
 
-The first five structured mission drafts are in `data/volume_auction_missions_en-US.json`, with matching English lesson files and completed illustrations 37 through 41. They are not yet canonical or published.
+All ten structured mission drafts are in `data/volume_auction_missions_en-US.json`, with matching English lesson files. Illustrations 37 through 41 are complete; specifications 42 through 46 are ready for production. The draft set is not yet canonical or published.
 
 ## Acceptance criteria
 
@@ -43,4 +43,4 @@ The first five structured mission drafts are in `data/volume_auction_missions_en
 
 ## Exact next action
 
-Draft L03-M06 through L03-M10 with matching English lesson files and illustration specifications, beginning with L03-M06 VWAP Context: Trend, Balance, and Distance; then validate all ten draft missions before canonical integration.
+Produce and visually review illustrations 42 through 46, assign their filenames to L03-M06 through L03-M10 only after the PNGs exist, then validate all ten draft missions before canonical integration.

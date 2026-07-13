@@ -1,4 +1,4 @@
-# Illustration Specification v0.6.0 - Volume and Auction, Set 1
+# Illustration Specification v0.6.0 - Volume and Auction
 
 ## Shared production rules
 
@@ -38,10 +38,40 @@ Display five simplified sessions aligned by time, plus a typical U-shaped partic
 
 Show an intraday price path, session-reset VWAP line, and volume bars. Include a compact formula callout describing a cumulative volume-weighted average and a clear anchor/reset marker. Label price above and below VWAP as location only. Add `not guaranteed support or resistance` beside the line.
 
+## 42 - VWAP context: trend, balance, and distance
+
+**Filename:** `42_vwap_trend_balance_distance.png`
+
+Three side-by-side session panels share the same visual scale. Panel A shows price mostly above a rising VWAP in a directional condition; Panel B shows repeated crossings around a flatter VWAP in balance; Panel C marks an unusually large distance from VWAP against a historical-distance band. Label each as a condition, not an entry. Add `distance does not guarantee mean reversion`.
+
+## 43 - Breakout activity and acceptance
+
+**Filename:** `43_volume_breakout_acceptance.png`
+
+Show two breaks beyond the same type of range boundary with volume below. Panel A holds and builds beyond the level; Panel B returns inside the range after a high-activity excursion. Mark `break`, `acceptance evidence`, `failed acceptance`, and structural invalidation. Avoid buy or sell arrows and state that high activity does not guarantee follow-through.
+
+## 44 - Effort, result, and interpretation boundary
+
+**Filename:** `44_absorption_effort_result.png`
+
+At a marked range high, show repeated high-volume tests with limited price progress. Use two text columns: `observed` lists activity, range, closes, and location; `interpretation to test` lists possible opposition or absorption with a question mark. Add a data boundary stating that aggregated chart volume does not prove participant identity or intent.
+
+## 45 - Volume data-quality stop sign
+
+**Filename:** `45_volume_data_limitations.png`
+
+Create a diagnostic flow from displayed volume to checks for instrument, venue/provider, session, completed bar, missing data, and event conditions. Route failed checks to a clear `repair data or no trade` stop state. Include a small comparison of centralized exchange volume and provider-specific activity without implying they are interchangeable.
+
+## 46 - Volume and auction assessment worksheet
+
+**Filename:** `46_volume_auction_assessment.png`
+
+Design a chart-review worksheet beside a synthetic price, volume, relative-volume, and VWAP example. The checklist must cover data provenance, session, comparison baseline, price result, VWAP context, observation versus interpretation, invalidation, risk, and trade/no-trade conclusion. Give equal visual weight to the no-trade outcome and include no directional recommendation.
+
 ## Review checklist
 
 - Each diagram teaches one observable comparison.
-- All labels match L03-M01 through L03-M05 terminology.
+- All labels match L03-M01 through L03-M10 terminology.
 - No arrow or color implies guaranteed direction.
 - Instrument, session, provider, and anchor limitations are visible where relevant.
 - Filenames are assigned to draft `visual` fields only after the PNGs exist.

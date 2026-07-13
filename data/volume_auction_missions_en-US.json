@@ -128,5 +128,136 @@
     "mistake": "Buying every touch below VWAP or selling every touch above it without context.",
     "evidence": "Documented indicator calculation",
     "sources": ["TV_VWAP"]
+  },
+  {
+    "id": "L03-M06",
+    "title": "VWAP Context: Trend, Balance, and Distance",
+    "time": "36 minutes",
+    "visual": "",
+    "competencies": ["vwap_analysis", "price_structure", "decision_quality"],
+    "prerequisites": ["L03-M05"],
+    "objective": "Classify price interaction with VWAP in trending, balanced, and extended conditions without turning distance from the line into an automatic trade.",
+    "why": "The same VWAP location can mean different things in a directional session, a rotating range, or an unusually extended move. Structure and session context determine whether the reference is useful.",
+    "core": [
+      "In a directional session, price may remain mostly on one side of VWAP while pullbacks hold away from or near the line.",
+      "In a balanced session, repeated crossings can show rotation around the weighted average rather than a durable directional edge.",
+      "Distance from VWAP is descriptive unless it is compared with the instrument's own historical behavior and current volatility.",
+      "A VWAP cross or touch does not guarantee mean reversion, continuation, support, or resistance."
+    ],
+    "scenario": "US100 remains above session VWAP through the morning, but its distance from the line expands into prior resistance. The context is directional and extended; neither fact authorizes a chase or a blind fade.",
+    "exercise": "Review three completed sessions. Label each as directional, balanced, or unclear, then describe VWAP location, crossings, and distance without proposing an entry.",
+    "quiz": [
+      ["What can repeated VWAP crossings indicate?", "Rotation or balance, subject to structure and session context."],
+      ["Does large distance from VWAP guarantee mean reversion?", "No."],
+      ["What makes VWAP distance comparable?", "The instrument's historical behavior, session, and current volatility."]
+    ],
+    "mistake": "Fading every extended move or trading every VWAP cross without classifying the market condition.",
+    "evidence": "Documented indicator behavior and professional observation",
+    "sources": ["TV_VWAP"]
+  },
+  {
+    "id": "L03-M07",
+    "title": "Volume on Breakouts and Failed Breakouts",
+    "time": "38 minutes",
+    "visual": "",
+    "competencies": ["volume_analysis", "price_structure", "risk_management"],
+    "prerequisites": ["L03-M06"],
+    "objective": "Evaluate breakout activity together with acceptance, follow-through, and invalidation rather than using volume as standalone confirmation.",
+    "why": "A large volume bar can appear on both successful and failed breaks. The price response after the level is tested provides essential context.",
+    "core": [
+      "A breakout is a move beyond a defined structural boundary; volume describes activity during that move, not its future success.",
+      "Acceptance requires evidence that price can hold or build beyond the level, while a quick return can indicate rejection or failure.",
+      "Higher-than-baseline activity can strengthen the observation that participation changed, but it cannot guarantee follow-through.",
+      "Risk must be defined from structure before entry, especially when event volatility, gaps, or thin liquidity distort the break."
+    ],
+    "scenario": "Gold breaks a prior session high on high relative volume, pauses above it, then closes back inside the range. The activity was unusual, but the failed acceptance changes the assessment.",
+    "exercise": "Compare two completed breaks of similar levels. Record baseline activity, price acceptance, follow-through, and the earliest objective invalidation for each.",
+    "quiz": [
+      ["Does high volume guarantee a breakout will hold?", "No."],
+      ["What distinguishes acceptance from a brief excursion?", "Price holding or building beyond the boundary."],
+      ["Why define invalidation before entry?", "Because active breakouts can reverse quickly and activity does not remove risk."]
+    ],
+    "mistake": "Calling a breakout confirmed from one high-volume bar before checking acceptance and invalidation.",
+    "evidence": "Documented volume behavior and professional observation",
+    "sources": ["TV_VOLUME", "TV_RELATIVE_VOLUME", "CME_RISK"]
+  },
+  {
+    "id": "L03-M08",
+    "title": "Absorption, Effort, and Result Without Overclaiming",
+    "time": "40 minutes",
+    "visual": "",
+    "competencies": ["volume_analysis", "data_literacy", "decision_quality"],
+    "prerequisites": ["L03-M07"],
+    "objective": "Describe high activity with limited price progress as an effort-versus-result observation while avoiding unsupported claims about hidden participants.",
+    "why": "Traders often label stalled price on heavy activity as absorption. Chart volume and price can reveal the condition, but they usually cannot prove who traded or why.",
+    "core": [
+      "High activity with limited progress is an observable mismatch between trading effort and price result.",
+      "The label absorption is an interpretation that requires location, repeated response, and follow-up evidence.",
+      "Aggregated chart data usually does not identify participant intent, inventory, or whether one institution caused the response.",
+      "The condition can resolve in either direction, so confirmation and predefined risk remain necessary."
+    ],
+    "scenario": "DAX40 repeatedly trades heavy volume at a range high while candles close within the range. The chart supports an effort-with-limited-result observation, not a claim that a named participant is secretly selling.",
+    "exercise": "Find three examples of high activity with little progress. Separate facts from interpretations, then record what later evidence supported or rejected each interpretation.",
+    "quiz": [
+      ["What is directly observable in an effort-versus-result comparison?", "Activity and the amount of price progress."],
+      ["Can aggregated chart volume prove institutional intent?", "No."],
+      ["Does suspected absorption predict direction by itself?", "No."]
+    ],
+    "mistake": "Presenting a plausible absorption story as proven participant intent or a guaranteed reversal.",
+    "evidence": "Platform data limitations and professional observation",
+    "sources": ["TV_VOLUME"]
+  },
+  {
+    "id": "L03-M09",
+    "title": "No-Trade Volume Conditions and Data Limitations",
+    "time": "36 minutes",
+    "visual": "",
+    "competencies": ["volume_analysis", "data_literacy", "risk_management"],
+    "prerequisites": ["L03-M08"],
+    "objective": "Recognize when volume information is incomplete, incomparable, or too ambiguous to support a trade decision.",
+    "why": "A disciplined volume process includes conditions that stop analysis. Poor data, mismatched sessions, and unstable event conditions can make apparent precision misleading.",
+    "core": [
+      "Volume availability and meaning vary across centralized exchanges, futures contracts, stocks, indices, CFDs, and foreign-exchange feeds.",
+      "Provider changes, missing bars, contract rolls, extended-hours settings, and partial candles can break historical comparisons.",
+      "Scheduled events, opening gaps, and thin liquidity can create extreme readings that need separate treatment.",
+      "When the baseline or data provenance is unclear, the professional decision is to repair the comparison or stand aside."
+    ],
+    "scenario": "A CFD chart shows a sudden volume spike after the provider reconnects, while the related futures chart does not. Until the feed and session settings are verified, the spike is not decision-grade evidence.",
+    "exercise": "Audit one chart's symbol, venue or provider, session settings, volume type, missing bars, and current-bar status. Write explicit conditions that would make you decline a trade.",
+    "quiz": [
+      ["Why can volume differ across feeds?", "Venue, instrument, provider, and calculation rules can differ."],
+      ["Should a partial bar be compared directly with completed bars?", "Not without accounting for its incomplete state."],
+      ["What is appropriate when data provenance is unclear?", "Repair the comparison or stand aside."]
+    ],
+    "mistake": "Treating every displayed volume series as complete, centralized, and directly comparable.",
+    "evidence": "Platform documentation and risk controls",
+    "sources": ["TV_VOLUME", "TV_RELATIVE_VOLUME", "CME_RISK"]
+  },
+  {
+    "id": "L03-M10",
+    "title": "Volume and Auction Assessment",
+    "time": "50 minutes",
+    "visual": "",
+    "competencies": ["assessment", "volume_analysis", "vwap_analysis", "decision_quality"],
+    "prerequisites": ["L03-M09"],
+    "objective": "Demonstrate a disciplined volume and VWAP read that distinguishes observed facts, contextual interpretations, risk, and no-trade conditions.",
+    "why": "The first volume-reading assessment tests process rather than prediction. A passing answer must use comparable data and state uncertainty without inventing participant intent.",
+    "core": [
+      "Verify instrument, provider, session, timeframe, and whether bars are complete before interpreting activity.",
+      "Compare current activity with an explicit baseline and describe the accompanying price result.",
+      "Use VWAP as a contextual reference inside trend, balance, structure, and volatility conditions.",
+      "Separate observations from interpretations and identify what evidence would invalidate the interpretation.",
+      "Pass by recommending a controlled plan or a justified no-trade decision; prediction is not required."
+    ],
+    "scenario": "You receive completed intraday charts for Gold and US100 with volume, relative volume, session VWAP, marked structure, and data-source notes. Produce an evidence-led read for each without assuming a trade is necessary.",
+    "exercise": "Complete two written assessments covering data quality, session, baseline activity, price result, VWAP context, structural invalidation, risk, and a trade-or-no-trade conclusion.",
+    "quiz": [
+      ["What must be verified before interpreting volume?", "The instrument, provider, session, timeframe, and bar completeness."],
+      ["What is the assessment designed to measure?", "A disciplined evidence-based volume process, not prediction."],
+      ["Can a justified no-trade conclusion pass?", "Yes."]
+    ],
+    "mistake": "Forcing an entry or inventing intent because an assessment chart contains unusual volume.",
+    "evidence": "Competency assessment",
+    "sources": ["TV_VOLUME", "TV_RELATIVE_VOLUME", "TV_VWAP", "CME_RISK"]
   }
 ]
