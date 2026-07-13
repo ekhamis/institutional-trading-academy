@@ -2,7 +2,7 @@
 
 ## Status
 
-In progress on branch `build/v0.6.0`. Version `0.5.0` remains the latest released build until every acceptance criterion below passes.
+Release candidate ready on branch `build/v0.6.0`. Version `0.5.0` remains the latest published release; v0.6.0 must not be published until the candidate is merged to `main` with authorization and canonical validation succeeds there.
 
 ## Goal
 
@@ -21,7 +21,7 @@ Begin the Volume and Auction track with a practical, evidence-based introduction
 9. L03-M09 - No-Trade Volume Conditions and Data Limitations
 10. L03-M10 - Volume and Auction Assessment
 
-All ten structured mission drafts are in `data/volume_auction_missions_en-US.json`, with matching English lesson files and completed illustrations 37 through 46. The draft set is not yet canonical or published.
+All ten structured mission drafts are integrated into `data/missions_en-US_01_50.json`, with matching English lesson files and completed illustrations 37 through 46. The build candidate remains unpublished.
 
 ## Acceptance criteria
 
@@ -43,4 +43,4 @@ All ten structured mission drafts are in `data/volume_auction_missions_en-US.jso
 
 ## Exact next action
 
-Integrate L03-M01 through L03-M10 into the canonical English mission data, then synchronize curriculum, localization status, README, handbook source, validator expectations, and build-status documentation to 50 English missions before running the full v0.6.0 validation suite.
+Commit and push the verified release candidate to `build/v0.6.0`. After explicit merge authorization, merge it to `main`, verify the `Validate and package` workflow succeeds, then manually dispatch `Publish release` from `main` with tag `v0.6.0`.

@@ -2,13 +2,13 @@
 
 English-first, dual-language-ready trading and market-intelligence education platform.
 
-## Current verified build
+## Current build candidate
 
-- Version: **0.5.0**
+- Version: **0.6.0** on `build/v0.6.0` (unpublished; latest release remains v0.5.0)
 - Canonical language: **English (`en-US`)**
 - Arabic: **architecture and RTL scaffolding only; content deferred until English lock**
-- Authored missions: **40**
-- Handbook: English Missions 01-40 source package and prior PDF/DOCX handbook assets
+- Authored missions: **50**
+- Handbook: English Missions 01-50 source package and prior PDF/DOCX handbook assets
 - Prototype: browser dashboard in `prototype/`
 
 ## Repository structure
