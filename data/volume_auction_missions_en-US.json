@@ -1,0 +1,132 @@
+[
+  {
+    "id": "L03-M01",
+    "title": "Volume Measures Activity, Not Direction",
+    "time": "28 minutes",
+    "visual": null,
+    "competencies": ["volume_analysis", "data_literacy"],
+    "prerequisites": ["L02-M20"],
+    "objective": "Explain what chart volume measures and avoid treating a large volume bar as a directional signal by itself.",
+    "why": "Volume shows how much trading activity occurred during a period, but the bar alone does not explain intent or guarantee what price will do next.",
+    "core": [
+      "Stock volume is commonly expressed as shares traded, while futures volume is expressed as contracts traded.",
+      "Volume must be interpreted with price location, structure, and the instrument's data source.",
+      "High activity can accompany continuation, reversal, liquidation, or two-sided balance.",
+      "A professional read separates the observed fact from the story used to explain it."
+    ],
+    "scenario": "US100 prints its highest five-minute volume bar of the session at a prior range high, but price closes back inside the range. The activity is clear; direction still requires context.",
+    "exercise": "Select five unusually large volume bars. Record only the observable price response before writing any interpretation.",
+    "quiz": [
+      ["What does a volume bar measure?", "Trading activity during the selected period."],
+      ["Does high volume prove buyers are in control?", "No."],
+      ["What should accompany a volume reading?", "Price, structure, session, and data-source context."]
+    ],
+    "mistake": "Calling every high-volume bar bullish or bearish without examining the price response.",
+    "evidence": "Platform documentation and professional observation",
+    "sources": ["TV_VOLUME"]
+  },
+  {
+    "id": "L03-M02",
+    "title": "Reading Price and Volume Together",
+    "time": "32 minutes",
+    "visual": null,
+    "competencies": ["volume_analysis", "price_structure", "decision_quality"],
+    "prerequisites": ["L03-M01"],
+    "objective": "Compare trading activity with the resulting price movement instead of interpreting either variable alone.",
+    "why": "The same amount of activity can produce a wide expansion, a small rotation, or no progress. The price result changes the meaning of the observation.",
+    "core": [
+      "Expanding range with rising activity can confirm that a move is attracting participation, but it does not remove risk.",
+      "Heavy activity with little price progress can signal two-sided trade or opposition and requires more evidence.",
+      "Low activity during a move can reflect weak participation, a quiet session, or limitations in the available feed.",
+      "Compare like with like: the same instrument, venue, timeframe, and relevant session."
+    ],
+    "scenario": "Gold advances on rising volume and wide candles, then prints heavy volume with a narrow body at resistance. The later bar shows effort without equal progress and deserves a fresh assessment.",
+    "exercise": "Find one example each of high activity with wide progress and high activity with little progress. Describe the difference without predicting the next candle.",
+    "quiz": [
+      ["Why compare price with volume?", "Activity matters differently depending on the price result."],
+      ["Does heavy activity with little progress prove reversal?", "No."],
+      ["What comparisons are most reliable?", "Comparable instrument, venue, timeframe, and session data."]
+    ],
+    "mistake": "Using a single volume rule regardless of price location or market condition.",
+    "evidence": "Platform documentation and professional observation",
+    "sources": ["TV_VOLUME"]
+  },
+  {
+    "id": "L03-M03",
+    "title": "Relative Volume and the Comparison Baseline",
+    "time": "34 minutes",
+    "visual": null,
+    "competencies": ["volume_analysis", "comparative_analysis", "data_literacy"],
+    "prerequisites": ["L03-M02"],
+    "objective": "Use relative volume to compare current activity with an explicit historical baseline.",
+    "why": "An absolute volume number is difficult to judge without context. Relative volume makes the comparison visible, but the chosen lookback and session rules still matter.",
+    "core": [
+      "A common relative-volume calculation divides current volume by average volume over a defined lookback.",
+      "A value above one means current activity exceeds that calculation's average, not that price must rise.",
+      "Relative volume at time compares activity with similar historical time points to account for intraday seasonality.",
+      "Lookback length, regular versus extended hours, incomplete bars, and provider rules can change the result."
+    ],
+    "scenario": "A stock shows relative volume of 1.8 shortly after the open. That confirms activity above the selected baseline, but earnings news and opening volatility still shape the risk.",
+    "exercise": "Calculate a simple ten-period relative-volume ratio for three completed bars, then note how the answer changes when the lookback changes.",
+    "quiz": [
+      ["What does relative volume compare?", "Current volume with an average defined by the calculation."],
+      ["Does relative volume above one predict direction?", "No."],
+      ["Why compare the same time of day?", "Intraday activity often follows a time-dependent pattern."]
+    ],
+    "mistake": "Quoting relative volume without knowing its lookback, session, or incomplete-bar treatment.",
+    "evidence": "Documented indicator calculation",
+    "sources": ["TV_RELATIVE_VOLUME"]
+  },
+  {
+    "id": "L03-M04",
+    "title": "Session Volume and Participation",
+    "time": "32 minutes",
+    "visual": null,
+    "competencies": ["volume_analysis", "session_analysis", "risk_management"],
+    "prerequisites": ["L03-M03"],
+    "objective": "Judge volume against the normal participation pattern of the relevant market session.",
+    "why": "Activity near a major open is not directly comparable with activity during a quiet middle period. Session context prevents false conclusions from raw bar height.",
+    "core": [
+      "Market opens, overlaps, scheduled events, and closes can create recurring changes in participation.",
+      "A bar should be compared with relevant historical bars, not automatically with every bar in the day.",
+      "Extended-hours and regular-session data may be calculated or displayed differently.",
+      "Unusual activity identifies a condition to investigate; it does not supply an entry by itself."
+    ],
+    "scenario": "DAX40 volume at the cash open is much larger than pre-open volume. The increase is expected session behavior until it is compared with prior cash opens.",
+    "exercise": "Map the first hour, middle period, and final hour of five sessions. Record typical activity and any genuinely unusual deviations.",
+    "quiz": [
+      ["Why does session context matter?", "Normal participation changes through the trading day."],
+      ["Is open volume fairly compared with a quiet midday bar?", "Not without an appropriate baseline."],
+      ["What does unusual activity provide?", "A condition for further investigation, not an automatic trade."]
+    ],
+    "mistake": "Treating every opening surge in activity as exceptional.",
+    "evidence": "Documented relative-volume behavior and professional observation",
+    "sources": ["TV_RELATIVE_VOLUME", "TV_VOLUME"]
+  },
+  {
+    "id": "L03-M05",
+    "title": "VWAP Foundations",
+    "time": "36 minutes",
+    "visual": null,
+    "competencies": ["vwap_analysis", "volume_analysis", "indicator_literacy"],
+    "prerequisites": ["L03-M04"],
+    "objective": "Explain how VWAP combines price and volume and use it as a contextual reference rather than an automatic signal.",
+    "why": "VWAP is widely visible on intraday charts. Understanding its calculation, anchor, and lag helps learners avoid treating the line as guaranteed support or resistance.",
+    "core": [
+      "VWAP is a cumulative average price weighted by volume over its anchor period.",
+      "The result depends on the selected price source, volume data, and reset or anchor period.",
+      "Price above or below VWAP describes location relative to the weighted average; it does not guarantee continuation or reversal.",
+      "Because VWAP uses accumulated historical data, it is a lagging reference and should be combined with structure and risk controls."
+    ],
+    "scenario": "US100 trades above session VWAP after the open but is approaching a higher-timeframe resistance zone. VWAP location supports context, not a blind long entry.",
+    "exercise": "Plot session VWAP on three completed sessions. Mark where price crossed it and explain which crosses mattered only after adding structure and session context.",
+    "quiz": [
+      ["What does VWAP weight price by?", "Volume."],
+      ["Why does the anchor matter?", "It determines where the cumulative calculation starts or resets."],
+      ["Is VWAP guaranteed support or resistance?", "No."]
+    ],
+    "mistake": "Buying every touch below VWAP or selling every touch above it without context.",
+    "evidence": "Documented indicator calculation",
+    "sources": ["TV_VWAP"]
+  }
+]

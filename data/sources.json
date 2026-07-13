@@ -108,5 +108,20 @@
     "title": "BEA News Release Schedule",
     "url": "https://www.bea.gov/news/schedule",
     "kind": "official"
+  },
+  "TV_VOLUME": {
+    "title": "Volume - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000591617-volume/",
+    "kind": "official"
+  },
+  "TV_RELATIVE_VOLUME": {
+    "title": "How Relative Volume Is Calculated - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000635874-how-do-we-calculate-relative-volume-and-relative-volume-at-time/",
+    "kind": "official"
+  },
+  "TV_VWAP": {
+    "title": "Volume Weighted Average Price - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000502018-volume-weighted-average-price-vwap/",
+    "kind": "official"
   }
 }
