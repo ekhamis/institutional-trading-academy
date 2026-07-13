@@ -1,0 +1,423 @@
+[
+  {
+    "id": "L02-M01",
+    "title": "Swing Highs and Swing Lows",
+    "time": "25 minutes",
+    "visual": "17_swing_points.png",
+    "competencies": [
+      "price_structure",
+      "chart_reading"
+    ],
+    "prerequisites": [
+      "L01-M10"
+    ],
+    "objective": "Identify swing highs and swing lows without forcing structure onto every candle.",
+    "why": "Market structure starts with objective turning points. If a learner cannot mark meaningful swings, every later concept such as trend, pullback, BOS, and CHoCH becomes subjective.",
+    "core": [
+      "A swing high is a local turning point where buying failed to continue and price rotated lower.",
+      "A swing low is a local turning point where selling failed to continue and price rotated higher.",
+      "Not every minor candle wiggle deserves a structural label.",
+      "Useful swing points should be visible enough to influence future decisions."
+    ],
+    "scenario": "A five-minute chart shows many tiny pullbacks during the New York open. The professional task is to separate noise from the points that actually changed the auction path.",
+    "exercise": "Open one clean trending chart and one choppy chart. Mark only the swing points that would matter for a trading decision, then explain why you ignored the rest.",
+    "quiz": [
+      [
+        "What is a swing high?",
+        "A local turning point where price rotates lower after an upward move."
+      ],
+      [
+        "Should every small candle pause be marked?",
+        "No."
+      ],
+      [
+        "Why do swing points matter?",
+        "They form the building blocks of trend and range structure."
+      ]
+    ],
+    "mistake": "Marking every candle fluctuation as structure.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M02",
+    "title": "Trend Structure",
+    "time": "28 minutes",
+    "visual": "18_trend_structure.png",
+    "competencies": [
+      "price_structure",
+      "trend_analysis"
+    ],
+    "prerequisites": [
+      "L02-M01"
+    ],
+    "objective": "Read trend through structural progression rather than through a single indicator line.",
+    "why": "Beginners often call a market bullish because one candle is green. Professional trend reading asks whether buyers or sellers keep defending increasingly favorable prices.",
+    "core": [
+      "An uptrend is generally a sequence of higher highs and higher lows.",
+      "A downtrend is generally a sequence of lower lows and lower highs.",
+      "Healthy trends show continuation and controlled pullbacks.",
+      "A trend is weakened when the side in control fails to defend the prior structural point."
+    ],
+    "scenario": "US100 rallies strongly, pulls back, then fails to break the prior high. A trader should not simply assume the trend is intact; the quality of continuation must be evaluated.",
+    "exercise": "Mark the last three major highs and lows on US30, DAX40, and Gold. Classify each as uptrend, downtrend, or unclear.",
+    "quiz": [
+      [
+        "What defines an uptrend structurally?",
+        "Higher highs and higher lows."
+      ],
+      [
+        "What weakens a trend?",
+        "Failure to continue or failure to defend the prior structural point."
+      ],
+      [
+        "Can a trend be unclear?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Calling one strong candle a trend.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M03",
+    "title": "Ranges and Balance",
+    "time": "28 minutes",
+    "visual": "19_range_balance.png",
+    "competencies": [
+      "price_structure",
+      "range_analysis"
+    ],
+    "prerequisites": [
+      "L02-M02"
+    ],
+    "objective": "Recognize when price is rotating inside a range instead of trending.",
+    "why": "Many losses come from applying trend tactics inside balanced markets. A range requires different expectations: fade extremes, wait for acceptance, or do nothing.",
+    "core": [
+      "A range forms when neither side can sustain continuation.",
+      "Range highs and lows often collect liquidity because many traders place stops beyond obvious extremes.",
+      "The middle of a range usually offers poor reward-to-risk for directional trades.",
+      "A breakout is not confirmed by crossing a line; it needs acceptance or follow-through."
+    ],
+    "scenario": "UK100 spends the London morning oscillating between yesterday's high and the session low. Buying the middle after a green candle has weak context.",
+    "exercise": "Find one chart that is clearly ranging. Mark the range high, range low, midpoint, and two areas where false breaks could trap traders.",
+    "quiz": [
+      [
+        "What is a range?",
+        "A balanced area where price rotates without sustained continuation."
+      ],
+      [
+        "Where is trade location usually weakest?",
+        "Near the middle of the range."
+      ],
+      [
+        "Does a wick outside the range prove breakout?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading the middle of a range as if it were a fresh trend.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M04",
+    "title": "Support and Resistance Zones",
+    "time": "30 minutes",
+    "visual": "20_support_resistance_zones.png",
+    "competencies": [
+      "price_structure",
+      "level_selection"
+    ],
+    "prerequisites": [
+      "L02-M03"
+    ],
+    "objective": "Draw support and resistance as decision zones rather than fragile exact lines.",
+    "why": "Real markets do not always respect a single pixel-perfect price. Zones help learners account for spread, volatility, liquidity sweeps, and different market venues.",
+    "core": [
+      "Support is an area where demand previously overcame supply strongly enough to rotate price higher.",
+      "Resistance is an area where supply previously overcame demand strongly enough to rotate price lower.",
+      "Zones are more practical than exact lines when volatility is meaningful.",
+      "A level is stronger when it aligns with structure, session context, and visible reaction."
+    ],
+    "scenario": "Gold reacts three times around a 10-dollar band, not a single exact tick. Treating the level as one precise price creates unnecessary stop-outs.",
+    "exercise": "Replace three exact horizontal lines on a chart with zones. Explain what evidence justifies each zone.",
+    "quiz": [
+      [
+        "Why use zones?",
+        "Because markets often react around areas, not exact prices."
+      ],
+      [
+        "What gives a zone more value?",
+        "Repeated structural reaction and context."
+      ],
+      [
+        "Should zones become excuses for wide risk?",
+        "No."
+      ]
+    ],
+    "mistake": "Making zones so wide that they no longer support a clear risk decision.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M05",
+    "title": "Impulse and Pullback",
+    "time": "30 minutes",
+    "visual": "21_impulse_pullback.png",
+    "competencies": [
+      "price_structure",
+      "trend_analysis"
+    ],
+    "prerequisites": [
+      "L02-M04"
+    ],
+    "objective": "Distinguish directional expansion from corrective movement.",
+    "why": "A trader who enters during exhaustion often buys after the opportunity has already moved. Understanding impulse and pullback helps students wait for better location.",
+    "core": [
+      "An impulse is a stronger directional movement that expands price away from a prior area.",
+      "A pullback is a counter-move that tests whether the trend side can defend structure.",
+      "Healthy pullbacks are usually smaller and less aggressive than the prior impulse.",
+      "Deep or violent pullbacks warn that the trend may be losing quality."
+    ],
+    "scenario": "DAX40 breaks higher at the London open, then retraces into a prior resistance zone. The question is whether that pullback is controlled or whether sellers have taken control.",
+    "exercise": "On a trending chart, label three impulses and three pullbacks. Note which pullback was healthiest and why.",
+    "quiz": [
+      [
+        "What is an impulse?",
+        "A stronger directional expansion."
+      ],
+      [
+        "What does a pullback test?",
+        "Whether the trend side can defend structure."
+      ],
+      [
+        "What warns of trend weakness?",
+        "A deep, aggressive, or disorderly pullback."
+      ]
+    ],
+    "mistake": "Chasing the impulse after reward-to-risk has already deteriorated.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M06",
+    "title": "Break of Structure",
+    "time": "35 minutes",
+    "visual": "22_break_of_structure.png",
+    "competencies": [
+      "price_structure",
+      "confirmation_logic"
+    ],
+    "prerequisites": [
+      "L02-M05"
+    ],
+    "objective": "Define a break of structure as a meaningful continuation event, not a random wick through a level.",
+    "why": "BOS is powerful only when used precisely. If every minor break becomes confirmation, the learner will overtrade and confuse liquidity grabs with continuation.",
+    "core": [
+      "A bullish BOS occurs when price breaks a meaningful prior structural high in an existing bullish context.",
+      "A bearish BOS occurs when price breaks a meaningful prior structural low in an existing bearish context.",
+      "The broken level must be structurally relevant, not a random candle high or low.",
+      "A better BOS shows displacement, acceptance, or follow-through."
+    ],
+    "scenario": "US500 breaks the prior session high by a few ticks and immediately returns into range. That is not the same quality as a strong accepted break with follow-through.",
+    "exercise": "Find two apparent structure breaks. Label one high-quality BOS and one weak break. Explain the difference.",
+    "quiz": [
+      [
+        "What must a BOS break?",
+        "A meaningful prior structural high or low."
+      ],
+      [
+        "Is every wick through a level a BOS?",
+        "No."
+      ],
+      [
+        "What improves BOS quality?",
+        "Displacement, acceptance, or follow-through."
+      ]
+    ],
+    "mistake": "Treating a liquidity sweep as automatic continuation confirmation.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M07",
+    "title": "Change of Character",
+    "time": "35 minutes",
+    "visual": "23_change_of_character.png",
+    "competencies": [
+      "price_structure",
+      "reversal_analysis"
+    ],
+    "prerequisites": [
+      "L02-M06"
+    ],
+    "objective": "Use change of character as an early warning that the current structural behavior may be shifting.",
+    "why": "Reversals rarely become obvious at the best price. CHoCH helps learners notice when a trend is no longer behaving like the prior trend.",
+    "core": [
+      "A CHoCH is an early structural shift against the prior behavior.",
+      "It is not a guaranteed reversal signal.",
+      "A higher-quality CHoCH appears near meaningful liquidity, support, resistance, or session context.",
+      "A CHoCH often needs additional confirmation before execution."
+    ],
+    "scenario": "Gold trends lower into New York, sweeps a prior low, then breaks a minor lower high. That may be a change of character, but it still requires a trade plan and invalidation.",
+    "exercise": "Mark one possible bullish CHoCH and one possible bearish CHoCH. Write what would confirm or invalidate each idea.",
+    "quiz": [
+      [
+        "What is CHoCH?",
+        "An early structural shift against prior behavior."
+      ],
+      [
+        "Does CHoCH guarantee reversal?",
+        "No."
+      ],
+      [
+        "What improves its value?",
+        "Context and follow-up confirmation."
+      ]
+    ],
+    "mistake": "Entering every CHoCH as if it were a completed reversal.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M08",
+    "title": "Breakout Acceptance and Failure",
+    "time": "32 minutes",
+    "visual": "24_breakout_acceptance_failure.png",
+    "competencies": [
+      "price_structure",
+      "breakout_analysis"
+    ],
+    "prerequisites": [
+      "L02-M07"
+    ],
+    "objective": "Separate accepted breakouts from failed breakouts.",
+    "why": "Breakout traders and reversal traders often fight around the same level. The professional skill is not predicting every break, but reading whether price is accepted beyond the level.",
+    "core": [
+      "Acceptance means price can hold beyond the broken area and continue doing business there.",
+      "Failure means price breaks out but returns quickly into the prior range or structure.",
+      "Failed breakouts can trap traders who entered late.",
+      "Volume, volatility, session timing, and follow-through can help judge breakout quality."
+    ],
+    "scenario": "US100 breaks above a pre-market high before the cash open, stalls, then falls back into the range. The breakout trader must recognize failure quickly instead of hoping.",
+    "exercise": "Find one accepted breakout and one failed breakout. Mark the point where a professional would stop trusting the breakout.",
+    "quiz": [
+      [
+        "What is breakout acceptance?",
+        "Holding and continuing beyond the broken area."
+      ],
+      [
+        "What is breakout failure?",
+        "Returning quickly back into the prior area."
+      ],
+      [
+        "Why are failed breakouts important?",
+        "They can trap late traders and reverse sharply."
+      ]
+    ],
+    "mistake": "Assuming a level break is enough without acceptance.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M09",
+    "title": "Internal and External Structure",
+    "time": "34 minutes",
+    "visual": "25_internal_external_structure.png",
+    "competencies": [
+      "price_structure",
+      "multi_timeframe_analysis"
+    ],
+    "prerequisites": [
+      "L02-M08"
+    ],
+    "objective": "Distinguish minor internal shifts from major external structure changes.",
+    "why": "Many beginners reverse their bias because of a small lower-timeframe move while the higher-timeframe structure remains intact. This creates confusion and overtrading.",
+    "core": [
+      "External structure is the major swing framework that defines broader direction.",
+      "Internal structure is the smaller movement inside that broader framework.",
+      "Internal shifts can provide early clues, but they do not always invalidate the larger structure.",
+      "A trade idea should state which structure level it depends on."
+    ],
+    "scenario": "DAX40 is bullish on the 1H chart but bearish on the 1M pullback. A learner must know whether they are reading execution noise or true directional change.",
+    "exercise": "On one chart, mark external structure in one color and internal structure in another. Write which one controls your bias.",
+    "quiz": [
+      [
+        "What is external structure?",
+        "The major swing framework."
+      ],
+      [
+        "What is internal structure?",
+        "Smaller movement inside the larger framework."
+      ],
+      [
+        "Can internal structure shift before external structure?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Letting minor internal movement constantly flip the higher-timeframe bias.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M10",
+    "title": "Multi-Timeframe Structure Assessment",
+    "time": "45 minutes",
+    "visual": "26_structure_assessment.png",
+    "competencies": [
+      "price_structure",
+      "assessment",
+      "multi_timeframe_analysis"
+    ],
+    "prerequisites": [
+      "L02-M09"
+    ],
+    "objective": "Demonstrate a complete structure read across higher, working, and execution timeframes.",
+    "why": "The academy should not allow learners to advance because they recognize vocabulary. They must prove they can apply structure consistently to a real chart.",
+    "core": [
+      "Start with the higher-timeframe bias.",
+      "Use the working timeframe to define levels and active structure.",
+      "Use the execution timeframe only after context is clear.",
+      "A valid assessment includes invalidation and no-trade conditions."
+    ],
+    "scenario": "You receive three charts of the same market: 4H, 15M, and 1M. Your task is to describe structure, not to force an entry.",
+    "exercise": "Complete a structure assessment for one index and one gold chart. Include trend/range status, key swings, external structure, internal structure, and invalidation.",
+    "quiz": [
+      [
+        "What comes first in multi-timeframe structure?",
+        "Higher-timeframe context."
+      ],
+      [
+        "What is the execution timeframe for?",
+        "Timing after context is clear."
+      ],
+      [
+        "Can no-trade be a correct assessment result?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Using the lowest timeframe to invent a trade before context is understood.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  }
+]

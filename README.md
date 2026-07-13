@@ -4,11 +4,11 @@ English-first, dual-language-ready trading and market-intelligence education pla
 
 ## Current verified build
 
-- Version: **0.3.0**
+- Version: **0.5.0**
 - Canonical language: **English (`en-US`)**
 - Arabic: **architecture and RTL scaffolding only; content deferred until English lock**
-- Authored missions: **20**
-- Handbook: English Missions 01-20 in PDF and DOCX
+- Authored missions: **40**
+- Handbook: English Missions 01-40 source package and prior PDF/DOCX handbook assets
 - Prototype: browser dashboard in `prototype/`
 
 ## Repository structure

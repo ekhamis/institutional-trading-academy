@@ -44,10 +44,10 @@ def validate_json_files() -> None:
 
 
 def collect_missions() -> list[dict]:
-    canonical = ROOT / "data" / "missions_en-US_01_20.json"
+    canonical = ROOT / "data" / "missions_en-US_01_40.json"
     data = load_json(canonical)
     if not isinstance(data, list):
-        error("data/missions_en-US_01_20.json must be a JSON array")
+        error("data/missions_en-US_01_40.json must be a JSON array")
         return []
     return data
 

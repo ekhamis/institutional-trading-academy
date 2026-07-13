@@ -1,0 +1,429 @@
+[
+  {
+    "id": "L02-M11",
+    "title": "Candlestick Context",
+    "time": "30 minutes",
+    "visual": "27_candlestick_context.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M10"
+    ],
+    "objective": "Read candles inside market context instead of treating single candles as standalone signals.",
+    "why": "A candle does not mean the same thing in every location. A strong bullish candle at range resistance may be late buying, while the same candle after a controlled pullback may show trend continuation.",
+    "core": [
+      "Candles summarize open, high, low, and close for a selected period.",
+      "A candle's meaning depends on location, prior structure, volatility, and session timing.",
+      "Single-candle patterns are weaker without context.",
+      "Professional reading asks what the candle changed, rejected, confirmed, or failed to do."
+    ],
+    "scenario": "A bullish candle appears on US100. On one chart it breaks from a clean pullback; on another it closes directly into higher-timeframe resistance. Same candle body, different decision quality.",
+    "exercise": "Find three large bullish candles. Label whether each is continuation, exhaustion, breakout, or unclear based on context.",
+    "quiz": [
+      [
+        "Does a candle have the same meaning everywhere?",
+        "No."
+      ],
+      [
+        "What gives a candle meaning?",
+        "Location, structure, volatility, and timing."
+      ],
+      [
+        "Should a single candle replace a trade plan?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading memorized candle patterns without context.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M12",
+    "title": "Candle Body and Commitment",
+    "time": "28 minutes",
+    "visual": "28_candle_body_commitment.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M11"
+    ],
+    "objective": "Use candle bodies to judge directional commitment without confusing size with quality.",
+    "why": "Large bodies show that price closed away from the open, but they can also appear at exhaustion points. The task is to decide whether the close improves or weakens the trade idea.",
+    "core": [
+      "A large body shows directional progress during that candle period.",
+      "A close near the candle extreme often shows stronger control than a close near the middle.",
+      "Body size must be compared with recent volatility.",
+      "A large candle after an extended move can be exhaustion rather than fresh opportunity."
+    ],
+    "scenario": "Gold prints a large bullish candle after a long rally into news resistance. The body is strong, but the location may make new long entries risky.",
+    "exercise": "Mark five large-body candles and classify each as useful commitment or possible exhaustion.",
+    "quiz": [
+      [
+        "What does a large body show?",
+        "Directional progress during the candle period."
+      ],
+      [
+        "Is a large candle always a good entry?",
+        "No."
+      ],
+      [
+        "What must body size be compared with?",
+        "Recent volatility and location."
+      ]
+    ],
+    "mistake": "Assuming the biggest candle is the safest entry candle.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M13",
+    "title": "Wicks and Rejection",
+    "time": "30 minutes",
+    "visual": "29_wicks_rejection.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M12"
+    ],
+    "objective": "Interpret candle wicks as evidence of attempted price discovery and rejection.",
+    "why": "Wicks often reveal that price tested an area and failed to maintain acceptance there. This is useful for reading liquidity sweeps, failed breakouts, and exhaustion.",
+    "core": [
+      "A wick shows the distance price traveled but did not hold by the candle close.",
+      "A long upper wick can indicate rejected higher prices.",
+      "A long lower wick can indicate rejected lower prices.",
+      "Wicks matter most when they occur at meaningful levels or liquidity areas."
+    ],
+    "scenario": "UK100 sweeps above the morning range high and closes back inside with a long upper wick. That does not automatically mean short, but it warns that breakout acceptance failed.",
+    "exercise": "Find two long upper wicks and two long lower wicks. Explain what area was tested and whether rejection was meaningful.",
+    "quiz": [
+      [
+        "What does a wick show?",
+        "Price traveled there but did not hold by the close."
+      ],
+      [
+        "Where are wicks most useful?",
+        "At meaningful levels or liquidity areas."
+      ],
+      [
+        "Does every wick create a trade?",
+        "No."
+      ]
+    ],
+    "mistake": "Calling every wick a reversal signal.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M14",
+    "title": "Inside Bars, Outside Bars, and Compression",
+    "time": "32 minutes",
+    "visual": "30_inside_outside_compression.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading",
+      "volatility_analysis"
+    ],
+    "prerequisites": [
+      "L02-M13"
+    ],
+    "objective": "Use candle range relationships to identify compression and expansion.",
+    "why": "Markets alternate between compression and expansion. Recognizing this rhythm helps learners avoid forcing trades in low-quality areas and prepare for possible breakout conditions.",
+    "core": [
+      "An inside bar stays within the prior candle's high-low range.",
+      "An outside bar exceeds both the prior high and prior low.",
+      "Several small overlapping candles can show compression.",
+      "Compression often precedes expansion, but direction still requires context."
+    ],
+    "scenario": "DAX40 compresses for six candles before the London open. A trader should prepare scenarios instead of predicting blindly.",
+    "exercise": "Mark one compression area and write bullish, bearish, and no-trade conditions for the next expansion.",
+    "quiz": [
+      [
+        "What is an inside bar?",
+        "A candle inside the prior high-low range."
+      ],
+      [
+        "What can compression precede?",
+        "Expansion."
+      ],
+      [
+        "Does compression reveal direction by itself?",
+        "No."
+      ]
+    ],
+    "mistake": "Entering before expansion only because the chart became quiet.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M15",
+    "title": "Volatility-Adjusted Structure",
+    "time": "34 minutes",
+    "visual": "31_volatility_adjusted_structure.png",
+    "competencies": [
+      "price_structure",
+      "volatility_analysis"
+    ],
+    "prerequisites": [
+      "L02-M14"
+    ],
+    "objective": "Adjust structure expectations to the current volatility environment.",
+    "why": "A pullback that is normal during high volatility may be abnormal during a quiet session. Structure cannot be read well without understanding the scale of recent movement.",
+    "core": [
+      "Volatility describes movement size, not direction.",
+      "Structural breaks in high volatility need more room and stricter confirmation.",
+      "Quiet markets require patience because small breaks can be noise.",
+      "A level's importance should be interpreted relative to recent range size."
+    ],
+    "scenario": "US30 moves 150 points in minutes after news. The same stop distance used during quiet pre-market conditions is no longer structurally comparable.",
+    "exercise": "Compare one quiet session and one high-volatility session. Note how swing size, wick size, and invalidation distance differ.",
+    "quiz": [
+      [
+        "Does volatility indicate direction?",
+        "No."
+      ],
+      [
+        "Why adjust structure for volatility?",
+        "Because normal movement size changes."
+      ],
+      [
+        "What happens if risk ignores volatility?",
+        "Stops and targets may become structurally meaningless."
+      ]
+    ],
+    "mistake": "Using the same structural expectations in every volatility regime.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M16",
+    "title": "Session Transitions",
+    "time": "34 minutes",
+    "visual": "32_session_transitions.png",
+    "competencies": [
+      "session_analysis",
+      "price_structure"
+    ],
+    "prerequisites": [
+      "L02-M15"
+    ],
+    "objective": "Read how structure can change when a new trading session begins.",
+    "why": "London, New York, and major cash opens can bring different participants and liquidity. A structure that looked stable before the open may be repriced quickly afterward.",
+    "core": [
+      "Session opens can introduce new liquidity and volatility.",
+      "Pre-session highs and lows often become reference points.",
+      "A new session may accept prior prices, reject them, or expand away from them.",
+      "The first move after an open can be informative, but it can also be a trap."
+    ],
+    "scenario": "Gold is quiet during Asia, sweeps a high near London, then reverses before New York. The session transition explains why the same level attracted different behavior.",
+    "exercise": "Mark Asia range, London open reaction, and New York open reaction on one chart. Explain what changed at each transition.",
+    "quiz": [
+      [
+        "Why do session transitions matter?",
+        "New participants and liquidity can enter."
+      ],
+      [
+        "What reference points matter around an open?",
+        "Pre-session highs and lows."
+      ],
+      [
+        "Is the first move always reliable?",
+        "No."
+      ]
+    ],
+    "mistake": "Ignoring session context when structure suddenly changes speed.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M17",
+    "title": "Trend Quality",
+    "time": "35 minutes",
+    "visual": "33_trend_quality.png",
+    "competencies": [
+      "trend_analysis",
+      "price_structure"
+    ],
+    "prerequisites": [
+      "L02-M16"
+    ],
+    "objective": "Evaluate the quality of a trend rather than only naming its direction.",
+    "why": "A trend can be technically bullish but poor to trade if it is extended, volatile, or losing momentum. Direction and quality are different judgments.",
+    "core": [
+      "High-quality trends show clean continuation and controlled pullbacks.",
+      "Weakening trends show overlap, failed continuation, deep pullbacks, or excessive wicks.",
+      "Late-stage trends can still continue but may offer poor reward-to-risk.",
+      "Trend quality should influence whether to enter, wait, reduce size, or avoid."
+    ],
+    "scenario": "US100 keeps making higher highs, but each new high is smaller and immediately rejected. The trend direction remains up, but the quality is deteriorating.",
+    "exercise": "Rate three trends as high, medium, or low quality. Use structure, pullbacks, wicks, and volatility as evidence.",
+    "quiz": [
+      [
+        "Is trend direction the same as trend quality?",
+        "No."
+      ],
+      [
+        "What shows a high-quality trend?",
+        "Clean continuation and controlled pullbacks."
+      ],
+      [
+        "What can late-stage trend continuation still have?",
+        "Poor reward-to-risk."
+      ]
+    ],
+    "mistake": "Entering every trend without judging whether the trend is still healthy.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M18",
+    "title": "Pullback Models",
+    "time": "36 minutes",
+    "visual": "34_pullback_models.png",
+    "competencies": [
+      "trend_analysis",
+      "trade_planning"
+    ],
+    "prerequisites": [
+      "L02-M17"
+    ],
+    "objective": "Classify pullbacks by depth, speed, and structure before planning continuation trades.",
+    "why": "Not all pullbacks are equal. A shallow controlled pullback, a deep corrective pullback, and a violent reversal attempt require different decisions.",
+    "core": [
+      "A shallow pullback can signal strong trend pressure but may offer limited entry location.",
+      "A moderate pullback can offer better location if structure remains intact.",
+      "A deep pullback may still continue, but it warns that the opposing side has gained influence.",
+      "A pullback plan must define invalidation before entry."
+    ],
+    "scenario": "DAX40 rallies, retraces half the move, and holds above the prior external low. The pullback is deeper than ideal but not automatically bearish.",
+    "exercise": "Label three pullbacks as shallow, moderate, or deep. For each, define where the continuation idea becomes invalid.",
+    "quiz": [
+      [
+        "Why classify pullbacks?",
+        "Different pullbacks imply different trade quality and risk."
+      ],
+      [
+        "What must a pullback plan define?",
+        "Invalidation."
+      ],
+      [
+        "Is a deep pullback always reversal?",
+        "No."
+      ]
+    ],
+    "mistake": "Buying every dip without knowing which structural point must hold.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M19",
+    "title": "No-Trade Structure",
+    "time": "30 minutes",
+    "visual": "35_no_trade_structure.png",
+    "competencies": [
+      "risk_management",
+      "price_structure",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L02-M18"
+    ],
+    "objective": "Identify structure conditions where the professional decision is to avoid trading.",
+    "why": "A strong academy must teach students when not to trade. Avoiding low-quality structure is a real skill, especially for beginners and funded-account traders.",
+    "core": [
+      "No-trade is valid when structure is unclear.",
+      "No-trade is valid when price is in the middle of a range.",
+      "No-trade is valid when volatility makes risk unreadable.",
+      "No-trade is valid before major news if the plan cannot control event risk."
+    ],
+    "scenario": "A chart shows mixed internal shifts inside a tight range five minutes before CPI. The professional answer may be no trade, not more analysis.",
+    "exercise": "Collect three screenshots where you intentionally would not trade. Write the exact structural reason for each.",
+    "quiz": [
+      [
+        "Can no-trade be a professional decision?",
+        "Yes."
+      ],
+      [
+        "Name one no-trade condition.",
+        "Unclear structure, range midpoint, unreadable volatility, or uncontrolled news risk."
+      ],
+      [
+        "Why teach no-trade early?",
+        "It protects beginners from forcing decisions."
+      ]
+    ],
+    "mistake": "Thinking progress requires taking more trades.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L02-M20",
+    "title": "Structure and Volatility Assessment",
+    "time": "50 minutes",
+    "visual": "36_structure_volatility_assessment.png",
+    "competencies": [
+      "assessment",
+      "price_structure",
+      "volatility_analysis",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L02-M19"
+    ],
+    "objective": "Demonstrate an integrated read of candles, structure, volatility, sessions, and no-trade conditions.",
+    "why": "Learners must prove they can combine concepts. The goal is not to predict the next candle; it is to produce a disciplined market read with clear evidence.",
+    "core": [
+      "Start with higher-timeframe structure.",
+      "Define whether the market is trending, ranging, or unclear.",
+      "Judge candle behavior in context, not in isolation.",
+      "Adjust invalidation to volatility and session conditions.",
+      "State the best trade idea or explain why no trade is justified."
+    ],
+    "scenario": "You receive charts of Gold, US100, and UK100 across multiple timeframes. Your task is to produce a structured assessment before any execution decision.",
+    "exercise": "Complete a written assessment for two markets. Include bias, structure, candle evidence, volatility, session context, invalidation, and no-trade condition.",
+    "quiz": [
+      [
+        "What is the goal of this assessment?",
+        "A disciplined evidence-based market read."
+      ],
+      [
+        "Should candle behavior be read alone?",
+        "No."
+      ],
+      [
+        "Can no-trade pass the assessment?",
+        "Yes, if justified with evidence."
+      ]
+    ],
+    "mistake": "Turning every assessment into an entry hunt.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "TV_SUPPORT",
+      "CME_RISK"
+    ]
+  }
+]
