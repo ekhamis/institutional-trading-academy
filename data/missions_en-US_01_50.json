@@ -2266,5 +2266,50 @@
       "TV_VOLUME_PROFILE",
       "CME_RISK"
     ]
+  },
+  {
+    "id": "L03-M13",
+    "title": "Point of Control as a Descriptive Reference",
+    "time": "38 minutes",
+    "visual": "49_point_of_control_reference.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M12"
+    ],
+    "objective": "Identify the Point of Control for a defined volume-profile window and use it as a descriptive reference without assuming that price must return to, hold, or reject it.",
+    "why": "The Point of Control highlights the profile row with the greatest recorded activity in the selected sample. It can help organize context, but its location depends on the data and calculation settings and does not forecast the next price move.",
+    "core": [
+      "The Point of Control, or POC, is the price row with the highest recorded activity in a defined volume-profile window under the platform's calculation method.",
+      "Changing the symbol, provider, volume type, window, session, row size, or lower-timeframe data can move the displayed POC.",
+      "A POC records where activity concentrated in the selected sample; it does not identify participant intent or prove fair value.",
+      "Price trading above, below, through, or near a prior POC is descriptive until structure, current participation, and price response provide additional evidence.",
+      "A POC is not guaranteed support, resistance, a magnet, an entry, a stop, or a target; unclear data or conflicting context supports a no-trade decision."
+    ],
+    "scenario": "A completed Gold session has a POC near the middle of its range. The next session opens above it and later rotates toward it. Record the approach and price response without assuming attraction or support, then require current participation, structure, and predefined invalidation before considering a plan.",
+    "exercise": "Mark the POC on three completed, consistently configured session profiles. Document the data and settings, describe each later interaction using only observable facts, and finish with either a conditional risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What does a volume-profile POC identify?",
+        "The price row with the highest recorded activity in the defined sample under the selected calculation settings."
+      ],
+      [
+        "Can changing the profile window or row settings move the POC?",
+        "Yes."
+      ],
+      [
+        "Does a prior POC guarantee support, resistance, or a return to that price?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating the POC as proven fair value or as a guaranteed price magnet, support, resistance, entry, stop, or target.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
   }
 ]
