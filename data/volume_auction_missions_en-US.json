@@ -259,5 +259,32 @@
     "mistake": "Forcing an entry or inventing intent because an assessment chart contains unusual volume.",
     "evidence": "Competency assessment",
     "sources": ["TV_VOLUME", "TV_RELATIVE_VOLUME", "TV_VWAP", "CME_RISK"]
+  },
+  {
+    "id": "L03-M11",
+    "title": "Volume Profile Maps Activity by Price",
+    "time": "36 minutes",
+    "visual": "47_volume_profile_activity_by_price.png",
+    "competencies": ["volume_analysis", "auction_context", "data_literacy"],
+    "prerequisites": ["L03-M10"],
+    "objective": "Explain how a volume profile distributes recorded activity across price levels for a defined dataset and window without treating the profile as a forecast.",
+    "why": "Time-based volume bars show when activity occurred; a volume profile reorganizes the selected data to show where activity accumulated by price.",
+    "core": [
+      "A volume profile is a histogram of recorded activity at price levels across a selected symbol, data source, and window.",
+      "The profile describes where activity occurred in the selected historical sample; it does not reveal participant intent or predict the next move.",
+      "Rows, lower-timeframe inputs, session boundaries, and the platform's volume type can change the displayed distribution.",
+      "Stocks may use trade volume while some indices, forex feeds, and CFDs use tick volume, so provenance must be checked before comparison.",
+      "Profile features are contextual references, not guaranteed support, resistance, entries, stops, or targets."
+    ],
+    "scenario": "Gold shows a broad concentration of activity near the middle of a completed session and little activity near its high. Record the distribution as an observation, then require fresh price and participation evidence before considering any plan.",
+    "exercise": "Build profiles for two completed sessions of the same instrument using identical settings. Record the window, session, data source, row settings, and observed concentrations; finish with either a risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      ["What does a volume profile organize?", "Recorded activity by price for a defined dataset and window."],
+      ["Does a high-activity price guarantee future support or resistance?", "No."],
+      ["Which settings must be documented?", "Instrument, data source, window, session, volume type, and profile calculation settings."]
+    ],
+    "mistake": "Treating a historical concentration of activity as proof of intent or a guaranteed future reaction.",
+    "evidence": "Official platform calculation documentation",
+    "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
   }
 ]

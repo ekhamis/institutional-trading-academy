@@ -123,5 +123,10 @@
     "title": "Volume Weighted Average Price - TradingView Help Center",
     "url": "https://www.tradingview.com/support/solutions/43000502018-volume-weighted-average-price-vwap/",
     "kind": "official"
+  },
+  "TV_VOLUME_PROFILE": {
+    "title": "Volume Profile Indicators: Basic Concepts - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000502040-volume-profile-indicators-basic-concepts/",
+    "kind": "official"
   }
 }
