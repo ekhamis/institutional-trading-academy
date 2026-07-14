@@ -2311,5 +2311,50 @@
       "TV_VOLUME_PROFILE",
       "CME_RISK"
     ]
+  },
+  {
+    "id": "L03-M14",
+    "title": "Value Area, VAH, and VAL",
+    "time": "40 minutes",
+    "visual": "50_value_area_vah_val.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M13"
+    ],
+    "objective": "Define the value area and identify its upper and lower boundaries for a documented volume-profile sample without treating VAH or VAL as guaranteed trade levels.",
+    "why": "The value area summarizes where a platform assigns a selected share of profile activity. Its boundaries can organize context, but they depend on the sample and calculation method and cannot predict acceptance, rejection, or direction.",
+    "core": [
+      "A value area is the set of profile rows selected by the platform's calculation method to contain a configured share of recorded activity, commonly but not universally 70 percent.",
+      "Value Area High, or VAH, is the upper boundary of that calculated area, while Value Area Low, or VAL, is its lower boundary.",
+      "Changing the symbol, provider, volume type, profile window, session, row size, lower-timeframe input, target percentage, or allocation method can change the value area and its boundaries.",
+      "VAH and VAL describe a historical distribution; they do not prove fair value, participant intent, acceptance, rejection, support, resistance, or a likely return inside the area.",
+      "A plan requires current price response, participation, structural context, predefined invalidation, and controlled risk; inconsistent settings or unclear evidence supports no trade."
+    ],
+    "scenario": "A completed Gold session displays a 70-percent value area. The next session opens above VAH and later tests that boundary. Record the location and observable response without assuming rejection or acceptance, then require current participation, structure, and predefined invalidation before considering a plan.",
+    "exercise": "Calculate and mark VAH and VAL on three completed session profiles of the same instrument using consistent settings. Document the provider, volume type, window, session, row size, lower-timeframe input, target percentage, and allocation method; describe later interactions and finish with a conditional risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What does a value area represent?",
+        "The profile rows selected by the platform's method to contain a configured share of recorded activity in a defined sample."
+      ],
+      [
+        "Can changing the target percentage or row settings move VAH and VAL?",
+        "Yes."
+      ],
+      [
+        "Does trading at VAH or VAL guarantee acceptance, rejection, support, or resistance?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating a calculated value-area boundary as proven fair value or as an automatic entry, stop, target, support, resistance, acceptance, or rejection signal.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
   }
 ]
