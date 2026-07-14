@@ -286,5 +286,32 @@
     "mistake": "Treating a historical concentration of activity as proof of intent or a guaranteed future reaction.",
     "evidence": "Official platform calculation documentation",
     "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
+  },
+  {
+    "id": "L03-M12",
+    "title": "Building and Comparing Profile Windows",
+    "time": "38 minutes",
+    "visual": "48_profile_window_comparison.png",
+    "competencies": ["volume_analysis", "auction_context", "data_literacy"],
+    "prerequisites": ["L03-M11"],
+    "objective": "Build and compare volume profiles with explicit, consistent windows while explaining how window selection changes the distribution shown.",
+    "why": "A profile is inseparable from its selected sample. Comparing windows can reveal different historical distributions, but only when the instrument, data, session, and calculation settings are documented.",
+    "core": [
+      "A profile window defines the bars or session whose recorded activity is distributed by price; changing the window changes the sample and may change every profile feature.",
+      "A fixed range answers a question about a deliberately selected interval, while a session or visible-range profile follows a platform-defined or changing boundary.",
+      "Comparisons are strongest when symbol, provider, volume type, session template, row settings, and calculation method remain consistent.",
+      "Overlapping or unequal windows can answer different questions, so label each boundary and do not present their differences as evidence of participant intent.",
+      "Use completed windows for baseline comparison where possible, then require current price and participation evidence before forming a risk-defined plan."
+    ],
+    "scenario": "Two Gold profiles appear different: one covers the full regular session and the other starts after a major data release. Before interpreting the shapes, label the boundaries and rebuild both with a common session and identical settings.",
+    "exercise": "Create one completed-session profile and one fixed-range profile on the same instrument. Document every boundary and setting, state what each window can and cannot answer, and finish with a conditional hypothesis or a no-trade conclusion.",
+    "quiz": [
+      ["Why can two profiles of the same instrument differ?", "They may use different windows, sessions, data, volume types, or calculation settings."],
+      ["What should remain consistent in a controlled comparison?", "The symbol, provider, volume type, session template, row settings, and calculation method."],
+      ["Does a chosen window prove participant intent?", "No."]
+    ],
+    "mistake": "Comparing unlabeled or mismatched profile windows and treating the resulting differences as a predictive signal.",
+    "evidence": "Official platform calculation documentation",
+    "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
   }
 ]
