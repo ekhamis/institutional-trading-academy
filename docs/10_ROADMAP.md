@@ -1,5 +1,9 @@
 # Roadmap
 
+## Current build increment
+
+v0.7.0 completes Level 3, Volume and Auction, with volume profile, value-area references, auction balance and imbalance, acceptance and rejection, contextual integration, data limitations, and a practical assessment. The authorized scope and acceptance criteria are defined in `docs/21_BUILD_PLAN_v0.7.md`.
+
 ## Phase 1
 Lock charter, MVP curriculum, first 10 missions, illustration standards, clickable prototype.
 
