@@ -2518,5 +2518,32 @@
     "mistake": "Calling confluence a high-probability signal and entering because a profile reference overlaps a swing or range boundary without current evidence, predefined invalidation, and controlled risk.",
     "evidence": "Official platform calculation documentation and exchange risk education",
     "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
+  },
+  {
+    "id": "L03-M19",
+    "title": "No-Trade Profile Conditions and Data Limitations",
+    "time": "40 minutes",
+    "visual": "55_no_trade_profile_conditions_data_limitations.png",
+    "competencies": ["volume_analysis", "data_literacy", "risk_management"],
+    "prerequisites": ["L03-M18"],
+    "objective": "Identify volume-profile data, configuration, and market conditions that make a no-trade decision more appropriate than forcing a directional interpretation.",
+    "why": "A profile can look precise even when its input data, window, or calculation settings are incomplete or inconsistent. A disciplined process treats data quality and comparability as prerequisites and preserves no trade when the evidence is not decision-grade.",
+    "core": [
+      "Document the instrument, venue or provider, volume type, profile window, session template, row size, value-area setting, contract treatment, and whether the current sample is complete before comparing profile references.",
+      "Centralized exchange volume may represent activity on that venue, while foreign-exchange, CFD, index, and some composite feeds can be decentralized, provider-specific, proxy-based, or otherwise incomplete; a displayed profile is not automatically a complete market record.",
+      "Missing bars, feed reconnects, contract rolls, symbol changes, partial sessions, extended-hours changes, and different row or value-area settings can move POC, VAH, VAL, HVNs, and LVNs without any change in the underlying trading hypothesis.",
+      "Event-driven volatility, thin participation, opening gaps, unstable developing profiles, unclear structural invalidation, or excessive distance to invalidation can make a profile reference unsuitable for a controlled-risk decision even when the data itself is valid.",
+      "Repair the dataset or comparison when possible. Otherwise label the evidence unresolved and choose no trade; do not replace missing evidence with assumptions about intent, support, resistance, or future direction."
+    ],
+    "scenario": "A CFD profile appears to shift its POC after a provider reconnect, while the related centralized futures profile shows no comparable change and the session templates differ. Record the mismatch, stop the comparison, and verify feeds and settings. If a comparable dataset cannot be established before the opportunity passes, choose no trade rather than treating either POC as a directional signal.",
+    "exercise": "Audit four profile charts: one centralized instrument, one provider-specific or decentralized feed, one contract-roll period, and one developing event session. Record provenance and settings, identify comparability failures and risk constraints, state what could be repaired, and finish each case with either a conditional evidence plan or a justified no-trade conclusion.",
+    "quiz": [
+      ["Does a displayed volume profile necessarily represent complete market-wide activity?", "No. Coverage depends on the instrument, venue, provider, volume type, and dataset."],
+      ["What should be checked before comparing profile references?", "Data provenance, instrument and contract, window, session, completion state, and calculation settings should be consistent and documented."],
+      ["What is appropriate when profile data cannot be made comparable or risk cannot be controlled?", "Label the evidence unresolved and choose no trade."]
+    ],
+    "mistake": "Forcing a trade because profile levels look precise while ignoring incomplete feeds, inconsistent settings, unstable samples, unclear invalidation, or excessive required risk.",
+    "evidence": "Official platform data and calculation documentation plus exchange risk education",
+    "sources": ["TV_VOLUME_PROFILE", "TV_VOLUME", "CME_RISK"]
   }
 ]
