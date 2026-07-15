@@ -394,5 +394,32 @@
     "mistake": "Converting a descriptive node into an automatic entry, stop, target, support, resistance, price magnet, or fast-travel prediction.",
     "evidence": "Official platform calculation documentation",
     "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
+  },
+  {
+    "id": "L03-M16",
+    "title": "Balance, Imbalance, and Auction Rotation",
+    "time": "42 minutes",
+    "visual": "52_balance_imbalance_auction_rotation.png",
+    "competencies": ["volume_analysis", "auction_context", "risk_management"],
+    "prerequisites": ["L03-M15"],
+    "objective": "Describe balance, imbalance, and rotation from observable price-and-volume behavior while avoiding assumptions about participant intent or guaranteed continuation and reversal.",
+    "why": "Auction language can organize how price explores and revisits an area, but these labels are interpretations of observed behavior rather than predictive signals. A disciplined process separates the record from the hypothesis and preserves no trade when evidence is mixed.",
+    "core": [
+      "Balance describes a contextual condition in which price repeatedly trades across an overlapping area; define the window and observable overlap instead of treating balance as a fixed pattern.",
+      "Imbalance describes directional displacement or reduced two-way overlap during the selected window; it does not identify who caused the move or guarantee continuation.",
+      "Auction rotation is a descriptive sequence of price moving through and revisiting parts of a defined area; rotation is not proof that every boundary will hold or that price must cross the area again.",
+      "Classify the completed evidence first, then test a conditional hypothesis with current participation, structure, volatility, and price response because balance can persist, break, or reorganize.",
+      "Define invalidation and controlled risk before acting; incomplete volume, inconsistent settings, unclear boundaries, or conflicting evidence makes no trade a valid outcome."
+    ],
+    "scenario": "A completed index-futures session repeatedly crosses an overlapping middle region, then the next session displaces above that region with greater observed participation. Record the balance and later displacement without claiming intent or guaranteed continuation; require acceptance evidence, structural invalidation, and controlled risk, or choose no trade if price immediately rotates back and evidence conflicts.",
+    "exercise": "Review three completed sessions of the same instrument with consistent data and settings. Mark observable overlap, directional displacement, and any later rotation; label each statement as observation or interpretation, define what would invalidate the hypothesis, and finish with either a risk-defined conditional plan or a justified no-trade conclusion.",
+    "quiz": [
+      ["What evidence supports a description of balance?", "Repeated trade and overlap across a defined area and window."],
+      ["Does directional displacement prove participant intent or guarantee continuation?", "No."],
+      ["What should follow an auction-context label before considering a trade?", "Current participation and structure evidence, predefined invalidation, controlled risk, and a no-trade option."]
+    ],
+    "mistake": "Turning balance, imbalance, or rotation into an automatic reversal, breakout, continuation, entry, stop, or target rule.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
   }
 ]
