@@ -2491,5 +2491,32 @@
       "TV_VOLUME_PROFILE",
       "CME_RISK"
     ]
+  },
+  {
+    "id": "L03-M18",
+    "title": "Combining Profile Context with Market Structure",
+    "time": "44 minutes",
+    "visual": "54_combining_profile_context_market_structure.png",
+    "competencies": ["volume_analysis", "auction_context", "market_structure", "risk_management"],
+    "prerequisites": ["L03-M17"],
+    "objective": "Combine documented volume-profile references with observable market structure to form conditional, risk-defined hypotheses without turning either evidence set into a standalone signal.",
+    "why": "Profile context describes where activity occurred in a selected sample, while market structure describes observable price organization. Using both can clarify a hypothesis, but agreement does not create certainty and disagreement may be a reason to wait.",
+    "core": [
+      "Begin with separate observations: document the profile instrument, venue, provider, volume type, window, session, row settings, and reference, then record completed structural evidence such as swings, overlap, displacement, and closes.",
+      "A profile reference and a structural feature can coincide, but that confluence is still historical context; it does not prove support, resistance, acceptance, rejection, direction, or participant intent.",
+      "Build a conditional hypothesis only after current price response and participation provide evidence, and state which observation would invalidate the idea before considering risk.",
+      "When profile and structure evidence disagree, preserve both observations instead of forcing a narrative; wait for completed evidence or classify the situation as unresolved.",
+      "Use controlled risk and a valid no-trade outcome. Incomplete volume, inconsistent settings, unclear structure, excessive volatility, poor reward relative to invalidation, or late evidence can each justify standing aside."
+    ],
+    "scenario": "A prior-session LVN aligns with a recently broken swing high. Price later returns to that area, but the first response is a single wick on declining participation. Record the LVN and swing separately; do not call the area support or rejection. Require completed structural and participation evidence, define invalidation below observable structure, and choose no trade if the response remains mixed or the required risk is excessive.",
+    "exercise": "Review four completed interactions where a documented POC, value-area boundary, HVN, or LVN sits near an observable swing or balance boundary. Separate profile facts, structure facts, and interpretation; note data limitations, specify confirmation and invalidation, estimate controlled risk, and finish with a conditional hypothesis or justified no-trade conclusion.",
+    "quiz": [
+      ["Does a profile reference aligning with a structural level guarantee a reaction?", "No."],
+      ["What should be recorded before combining profile and structure context?", "The profile data and settings, the exact reference, and completed structural observations should be documented separately."],
+      ["What is appropriate when profile context and market structure conflict?", "Keep the evidence separate, wait for completed confirmation, or choose no trade when a risk-defined hypothesis is not clear."]
+    ],
+    "mistake": "Calling confluence a high-probability signal and entering because a profile reference overlaps a swing or range boundary without current evidence, predefined invalidation, and controlled risk.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
   }
 ]
