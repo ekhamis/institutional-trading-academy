@@ -421,5 +421,32 @@
     "mistake": "Turning balance, imbalance, or rotation into an automatic reversal, breakout, continuation, entry, stop, or target rule.",
     "evidence": "Official platform calculation documentation and exchange risk education",
     "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
+  },
+  {
+    "id": "L03-M17",
+    "title": "Acceptance and Rejection Without Certainty",
+    "time": "42 minutes",
+    "visual": "53_acceptance_rejection_without_certainty.png",
+    "competencies": ["volume_analysis", "auction_context", "risk_management"],
+    "prerequisites": ["L03-M16"],
+    "objective": "Evaluate acceptance and rejection as conditional interpretations of observable price and participation evidence without treating either label as certain or predictive.",
+    "why": "Price moving beyond or away from a reference is only an observation. Acceptance and rejection become useful hypotheses when subsequent trade, participation, structure, and time support them, but the evidence can remain mixed or change.",
+    "core": [
+      "Acceptance is a contextual interpretation that price is continuing to trade and build activity beyond a defined reference; specify the reference, window, and observable evidence rather than inferring intent.",
+      "Rejection is a contextual interpretation that price tested an area and then moved away without sustained trade there; a wick, single close, or brief response alone does not prove rejection.",
+      "Evidence can include time spent beyond the reference, repeated closes or overlap, developing activity by price, relative participation, and later retests, but no single measure guarantees the conclusion.",
+      "The same initial move can develop into acceptance, rejection, or unresolved rotation, so update the hypothesis as completed evidence arrives and preserve an uncertain classification when signals conflict.",
+      "Before acting, verify data and settings, require structural context, define invalidation and controlled risk, and choose no trade when the response is incomplete, late, or ambiguous."
+    ],
+    "scenario": "Gold trades above a prior session's VAH, holds there for several completed bars, and begins building activity above the boundary. Record those facts as possible acceptance evidence, not proof. If price then returns through VAH while participation and structure conflict, reclassify the situation as unresolved and stand aside unless a new risk-defined hypothesis becomes clear.",
+    "exercise": "Review four completed interactions with a consistently configured profile reference. For each, separate the initial observation from later acceptance, rejection, or unresolved evidence; document data limitations, structural context, invalidation, and controlled risk, then finish with a conditional plan or justified no-trade conclusion.",
+    "quiz": [
+      ["What turns a move beyond a reference into possible acceptance evidence?", "Subsequent trade and activity beyond the defined reference across a stated window, supported by current participation and structure."],
+      ["Does a wick or one close prove rejection?", "No."],
+      ["What is appropriate when acceptance and rejection evidence conflicts?", "Keep the classification unresolved, update it as completed evidence arrives, and choose no trade when a risk-defined plan is not clear."]
+    ],
+    "mistake": "Labeling the first move through or away from a profile reference as confirmed acceptance or rejection and treating it as an automatic entry, stop, target, or directional forecast.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": ["TV_VOLUME_PROFILE", "CME_RISK"]
   }
 ]
