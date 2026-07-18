@@ -2,7 +2,7 @@
 
 ## Status
 
-Authorized and planned on branch `build/v0.7.0`. Version `0.6.0` remains the latest published release. No v0.7.0 release may be published until every acceptance criterion passes on `main` and publication is explicitly authorized.
+Release-ready on branch `build/v0.7.0`. Local validation and the branch workflow pass with 60 canonical English missions, 0 errors, and 0 warnings. Version `0.6.0` remains the latest published release. No v0.7.0 release may be published until the candidate is merged to `main`, validation passes there, and publication is explicitly authorized.
 
 ## Goal
 
@@ -53,4 +53,4 @@ Keep all v0.7.0 work on `build/v0.7.0` until the complete candidate passes accep
 
 ## Exact next action
 
-Run the complete candidate validation on `build/v0.7.0`. If every acceptance criterion passes, report the candidate as release-ready and wait for explicit authorization before merging to `main`, generating the v0.7.0 ZIP, tagging, or publishing.
+Await explicit authorization to merge `build/v0.7.0` to `main`. After authorization, merge the candidate, verify `Validate and package` succeeds on `main`, then request separate authorization before tagging v0.7.0 or dispatching `Publish release`. Do not publish from the build branch.

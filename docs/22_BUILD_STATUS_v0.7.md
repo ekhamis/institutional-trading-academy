@@ -2,7 +2,7 @@
 
 ## Summary
 
-The v0.7.0 build candidate completes the English-first Volume and Auction track with 60 canonical English missions. Version v0.6.0 remains the latest published release. This candidate is not merged, tagged, packaged, or published.
+The release-ready v0.7.0 build candidate completes the English-first Volume and Auction track with 60 canonical English missions. Version v0.6.0 remains the latest published release. This candidate is not merged, tagged, or published. A workflow-generated candidate ZIP exists as a temporary Actions artifact; it is not a GitHub release asset.
 
 ## Added
 
@@ -31,8 +31,12 @@ English remains the canonical source language. Arabic authoring remains deferred
 
 ## Validation state
 
-The candidate contains 60 canonical English missions with matching lesson files and numbered illustrations. The cumulative English handbook is generated from canonical data. Local validation must report 0 errors and 0 warnings before the candidate can be described as release-ready.
+The candidate contains 60 canonical English missions with matching lesson files and numbered illustrations. The cumulative English handbook is generated from canonical data. Local validation reports 60 canonical English missions, 0 errors, and 0 warnings. Workflow run `29635653642` passed validation and packaging at commit `35e347e`, and uploaded candidate artifact `institutional-trading-academy-35e347e2724419ce52706dc62acfa983ad0d2f98`.
+
+## Release readiness
+
+Release-ready but unpublished on `build/v0.7.0`. The next action requires explicit authorization: merge the candidate to `main`, verify `Validate and package` succeeds there, then request separate authorization before tagging v0.7.0 or dispatching `Publish release`.
 
 ## Publication state
 
-Unpublished candidate on `build/v0.7.0`. Publication is a separate, explicitly authorized operation. Do not merge to `main`, create tag v0.7.0, generate the official release ZIP, or publish a GitHub release until all acceptance criteria pass and authorization is recorded.
+Unpublished candidate on `build/v0.7.0`. Publication is a separate, explicitly authorized operation. Do not merge to `main`, create tag v0.7.0, or publish a GitHub release until authorization is recorded and the merged candidate passes validation on `main`.
