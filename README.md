@@ -8,7 +8,7 @@ English-first, dual-language-ready trading and market-intelligence education pla
 - Canonical language: **English (`en-US`)**
 - Arabic: **architecture and RTL scaffolding only; content deferred until English lock**
 - Authored missions: **60**
-- Handbook: English Missions 01-60 source package is pending candidate alignment; prior PDF/DOCX handbook assets remain historical
+- Handbook: English Missions 01-60 source package; prior PDF/DOCX handbook assets remain historical
 - Prototype: browser dashboard in `prototype/`
 
 ## Repository structure
