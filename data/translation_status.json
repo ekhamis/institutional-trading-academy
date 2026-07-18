@@ -254,11 +254,61 @@
       "id": "L03-M10",
       "en-US": "draft_complete",
       "ar": "deferred"
+    },
+    {
+      "id": "L03-M11",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M12",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M13",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M14",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M15",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M16",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M17",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M18",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M19",
+      "en-US": "draft_complete",
+      "ar": "deferred"
+    },
+    {
+      "id": "L03-M20",
+      "en-US": "draft_complete",
+      "ar": "deferred"
     }
   ],
-  "project_version": "0.6.0",
+  "project_version": "0.7.0",
   "english_master": {
-    "authored_missions": 50,
+    "authored_missions": 60,
     "status": "in_review"
   },
   "arabic": {
