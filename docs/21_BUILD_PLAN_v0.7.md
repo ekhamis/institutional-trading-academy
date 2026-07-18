@@ -53,4 +53,4 @@ Keep all v0.7.0 work on `build/v0.7.0` until the complete candidate passes accep
 
 ## Exact next action
 
-Define the approved source set and draft L03-M11, including its structured mission record and lesson file, then run canonical validation before committing the first content increment.
+Run the complete candidate validation on `build/v0.7.0`. If every acceptance criterion passes, report the candidate as release-ready and wait for explicit authorization before merging to `main`, generating the v0.7.0 ZIP, tagging, or publishing.

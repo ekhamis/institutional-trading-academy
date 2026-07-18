@@ -113,12 +113,19 @@ def validate_sources(missions: list[dict]) -> None:
                 error(f"{mission.get('id')} references unknown source: {source_id}")
 
 
-def validate_localization(missions: list[dict]) -> None:
+def validate_localization(missions: list[dict], version: str) -> None:
     status = load_json(ROOT / "data" / "translation_status.json")
     if not isinstance(status, dict):
         return
     if status.get("source_locale") != "en-US":
         error("translation_status source_locale must remain en-US until English master lock")
+    if status.get("project_version") != version:
+        error("translation_status project_version must match VERSION")
+    english_master = status.get("english_master", {})
+    if not isinstance(english_master, dict) or english_master.get("authored_missions") != len(missions):
+        error("translation_status authored mission count must match canonical missions")
+    if len(status.get("missions", [])) != len(missions):
+        error("translation_status mission records must match canonical mission count")
     arabic = status.get("arabic", {})
     if isinstance(arabic, dict) and arabic.get("translated_missions", 0) not in (0, None):
         warning("Arabic missions exist before English master is locked")
@@ -127,7 +134,7 @@ def validate_localization(missions: list[dict]) -> None:
         warning(f"Found {len(arabic_md)} Arabic mission files before English content lock")
 
 
-def validate_version() -> None:
+def validate_release_consistency(missions: list[dict]) -> None:
     version_file = ROOT / "VERSION"
     if not version_file.exists():
         error("VERSION file is missing")
@@ -135,6 +142,45 @@ def validate_version() -> None:
     version = version_file.read_text(encoding="utf-8").strip()
     if not re.fullmatch(r"\d+\.\d+\.\d+", version):
         error(f"VERSION must use semantic versioning, found: {version!r}")
+        return
+
+    curriculum = load_json(ROOT / "data" / "curriculum.json")
+    if not isinstance(curriculum, dict):
+        return
+    if curriculum.get("version") != version:
+        error("curriculum version must match VERSION")
+    if curriculum.get("authored_missions") != len(missions):
+        error("curriculum authored mission count must match canonical missions")
+
+    validate_localization(missions, version)
+
+    release_label = f"v{version}"
+    release_series = ".".join(version.split(".")[:2])
+    count = len(missions)
+    required_text = {
+        ROOT / "README.md": (f"**{version}**", f"**{count}**"),
+        ROOT / "docs" / "04_KNOWLEDGE_GRAPH.md": (release_label, f"{count} canonical English missions"),
+        ROOT / "docs" / f"22_BUILD_STATUS_v{release_series}.md": (release_label, f"{count} canonical English missions"),
+    }
+    for path, markers in required_text.items():
+        if not path.exists():
+            error(f"Missing release consistency document: {path.relative_to(ROOT)}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        for marker in markers:
+            if marker not in text:
+                error(f"{path.relative_to(ROOT)} missing release marker: {marker}")
+
+    handbook = ROOT / "handbooks" / f"ITA_English_Handbook_Missions_01_{count}_v{release_series}.md"
+    if not handbook.exists():
+        error(f"Missing cumulative handbook: {handbook.relative_to(ROOT)}")
+    else:
+        handbook_text = handbook.read_text(encoding="utf-8")
+        if f"Version {version} build candidate" not in handbook_text:
+            error("Cumulative handbook version must match VERSION")
+        heading_count = len(re.findall(r"^## L\d{2}-M\d{2} - ", handbook_text, re.MULTILINE))
+        if heading_count != count:
+            error(f"Cumulative handbook mission count ({heading_count}) must match canonical missions ({count})")
 
 
 def main() -> int:
@@ -143,8 +189,7 @@ def main() -> int:
     missions = collect_missions()
     validate_missions(missions)
     validate_sources(missions)
-    validate_localization(missions)
-    validate_version()
+    validate_release_consistency(missions)
 
     print(f"Validated repository: {ROOT}")
     print(f"Canonical English missions: {len(missions)}")
