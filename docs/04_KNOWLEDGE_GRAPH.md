@@ -9,7 +9,11 @@ Financial Literacy
 → Auction Theory
 → Volume Profile
 → Liquidity
-→ Order Flow
+→ Limit Order Book
+→ Depth of Market
+→ Footprint and Delta
+→ Cumulative Delta
+→ Heatmap Context
 → Trade Planning
 → Risk Management
 → Execution
@@ -20,31 +24,23 @@ Financial Literacy
 
 ## Rules
 - Leverage comes after risk.
-- Order flow comes after order types and volume.
+- Order flow comes after order types, structure, volume, and auction context.
+- Resting-order data and executed-trade data must remain separate evidence categories.
+- Platform estimates must be identified and must not be presented as direct exchange bid/ask data.
 - Trading Lab execution requires risk basics.
 - Funded-account preparation requires drawdown and consistency-rule competence.
 - Certifications require practical assessment.
 
+## Authored mission chain - v0.8.0
 
-## Authored mission chain - v0.7.0
-
-The current English-first build candidate contains 60 canonical English missions through L03-M20.
+The current English-first build candidate contains 70 canonical English missions through L04-M10.
 
 L00-M01 through L00-M10 establish purpose, participants, execution, orders, risk, and leverage.
 
-L01-M01 Candlesticks and OHLC
--> L01-M02 Multi-Timeframe Context
--> L01-M03 Sessions
--> L01-M04 Volatility and ATR
--> L01-M05 Gaps and Opens
--> L01-M06 Instrument Types
--> L01-M07 Platform and Data Pipeline
--> L01-M08 Data Status
--> L01-M09 Scheduled Event Risk
--> L01-M10 Market Screen Assessment
+L01-M01 through L01-M10 establish chart, timeframe, session, volatility, instrument, data-feed, and scheduled-risk foundations.
 
-The learner must pass L01-M10 before moving to market structure and trade setup analysis.
+L02-M01 through L02-M20 establish price action, structure, contextual invalidation, and no-trade judgment.
 
-L02-M01 through L02-M20 establish price action, structure, liquidity context, risk-defined planning, and contextual assessment.
+L03-M01 through L03-M20 complete the Volume and Auction track from participation and VWAP foundations through volume profile, auction context, data limitations, and assessment.
 
-L03-M01 through L03-M20 complete the Volume and Auction track from participation and VWAP foundations through volume profile, auction context, data limitations, and the final assessment.
+L04-M01 through L04-M10 begin Liquidity and Order Flow with spread, depth, limit-order-book structure, DOM, inferred liquidity zones, sweeps, footprint methodology, delta, CVD, heatmaps, and a data-provenance assessment.

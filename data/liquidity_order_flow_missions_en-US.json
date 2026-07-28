@@ -1,0 +1,467 @@
+[
+  {
+    "id": "L04-M01",
+    "title": "Liquidity: Spread, Depth, and Cost to Trade",
+    "time": "35 minutes",
+    "visual": "57_liquidity_spread_depth_cost.png",
+    "competencies": [
+      "liquidity",
+      "market_mechanics",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M20"
+    ],
+    "objective": "Distinguish liquidity from trading volume and assess spread, displayed depth, order size, and expected execution cost as separate evidence.",
+    "why": "A market can print substantial volume yet still be expensive or difficult to enter and exit at a particular moment. Liquidity must be assessed relative to order size, venue, time, and current conditions.",
+    "core": [
+      "Liquidity is multi-dimensional. Common observable measures include the bid-ask spread, available quantity at price levels, the cost to trade a stated size, and how quickly the book changes after orders and trades.",
+      "Depth is size-specific: a book that can absorb a small order near the best price may still produce material price impact for a larger order.",
+      "Volume records completed trading activity, while displayed depth records resting interest that is currently shown in the order book. They answer different questions.",
+      "Compare liquidity only across equivalent instruments, venues, session windows, data feeds, and order sizes. A raw depth number without these conditions is not decision-grade.",
+      "Displayed liquidity can be added, reduced, executed, or cancelled. Treat it as a current state, not as a promise that the quantity will remain available."
+    ],
+    "scenario": "An index future shows a one-tick spread and substantial quantity at the best bid and ask during the main session. Ten minutes before a scheduled release, the spread widens and nearby depth falls. The earlier volume total does not remove the new execution risk.",
+    "exercise": "Compare three snapshots of the same instrument: normal session, thin session, and scheduled-event conditions. Record spread, depth within five levels, hypothetical cost to trade two different sizes, and whether the evidence supports participation or no trade.",
+    "quiz": [
+      [
+        "Is high traded volume the same as deep current liquidity?",
+        "No. Volume is completed activity; depth is displayed resting quantity and can change."
+      ],
+      [
+        "Why must order size be stated when assessing liquidity?",
+        "Because the expected price impact and cost depend on how much quantity must be executed."
+      ],
+      [
+        "What makes two liquidity observations comparable?",
+        "The instrument, venue, session, feed, measurement method, and order size should be equivalent."
+      ]
+    ],
+    "mistake": "Calling a market liquid from the daily volume total while ignoring the current spread, nearby depth, order size, and event conditions.",
+    "evidence": "Exchange liquidity methodology and exchange risk education",
+    "sources": [
+      "CME_LIQUIDITY_METHOD",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M02",
+    "title": "The Limit Order Book: Price, Queue, and Displayed Size",
+    "time": "38 minutes",
+    "visual": "58_limit_order_book_price_queue.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L04-M01"
+    ],
+    "objective": "Explain how displayed limit orders are organized by price and priority, and distinguish price-level summaries from individual-order data.",
+    "why": "A depth ladder compresses a changing queue into numbers. Understanding what the feed contains prevents false claims about participant identity, queue position, or guaranteed execution.",
+    "core": [
+      "A central limit order book organizes executable bids and offers by price. Orders at the same price are then handled according to the venue and product matching algorithm.",
+      "Market-by-price data aggregates quantity and order count at each price level. Market-by-order data can expose anonymous individual orders, full depth, and queue information, but not customer identity.",
+      "Price-time priority is common in some products, but matching rules can also include pro-rata, size-priority, or hybrid allocation. Never assume universal first-in-first-out behavior.",
+      "Queue position affects the probability and timing of a resting order fill. A displayed quantity ahead of an order can execute, cancel, or change before the market reaches the price.",
+      "Iceberg, synthetic, implied, hidden, and cross-venue interest can make the visible book an incomplete representation of total trading interest."
+    ],
+    "scenario": "Two traders place limit buys at the same price. One feed shows only total quantity at that level; another provides anonymous order-level records. Even with order-level data, the product matching algorithm must be known before estimating priority.",
+    "exercise": "For one futures contract, document whether the feed is market-by-price or market-by-order, the number of levels shown, the matching algorithm, and what queue information is and is not available. Finish with three statements you are not entitled to make from the display.",
+    "quiz": [
+      [
+        "Does market-by-price data show each individual order?",
+        "No. It normally aggregates quantity and order count by price level."
+      ],
+      [
+        "Is every electronic market matched strictly by price-time priority?",
+        "No. Matching algorithms vary by venue and product."
+      ],
+      [
+        "Does an anonymous order ID reveal the customer behind the order?",
+        "No. Order-level transparency does not provide customer identity."
+      ]
+    ],
+    "mistake": "Treating the displayed quantity at a price as one participant, assuming FIFO without checking the product rules, or claiming a known fill from an estimated queue.",
+    "evidence": "Official exchange market-by-order and matching-algorithm documentation",
+    "sources": [
+      "CME_MBO",
+      "CME_MATCHING_ALGORITHMS",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M03",
+    "title": "Depth of Market: A Moving Snapshot",
+    "time": "38 minutes",
+    "visual": "59_dom_moving_snapshot.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M02"
+    ],
+    "objective": "Read a depth-of-market ladder as a time-sensitive display of bids and asks while documenting feed, venue, refresh, and aggregation limitations.",
+    "why": "DOM numbers change continuously. A single screenshot can be useful for observation, but it cannot prove that displayed liquidity will remain, execute, or predict the next move.",
+    "core": [
+      "A DOM displays bid and ask quantities at multiple prices. The visible data comes from a broker, venue, or data provider and may differ from the chart feed.",
+      "Top-of-book shows the best bid and ask; deeper levels show additional displayed quantity. The number of levels and aggregation method depend on the subscription and feed.",
+      "Orders can be added, modified, executed, or cancelled between updates. Read changes over time rather than treating one large number as permanent support or resistance.",
+      "Compare displayed depth with actual trades and subsequent price response. Resting quantity and executed volume are different datasets.",
+      "Stale updates, dropped packets, delayed subscriptions, provider mismatches, and fast markets can make the DOM unsuitable for a controlled decision."
+    ],
+    "scenario": "A large offer appears three ticks above price, then repeatedly reduces before price reaches it. Record the additions and cancellations, but do not claim the participant intent. Wait for execution and price-response evidence or choose no trade.",
+    "exercise": "Record a 60-second DOM observation at normal speed and around a scheduled event. Note best bid/ask, five-level depth, additions, reductions, trades, and feed status. Explain which conclusions remain unsupported.",
+    "quiz": [
+      [
+        "What does the DOM primarily show?",
+        "Displayed bid and ask quantities at different prices from the connected data source."
+      ],
+      [
+        "Does a large displayed order guarantee that price will stop there?",
+        "No. It can execute, change, or cancel."
+      ],
+      [
+        "Why compare the DOM with trades?",
+        "Because resting orders and executed volume describe different parts of market activity."
+      ]
+    ],
+    "mistake": "Freezing one DOM snapshot and converting the largest displayed quantity into a guaranteed barrier or directional signal.",
+    "evidence": "Official DOM, exchange order-book, and liquidity methodology documentation",
+    "sources": [
+      "TV_DOM",
+      "CME_LIQUIDITY_METHOD",
+      "CME_MBO"
+    ]
+  },
+  {
+    "id": "L04-M04",
+    "title": "Liquidity Zones, Stop Orders, and Hidden Information",
+    "time": "40 minutes",
+    "visual": "60_liquidity_zones_hidden_information.png",
+    "competencies": [
+      "liquidity",
+      "market_structure",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M03"
+    ],
+    "objective": "Separate observable liquidity from inferred chart zones and explain why stop orders, hidden size, and cross-venue interest cannot be read directly from a normal price chart.",
+    "why": "Traders often label prior highs, lows, or range edges as liquidity pools. These locations may attract activity, but the chart does not reveal the exact quantity, ownership, order type, or intent waiting there.",
+    "core": [
+      "Observable liquidity includes displayed bids and offers from a specified order-book feed. Executed trades are observed separately in trade or volume data.",
+      "A chart-based liquidity zone is an inference that orders may cluster near a visible reference such as a prior high, low, range boundary, or round price. The quantity is unknown unless a suitable feed shows it.",
+      "Stop orders are conditional. In the equity example described by Investor.gov, a stop becomes a market order when the stop price is reached; broker and venue policies can differ.",
+      "Hidden, iceberg, synthetic, implied, and cross-venue orders mean the displayed book may not contain all available interest.",
+      "Use precise language: observed displayed depth, observed executions, or inferred potential order concentration. Do not merge these categories."
+    ],
+    "scenario": "Price approaches a prior session high that many analysts call a buy-stop pool. The chart confirms the reference but not the stop quantity. A DOM shows some offers, while hidden and off-venue interest remain unknown. Plan only around observable response and controlled invalidation.",
+    "exercise": "Mark six commonly cited liquidity zones on historical charts. For each, list what is directly observed, what is inferred, what data would be needed to strengthen the claim, and what would justify no trade.",
+    "quiz": [
+      [
+        "Can a price chart show the exact quantity of stop orders above a prior high?",
+        "No. The location may be inferred, but the quantity and ownership are not visible on a normal chart."
+      ],
+      [
+        "Is displayed depth the complete market interest?",
+        "Not necessarily. Hidden, iceberg, synthetic, implied, and other-venue interest can be absent."
+      ],
+      [
+        "What language should distinguish evidence quality?",
+        "Label displayed orders and executions as observed, and potential order concentrations as inferred."
+      ]
+    ],
+    "mistake": "Presenting every prior high or low as a measured pool of stop orders and describing unknown participants or intent as fact.",
+    "evidence": "Official order-type and exchange order-book documentation",
+    "sources": [
+      "SEC_STOP",
+      "CME_MBO",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M05",
+    "title": "Sweeps, Breaks, and Post-Event Evidence",
+    "time": "42 minutes",
+    "visual": "61_sweeps_breaks_post_event.png",
+    "competencies": [
+      "liquidity",
+      "market_structure",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M04"
+    ],
+    "objective": "Classify a move through a reference level without assuming manipulation, then evaluate acceptance, rejection, execution conditions, and invalidation after the event.",
+    "why": "A brief move beyond a prior high or low can be called a sweep, stop run, breakout, or failed break. The label does not explain cause or determine the next direction.",
+    "core": [
+      "Describe the observable event first: price traded beyond a defined reference, available depth changed, trades occurred, and price either remained beyond or returned.",
+      "A market order prioritizes execution, not a guaranteed price. When liquidity is thin or orders are triggered together, fills can occur across several prices.",
+      "Post-event acceptance requires evidence over time, such as sustained trading beyond the level, compatible structure, participation, and a clear invalidation. A single wick is insufficient.",
+      "Rejection is also contextual. A return inside a range can fail again, and neither rejection nor acceptance proves participant intent.",
+      "Use the event to update a scenario, not to manufacture certainty. Late confirmation, excessive stop distance, or conflicting data can require no trade."
+    ],
+    "scenario": "Gold trades above a prior session high during a data release, fills across several prices, and closes back below. The move is observable; whether it was a stop run, failed breakout, or temporary volatility is interpretive. Assess the next completed evidence and the required risk.",
+    "exercise": "Review ten moves through prior highs or lows. Record the reference, spread and depth conditions, executed response, time spent beyond the level, structural outcome, and whether a controlled plan existed after confirmation.",
+    "quiz": [
+      [
+        "Does trading beyond a prior high prove manipulation?",
+        "No. The event is observable, but cause and intent require evidence not supplied by the price path alone."
+      ],
+      [
+        "What does a market order guarantee?",
+        "It prioritizes execution, but it does not guarantee the execution price."
+      ],
+      [
+        "When should a post-sweep idea be rejected?",
+        "When confirmation is absent or late, structure invalidates, data conflicts, or required risk is excessive."
+      ]
+    ],
+    "mistake": "Buying or selling automatically after any wick through a prior level and explaining the move with unobservable participant intent.",
+    "evidence": "Official execution, volume-profile context, and exchange risk education",
+    "sources": [
+      "SEC_EXECUTION",
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M06",
+    "title": "Footprint Charts: Traded Volume at Price",
+    "time": "45 minutes",
+    "visual": "62_footprint_traded_volume_price.png",
+    "competencies": [
+      "order_flow",
+      "volume_analysis",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M05"
+    ],
+    "objective": "Explain what a footprint chart displays, distinguish executed volume from resting orders, and verify how the platform classifies bid and ask activity.",
+    "why": "Footprints add price-level detail inside each bar, but platforms can construct them from different data. Without checking the method, similar-looking cells can represent materially different evidence.",
+    "core": [
+      "A footprint or numbers bar distributes traded activity across price levels within each chart bar. It may show bid volume, ask volume, total volume, delta, or comparison thresholds.",
+      "Executed volume is not the same as displayed depth. A footprint records trades after they occur; a DOM or heatmap records resting orders before execution or cancellation.",
+      "With suitable tick data, trades can be classified relative to the bid and ask. Some platforms instead estimate buy and sell categories from lower-timeframe price movement.",
+      "Historical precision can change with the intrabar interval, available tick history, row size, aggregation, and session settings. Document these before comparison.",
+      "Cell imbalance, POC, value area, and delta are descriptive calculations. They do not independently establish direction, support, resistance, or participant identity."
+    ],
+    "scenario": "Two footprint platforms display different delta at the same bar. One uses historical bid/ask trade data; the other categorizes lower-timeframe volume by intrabar direction. The visual disagreement is a methodology difference, not automatically a data error.",
+    "exercise": "Build the same footprint view on two platforms or data settings. Document symbol, venue, session, tick or intrabar source, row size, buy/sell classification method, and resulting differences.",
+    "quiz": [
+      [
+        "Does a footprint display resting limit orders?",
+        "No. It primarily displays executed volume at price; resting orders belong to depth data."
+      ],
+      [
+        "Can two platforms calculate different footprint values?",
+        "Yes. Data source, trade classification, intrabar precision, and row settings can differ."
+      ],
+      [
+        "Does a highlighted imbalance guarantee continuation?",
+        "No. It is a descriptive comparison that requires price, structure, and risk context."
+      ]
+    ],
+    "mistake": "Assuming every footprint cell is true exchange bid/ask volume and treating a highlighted imbalance as a direct entry signal.",
+    "evidence": "Official footprint and numbers-bars platform documentation",
+    "sources": [
+      "TV_FOOTPRINT",
+      "SIERRA_NUMBERS_BARS",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M07",
+    "title": "Delta: Aggressive Trade Imbalance Without Certainty",
+    "time": "42 minutes",
+    "visual": "63_delta_imbalance_without_certainty.png",
+    "competencies": [
+      "order_flow",
+      "volume_analysis",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M06"
+    ],
+    "objective": "Calculate and interpret volume delta as a difference between classified buy-side and sell-side activity without treating its sign as a price forecast.",
+    "why": "Positive or negative delta describes how a platform classified executed activity. Price can advance, stall, or reverse under the same delta sign, so the response matters more than the number alone.",
+    "core": [
+      "In bid/ask trade data, delta is commonly calculated as ask volume minus bid volume for a price level, bar, or period.",
+      "In estimated implementations, lower-timeframe price movement can be used to assign volume to positive or negative categories. This is not equivalent to direct exchange bid/ask classification.",
+      "Positive delta means the classified buy-side volume exceeded the classified sell-side volume for the selected calculation. It does not guarantee a higher close or future rise.",
+      "Compare delta with price progress, location, volatility, and structure. Large delta with limited progress is an observation that may justify further testing, not proof of absorption.",
+      "Normalize expectations by instrument, session, bar type, and feed. Raw delta values from different markets or settings are not directly comparable."
+    ],
+    "scenario": "A footprint bar shows strongly positive delta at a prior range high, but price makes little progress and closes inside the range. Record the aggressive buy-side imbalance and weak price result separately; do not assume either immediate reversal or continuation.",
+    "exercise": "Collect twenty bars with extreme positive or negative delta. Classify the price result as progress, stall, rejection, or unresolved, then test whether context improves the interpretation over delta sign alone.",
+    "quiz": [
+      [
+        "How is bid/ask volume delta commonly calculated?",
+        "Ask volume minus bid volume."
+      ],
+      [
+        "Does positive delta guarantee a rising price?",
+        "No. It describes classified executed activity, not the next price move."
+      ],
+      [
+        "Why can delta differ between platforms?",
+        "The trade data, classification algorithm, intrabar precision, bar type, and session settings can differ."
+      ]
+    ],
+    "mistake": "Buying every positive-delta bar or selling every negative-delta bar without considering methodology, price response, structure, and risk.",
+    "evidence": "Official bid/ask numbers-bars and estimated volume-delta documentation",
+    "sources": [
+      "SIERRA_NUMBERS_BARS",
+      "TV_VOLUME_DELTA",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M08",
+    "title": "Cumulative Volume Delta: Anchor, Reset, and Data Integrity",
+    "time": "45 minutes",
+    "visual": "64_cvd_anchor_reset_integrity.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "volume_analysis"
+    ],
+    "prerequisites": [
+      "L04-M07"
+    ],
+    "objective": "Interpret cumulative volume delta only after verifying the underlying delta method, reset anchor, session, and historical data completeness.",
+    "why": "CVD converts a sequence of delta values into a running total. A different starting point, session template, or classification method can change the entire path and any apparent divergence.",
+    "core": [
+      "CVD adds each bar or trade delta to a running total. The calculation may reset at the start of a trading day or another selected anchor period.",
+      "A direct bid/ask implementation requires historical bid-volume and ask-volume data. Missing historical fields can produce incomplete or empty results.",
+      "An estimated CVD may classify lower-timeframe volume from price movement. Lower intervals improve granularity but can reduce historical coverage.",
+      "Price-CVD divergence is a descriptive disagreement between paths. It is not a stand-alone reversal or continuation signal and can persist.",
+      "Compare CVD only when symbol, venue, contract, session, anchor, data source, bar construction, and calculation method are documented and equivalent."
+    ],
+    "scenario": "One CVD chart resets at the cash-session open and uses bid/ask trades; another anchors weekly and estimates delta from one-minute intrabars. Their slopes disagree. The correct response is to stop the comparison until method and anchor are aligned.",
+    "exercise": "Recalculate one session using two reset anchors and, where available, two delta methods. Document how the path and any apparent divergence change, then state what evidence would be needed before using CVD in a plan.",
+    "quiz": [
+      [
+        "What is CVD?",
+        "A running sum of volume delta over a defined period or session."
+      ],
+      [
+        "Why does the reset anchor matter?",
+        "Changing the starting point changes every subsequent cumulative value."
+      ],
+      [
+        "Does a price-CVD divergence guarantee reversal?",
+        "No. It is a contextual observation and can persist or disappear with different data and settings."
+      ]
+    ],
+    "mistake": "Comparing CVD lines with different anchors or methods and treating any divergence as a guaranteed turning point.",
+    "evidence": "Official direct and estimated cumulative-delta platform documentation",
+    "sources": [
+      "SIERRA_CVD",
+      "TV_CVD",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M09",
+    "title": "Heatmaps, Order Changes, and Liquidity Reliability",
+    "time": "45 minutes",
+    "visual": "65_heatmap_order_changes_reliability.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M08"
+    ],
+    "objective": "Use an order-book heatmap to observe displayed liquidity through time while avoiding unsupported conclusions about permanence, intent, or spoofing.",
+    "why": "A heatmap preserves the history of visible order-book changes that a single DOM snapshot loses. It still shows displayed orders, not private intent, and the result depends on feed depth, latency, and aggregation.",
+    "core": [
+      "An order-book heatmap maps displayed quantity by price and time. Greater visual intensity normally represents more displayed resting liquidity in the chosen feed.",
+      "Because the display retains history, the learner can observe where quantity was added, reduced, cancelled, executed against, or left untouched as price approached.",
+      "An order cancellation is not automatically deceptive. Legitimate orders are routinely modified or cancelled as conditions change.",
+      "Spoofing is a legal and intent-based concept: bidding or offering with the intent to cancel before execution. A chart pattern alone does not establish that intent.",
+      "Feed depth, aggregation, hidden orders, venue coverage, latency, and replay reconstruction can make heatmaps incomparable. Validate settings and combine them with trades and price response."
+    ],
+    "scenario": "A bright offer band appears, moves away twice, and disappears before price reaches it. The heatmap proves displayed changes in the chosen feed, but not why they occurred. Record the sequence and avoid accusing a participant or predicting direction.",
+    "exercise": "Replay five heatmap events. Separate displayed additions, reductions, executions, and price response; document feed limitations; and write one neutral interpretation plus one reason to choose no trade.",
+    "quiz": [
+      [
+        "What does heatmap intensity normally represent?",
+        "The amount of displayed resting liquidity at a price in the selected feed."
+      ],
+      [
+        "Is every cancelled order spoofing?",
+        "No. Spoofing depends on intent to cancel before execution and broader facts and circumstances."
+      ],
+      [
+        "What should accompany a heatmap observation?",
+        "Feed and setting documentation, executed trades, price response, structure, and risk."
+      ]
+    ],
+    "mistake": "Calling every disappearing order spoofing or treating every bright band as guaranteed support or resistance.",
+    "evidence": "Official heatmap explanation, exchange order-book documentation, and CFTC spoofing guidance",
+    "sources": [
+      "BOOKMAP_HEATMAP",
+      "CME_MBO",
+      "CFTC_SPOOFING_GUIDANCE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M10",
+    "title": "Liquidity and Order Flow Assessment",
+    "time": "60 minutes",
+    "visual": "66_liquidity_order_flow_assessment.png",
+    "competencies": [
+      "assessment",
+      "liquidity",
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M09"
+    ],
+    "objective": "Demonstrate a reproducible liquidity and order-flow review that separates resting orders, executed trades, estimates, interpretations, and risk decisions.",
+    "why": "Order-flow tools create dense and persuasive displays. A passing assessment must prove that the learner understands the data pipeline and can decline a trade when evidence or execution quality is insufficient.",
+    "core": [
+      "Audit the instrument, venue, contract, session, feed, depth level, latency status, bar construction, footprint classification, delta method, CVD anchor, and heatmap settings before interpretation.",
+      "Separate displayed resting orders, executed trades, estimated classifications, price structure, and narrative interpretation into distinct evidence categories.",
+      "Use DOM and heatmap changes to describe displayed liquidity; use footprint, delta, and CVD to describe classified executions. Do not treat either dataset as participant identity or intent.",
+      "A passing conditional plan states confirmation, structural invalidation, expected execution risk, maximum loss, and evidence that cancels the idea. Tool agreement is not a substitute for these controls.",
+      "Choose no trade when feeds are stale or mismatched, methods are incomparable, visible liquidity is unstable, confirmation is late, or slippage and invalidation cannot be bounded."
+    ],
+    "scenario": "You receive a futures DOM and heatmap, a true bid/ask footprint, an estimated CVD from another platform, and a CFD chart for the same underlying theme. The tools appear to agree directionally, but the venues and methods differ. Audit comparability before deciding whether any plan is valid.",
+    "exercise": "Complete two assessment cases. For each, submit a data-provenance sheet, observation-versus-interpretation table, liquidity and execution review, structure map, confirmation and invalidation plan, risk statement, and final conditional-trade or no-trade decision.",
+    "quiz": [
+      [
+        "What is the first task in an order-flow assessment?",
+        "Audit the instrument, venue, feed, data method, session, and settings."
+      ],
+      [
+        "Can agreement among DOM, footprint, and CVD replace risk controls?",
+        "No. Confirmation, invalidation, execution risk, and maximum loss remain mandatory."
+      ],
+      [
+        "Can no trade receive a passing assessment?",
+        "Yes, when data, comparability, timing, liquidity, or risk limitations are correctly identified and justified."
+      ]
+    ],
+    "mistake": "Passing the assessment by showing several colourful tools that appear aligned while ignoring data provenance, method differences, slippage, and invalidation.",
+    "evidence": "Competency assessment based on official exchange, regulator, and platform documentation",
+    "sources": [
+      "CME_LIQUIDITY_METHOD",
+      "CME_MBO",
+      "TV_FOOTPRINT",
+      "SIERRA_CVD",
+      "CFTC_SPOOFING_GUIDANCE",
+      "CME_RISK"
+    ]
+  }
+]

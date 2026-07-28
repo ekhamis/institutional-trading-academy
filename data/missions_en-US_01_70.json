@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "L00-M01",
+    "title": "Why Markets Exist",
+    "time": "15 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "financial_literacy",
+      "market_mechanics"
+    ],
+    "prerequisites": [],
+    "objective": "Explain the economic purpose of financial markets before learning how to trade them.",
+    "why": "A learner who sees a market only as a place to win money will misunderstand nearly every later concept. Markets help transfer ownership, allocate capital, manage risk, and discover prices.",
+    "core": [
+      "Primary markets connect issuers with capital; secondary markets let existing claims change hands.",
+      "Futures and derivatives can transfer price risk between participants with different needs.",
+      "The displayed price is the latest result of interacting orders, not a promise about the future."
+    ],
+    "scenario": "A European manufacturer expects a US-dollar payment in three months and wants less currency uncertainty. Another participant is willing to accept that exposure because of a different forecast or business need. The same market serves both.",
+    "exercise": "Write one sentence explaining how an airline, a pension fund, and a short-term trader might each use a financial market.",
+    "quiz": [
+      [
+        "Which is a core market function?",
+        "Transferring ownership, capital, and risk."
+      ],
+      [
+        "Do all participants seek the same outcome?",
+        "No."
+      ],
+      [
+        "Does an indicator create price?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating the market as a machine designed to pay traders.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS",
+      "CME_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M02",
+    "title": "Investing, Trading, Speculation, and Gambling",
+    "time": "18 minutes",
+    "visual": "06_mastery_loop.png",
+    "competencies": [
+      "financial_literacy",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Distinguish activities by decision process rather than by holding period or outcome.",
+    "why": "A short holding period does not automatically make an activity gambling. The important differences are evidence, risk limits, repeatability, and whether the decision has a rational basis.",
+    "core": [
+      "Investing usually seeks participation in longer-term economic value or cash flows.",
+      "Trading seeks to manage a shorter-term opportunity with a defined thesis, invalidation, and risk.",
+      "Speculation accepts uncertainty in pursuit of gain and can be disciplined or reckless.",
+      "Gambling behavior appears when hope, excitement, or uncontrolled size replaces a tested process."
+    ],
+    "scenario": "Two people buy the same index. One follows a diversified ten-year plan. The other uses extreme leverage after reading a social-media prediction. The instrument is identical; the process is not.",
+    "exercise": "Classify three past market decisions as investment, disciplined trade, or gambling behavior. Explain each classification without referring to whether it made money.",
+    "quiz": [
+      [
+        "Can a profitable trade be a poor decision?",
+        "Yes."
+      ],
+      [
+        "Is holding time the only distinction?",
+        "No."
+      ],
+      [
+        "What matters most?",
+        "Process, evidence, and risk."
+      ]
+    ],
+    "mistake": "Judging decision quality only by the profit or loss.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L00-M03",
+    "title": "Who Participates in Markets?",
+    "time": "18 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M01"
+    ],
+    "objective": "Identify major participant groups and understand why their motives differ.",
+    "why": "A hedge, an investment, a market-making action, and a speculative trade can produce similar transactions for very different reasons.",
+    "core": [
+      "Hedgers seek to reduce an existing commercial or portfolio risk.",
+      "Speculators intentionally accept price risk in pursuit of profit.",
+      "Investors allocate capital according to longer-term objectives.",
+      "Market makers quote prices and manage inventory risk.",
+      "Brokers provide customer access and route or execute orders.",
+      "Exchanges and clearing systems establish rules, matching, and post-trade obligations."
+    ],
+    "scenario": "A gold producer sells futures to stabilize revenue while a macro fund buys because it expects lower real yields. The matched transaction does not reveal each participant's complete motive.",
+    "exercise": "Create a two-column table: participant and likely objective. Include a bank, pension fund, airline, market maker, day trader, and central bank.",
+    "quiz": [
+      [
+        "Who commonly reduces commercial price risk?",
+        "A hedger."
+      ],
+      [
+        "Who provides market access to customers?",
+        "A broker."
+      ],
+      [
+        "Does a trade print reveal motive with certainty?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming every large transaction is directional speculation.",
+    "evidence": "Market fact",
+    "sources": [
+      "CME_HEDGERS",
+      "CME_SPECULATORS"
+    ]
+  },
+  {
+    "id": "L00-M04",
+    "title": "Exchanges, Brokers, Clearing, and Settlement",
+    "time": "20 minutes",
+    "visual": "01_market_ecosystem.png",
+    "competencies": [
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M03"
+    ],
+    "objective": "Trace a transaction from the learner's instruction through execution and settlement.",
+    "why": "A platform makes execution look instant, but legal relationships, routing, matching or dealer execution, clearing, and settlement sit behind a click.",
+    "core": [
+      "A broker receives the client instruction and provides market access.",
+      "An exchange or trading venue applies its rules and matches compatible orders.",
+      "Clearing manages obligations and counterparty risk according to the market structure.",
+      "Settlement completes the transfer of cash and the financial instrument.",
+      "CFDs, exchange-traded futures, and shares can have materially different execution and legal structures."
+    ],
+    "scenario": "A learner presses Buy and sees a confirmation. Behind that message may be routing, execution at a venue or dealer, trade confirmation, clearing, and settlement.",
+    "exercise": "Draw the transaction path for one exchange-traded share order and one OTC CFD order. Highlight where their structures differ.",
+    "quiz": [
+      [
+        "Who usually provides the learner's access?",
+        "The broker."
+      ],
+      [
+        "Where are compatible exchange orders matched?",
+        "At a trading venue or exchange."
+      ],
+      [
+        "Is every product centrally cleared?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming all instruments and brokers use the same execution model.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_EXECUTION",
+      "FINRA_LIFECYCLE"
+    ]
+  },
+  {
+    "id": "L00-M05",
+    "title": "Bid, Ask, and the Last Traded Price",
+    "time": "18 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "chart_reading"
+    ],
+    "prerequisites": [
+      "L00-M04"
+    ],
+    "objective": "Differentiate the last traded price from current executable quotations.",
+    "why": "The last price shown on a chart is not automatically available for a new order.",
+    "core": [
+      "The bid is the highest displayed price a buyer is currently willing to pay.",
+      "The ask is the lowest displayed price a seller is currently willing to accept.",
+      "The last price records a completed transaction and may no longer be available.",
+      "Quotes can change before an order reaches the market.",
+      "Different venues, data feeds, instruments, and brokers can display slightly different prices."
+    ],
+    "scenario": "The chart shows 100.00, while the best ask is 100.03. An immediate market buy is likely to execute at the ask or worse, not automatically at 100.00.",
+    "exercise": "On a demo platform, record bid, ask, spread, and last price five times during an active session.",
+    "quiz": [
+      [
+        "Which quotation is relevant to an immediate buy?",
+        "The ask."
+      ],
+      [
+        "Is the last price guaranteed for a new order?",
+        "No."
+      ],
+      [
+        "What does the last price represent?",
+        "A completed transaction."
+      ]
+    ],
+    "mistake": "Using the last candle close as a guaranteed execution price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "TV_ORDER_VIDEO"
+    ]
+  },
+  {
+    "id": "L00-M06",
+    "title": "The Bid-Ask Spread and Liquidity",
+    "time": "20 minutes",
+    "visual": "02_order_book.png",
+    "competencies": [
+      "market_mechanics",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L00-M05"
+    ],
+    "objective": "Explain the spread as an immediate cost and a partial clue about liquidity.",
+    "why": "An aggressive buyer crosses to the ask and an aggressive seller crosses to the bid. This matters especially in frequent trading and thin markets.",
+    "core": [
+      "Spread equals best ask minus best bid.",
+      "Tighter spreads often accompany liquid conditions, but top-of-book size alone does not fully describe liquidity.",
+      "Spreads can widen around news, session changes, quiet hours, or stress.",
+      "Total transaction cost may include spread, commission, fees, financing, and slippage."
+    ],
+    "scenario": "Gold has a normal spread before a major release. Seconds before the announcement, quotations widen and available depth changes, increasing execution uncertainty.",
+    "exercise": "Compare the spread of the same instrument during its primary session and during a quiet period. Record the difference and possible reason.",
+    "quiz": [
+      [
+        "How is spread calculated?",
+        "Best ask minus best bid."
+      ],
+      [
+        "Can the spread change quickly?",
+        "Yes."
+      ],
+      [
+        "Is spread the only cost?",
+        "No."
+      ]
+    ],
+    "mistake": "Backtesting without realistic spread and transaction-cost assumptions.",
+    "evidence": "Market fact",
+    "sources": [
+      "FINRA_ORDERS",
+      "FINRA_LIFECYCLE",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M07",
+    "title": "Market Orders: Execution First",
+    "time": "20 minutes",
+    "visual": "04_slippage.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M06"
+    ],
+    "objective": "Understand what a market order prioritizes and what it cannot guarantee.",
+    "why": "Market orders seek execution against available liquidity. In fast or thin conditions, the actual average price can differ significantly from the expected price.",
+    "core": [
+      "A market order seeks immediate execution against available opposite-side liquidity.",
+      "It offers high execution certainty in normal conditions but no exact price guarantee.",
+      "A large order can fill at several price levels.",
+      "Slippage is the difference between a referenced or expected price and actual execution."
+    ],
+    "scenario": "A large buy order enters a thin ask book. The first units fill near the best ask; the remainder consumes higher offers, producing a worse average price.",
+    "exercise": "Use the order-book illustration to estimate how a small and a large market order could receive different average fills.",
+    "quiz": [
+      [
+        "What does a market order prioritize?",
+        "Execution."
+      ],
+      [
+        "Does it guarantee an exact price?",
+        "No."
+      ],
+      [
+        "Can one order fill at multiple prices?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Using market orders around high-impact news without considering liquidity and slippage.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M08",
+    "title": "Limit Orders: Price First",
+    "time": "20 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M07"
+    ],
+    "objective": "Understand the trade-off between price control and execution uncertainty.",
+    "why": "A limit order protects the permitted price but cannot force another participant to trade with you.",
+    "core": [
+      "A buy limit can execute at the limit price or lower.",
+      "A sell limit can execute at the limit price or higher.",
+      "A limit order can partially fill, remain unfilled, or lose queue priority after modification.",
+      "A historical price touch does not prove that every waiting order filled."
+    ],
+    "scenario": "Price touches a learner's buy limit and rises immediately. The learner assumes a fill, but insufficient sell volume reached the order after earlier orders in the queue.",
+    "exercise": "Define the execution condition for a buy limit at 99.50 and a sell limit at 101.20. Give one reason each might remain unfilled.",
+    "quiz": [
+      [
+        "What does a limit order control?",
+        "The permitted execution price."
+      ],
+      [
+        "Is execution guaranteed?",
+        "No."
+      ],
+      [
+        "Can a limit order partially fill?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Treating every historical touch as a filled limit order in a backtest.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_ORDERS",
+      "FINRA_ORDERS",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M09",
+    "title": "Stop and Stop-Limit Orders",
+    "time": "22 minutes",
+    "visual": "03_order_types.png",
+    "competencies": [
+      "order_types",
+      "risk_management",
+      "execution"
+    ],
+    "prerequisites": [
+      "L00-M08"
+    ],
+    "objective": "Distinguish a stop trigger from a guaranteed exit price.",
+    "why": "A stop defines when another order activates. It does not guarantee the exact execution price during a gap or rapid move.",
+    "core": [
+      "A stop order generally becomes a market order after the trigger condition is met.",
+      "A stop-limit becomes a limit order after activation.",
+      "A stop may slip but prioritizes execution.",
+      "A stop-limit controls price but can remain unfilled, leaving exposure open.",
+      "Broker and venue rules must be checked because implementation details can differ."
+    ],
+    "scenario": "A long position gaps below its stop. The stop activates and sells into the next available bids. A stop-limit might not execute if the market is already below its limit.",
+    "exercise": "For a long position, explain the difference between a stop at 98 and a stop-limit with trigger 98 and limit 97.80.",
+    "quiz": [
+      [
+        "What does a stop order become after activation?",
+        "A market order."
+      ],
+      [
+        "What does a stop-limit become?",
+        "A limit order."
+      ],
+      [
+        "Which can remain unfilled after activation?",
+        "A stop-limit."
+      ]
+    ],
+    "mistake": "Calling the stop trigger a guaranteed exit price.",
+    "evidence": "Market fact",
+    "sources": [
+      "SEC_STOP",
+      "FINRA_STOP",
+      "CME_ORDERS"
+    ]
+  },
+  {
+    "id": "L00-M10",
+    "title": "Risk, Leverage, and Survival",
+    "time": "25 minutes",
+    "visual": "05_leverage.png",
+    "competencies": [
+      "risk_management",
+      "ethical_decision_making"
+    ],
+    "prerequisites": [
+      "L00-M02",
+      "L00-M09"
+    ],
+    "objective": "Explain why controlled exposure and survival come before strategy optimization.",
+    "why": "A valid analysis can still produce a loss. Excessive size converts ordinary uncertainty into account-threatening damage.",
+    "core": [
+      "Risk is uncertainty that can negatively affect capital or financial welfare.",
+      "Leverage creates exposure larger than the cash committed.",
+      "Margin is collateral, not the maximum possible loss.",
+      "Position size should come from acceptable account risk and the distance to invalidation, not the maximum leverage offered.",
+      "A professional plan sets per-trade and daily loss limits before considering targets."
+    ],
+    "scenario": "Two learners use the same setup and stop distance. One risks 0.5% of capital; the other risks 20%. The market outcome is the same, but the consequences for survival are radically different.",
+    "exercise": "For a EUR 10,000 account, calculate the cash amount represented by 0.25%, 0.5%, 1%, and 2%. Explain which is more appropriate for a novice simulation plan and why.",
+    "quiz": [
+      [
+        "Is margin the maximum possible loss?",
+        "No."
+      ],
+      [
+        "What should determine position size?",
+        "Accepted account risk and invalidation distance."
+      ],
+      [
+        "Does leverage improve a trading edge?",
+        "No."
+      ]
+    ],
+    "mistake": "Choosing the position size first and forcing the stop to fit afterward.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L01-M01",
+    "title": "Candlesticks and OHLC: What One Bar Actually Says",
+    "time": "22 minutes",
+    "visual": "07_candlestick_ohlc.png",
+    "competencies": [
+      "chart_reading",
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L00-M05"
+    ],
+    "objective": "Read open, high, low, and close values without attaching unsupported stories to a candle shape.",
+    "why": "Candles compress a period of trading into four prices. They are useful summaries, but a candle does not reveal every order, participant, or reason behind the move.",
+    "core": [
+      "The open is the first recorded price for the selected interval; the close is the last recorded price for that interval.",
+      "The high and low mark the interval extremes.",
+      "A candle body shows the distance between open and close; wicks show prices traded beyond the body.",
+      "The same market move appears differently when the timeframe changes.",
+      "A single candle is evidence of price movement, not a complete trading signal."
+    ],
+    "scenario": "A five-minute candle opens at 100, trades to 103, falls to 99, and closes at 102. A learner calls it bullish. A professional description first records the OHLC facts, then asks where it formed and what preceded it.",
+    "exercise": "Draw a candle for O=50, H=55, L=48, C=53. Then redraw the same values when C=49. Label every component.",
+    "quiz": [
+      [
+        "What four prices define an OHLC bar?",
+        "Open, high, low, and close."
+      ],
+      [
+        "Does a long wick prove manipulation?",
+        "No."
+      ],
+      [
+        "Can the same data look different on another timeframe?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Memorizing candle names while ignoring location, timeframe, and context.",
+    "evidence": "Market fact plus analytical practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M02",
+    "title": "Timeframes and Multi-Timeframe Context",
+    "time": "24 minutes",
+    "visual": "08_timeframes_context.png",
+    "competencies": [
+      "chart_reading",
+      "market_structure"
+    ],
+    "prerequisites": [
+      "L01-M01"
+    ],
+    "objective": "Explain how higher and lower timeframes answer different questions without letting a small chart override broader context.",
+    "why": "A market can be rising on the daily chart, correcting on the hourly chart, and rallying on the five-minute chart at the same time. These statements can all be true.",
+    "core": [
+      "Higher timeframes compress more trading and usually define broader structure.",
+      "Lower timeframes reveal execution detail but contain more noise.",
+      "Analysis should assign a purpose to each timeframe: context, setup, or trigger.",
+      "A lower-timeframe reversal may be only a pullback inside a higher-timeframe trend.",
+      "Timeframe selection should match the expected holding period and risk plan."
+    ],
+    "scenario": "The daily chart is in an uptrend. The hourly chart is pulling back. The five-minute chart breaks upward. The correct interpretation depends on whether the five-minute move confirms the end of the hourly pullback or is only temporary noise.",
+    "exercise": "Create a three-row plan using Daily for context, 1H for setup, and 5m for execution. Write one question each timeframe must answer.",
+    "quiz": [
+      [
+        "Can different timeframes show different trends?",
+        "Yes."
+      ],
+      [
+        "Which timeframe should define strategic bias?",
+        "The designated higher context timeframe."
+      ],
+      [
+        "Should a two-minute signal automatically reverse a daily bias?",
+        "No."
+      ]
+    ],
+    "mistake": "Changing timeframe until a preferred trade appears.",
+    "evidence": "Analytical practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M03",
+    "title": "Trading Sessions, Opens, and Market Overlap",
+    "time": "25 minutes",
+    "visual": "09_sessions_overlap.png",
+    "competencies": [
+      "market_mechanics",
+      "session_analysis"
+    ],
+    "prerequisites": [
+      "L00-M04",
+      "L01-M02"
+    ],
+    "objective": "Recognize how exchange hours, regional sessions, and overlaps influence liquidity and volatility.",
+    "why": "Participation is not evenly distributed across the day. A strategy tested during a liquid open may behave very differently during a quiet period or extended hours.",
+    "core": [
+      "Cash equities trade around an exchange-defined regular session, with separate pre-market and after-hours conditions where available.",
+      "Futures and foreign exchange may trade for longer hours, but liquidity still changes by time of day.",
+      "Session opens can reprice markets as new participants and information arrive.",
+      "Overlaps may increase activity, while off-hours can bring wider spreads and thinner depth.",
+      "Daylight-saving changes can shift local clock times relative to another region."
+    ],
+    "scenario": "A stock has a narrow spread during the main US session but a much wider spread after hours. The chart still prints prices, yet execution quality and available liquidity are different.",
+    "exercise": "Build a session table for your local timezone with London open, New York cash open, and the London-New York overlap. Add a daylight-saving reminder.",
+    "quiz": [
+      [
+        "Is liquidity constant throughout the day?",
+        "No."
+      ],
+      [
+        "Why can extended hours be riskier?",
+        "Lower liquidity, wider spreads, and higher volatility can occur."
+      ],
+      [
+        "Do long trading hours guarantee deep liquidity at every moment?",
+        "No."
+      ]
+    ],
+    "mistake": "Backtesting at one session and trading the same rules at every hour.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "FINRA_EXTENDED",
+      "FINRA_TIME"
+    ]
+  },
+  {
+    "id": "L01-M04",
+    "title": "Volatility and ATR: Measuring Movement, Not Direction",
+    "time": "26 minutes",
+    "visual": "10_atr_volatility.png",
+    "competencies": [
+      "volatility",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M01"
+    ],
+    "objective": "Use range and Average True Range as context for movement and risk without treating volatility as a directional forecast.",
+    "why": "Stops, targets, and expectations should account for how much an instrument normally moves. A fixed ten-point stop can be huge in one regime and insignificant in another.",
+    "core": [
+      "Volatility describes the magnitude and variability of price movement.",
+      "True range accounts for the current high-low range and gaps from the previous close.",
+      "ATR averages true range over a selected lookback.",
+      "ATR rises after larger ranges and falls after quieter ranges; it does not predict direction.",
+      "ATR settings depend on timeframe, instrument, and purpose."
+    ],
+    "scenario": "Two instruments both trade at 100. One has a daily ATR of 1; the other has a daily ATR of 8. The same two-point stop represents very different market breathing room.",
+    "exercise": "Record the current 14-period ATR for one instrument on Daily, 1H, and 5m. Compare your proposed stop distance to each ATR and explain the relevant comparison.",
+    "quiz": [
+      [
+        "Does ATR indicate bullish or bearish direction?",
+        "No."
+      ],
+      [
+        "What does rising ATR suggest?",
+        "Recent ranges are expanding."
+      ],
+      [
+        "Should ATR be identical across timeframes?",
+        "No."
+      ]
+    ],
+    "mistake": "Buying because ATR rises or using ATR without a structural invalidation level.",
+    "evidence": "Indicator definition plus risk-management practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M05",
+    "title": "Gaps, Repricing, and the Market Open",
+    "time": "23 minutes",
+    "visual": "11_gaps_open.png",
+    "competencies": [
+      "chart_reading",
+      "session_analysis"
+    ],
+    "prerequisites": [
+      "L01-M01",
+      "L01-M03"
+    ],
+    "objective": "Identify a gap and distinguish the observation from assumptions about whether it must fill.",
+    "why": "A gap can reflect new information or a discontinuity between sessions. Traders often turn the visible space into a rule that price must return, but no such guarantee exists.",
+    "core": [
+      "A gap appears when the next traded range does not overlap a prior reference range.",
+      "Stocks commonly gap after earnings or news outside the regular session.",
+      "Futures can show weekend or session gaps depending on chart settings and trading hours.",
+      "A gap may fill, partially fill, or remain open.",
+      "The opening auction and early liquidity can produce rapid repricing and slippage."
+    ],
+    "scenario": "A company reports earnings after the close and opens 8% higher the next day. The gap is evidence that market participants accepted materially different prices; it is not automatically a short signal.",
+    "exercise": "Find three historical gaps. Label the catalyst if known, initial direction, maximum extension, whether the gap filled, and how long that took.",
+    "quiz": [
+      [
+        "Must every gap fill?",
+        "No."
+      ],
+      [
+        "Can news outside regular hours contribute to a gap?",
+        "Yes."
+      ],
+      [
+        "Is an unfilled gap alone a complete setup?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading against every gap because “all gaps fill.”",
+    "evidence": "Market observation plus analytical practice",
+    "sources": [
+      "FINRA_EXTENDED"
+    ]
+  },
+  {
+    "id": "L01-M06",
+    "title": "Stocks, ETFs, Futures, Forex, and CFDs",
+    "time": "30 minutes",
+    "visual": "12_instrument_map.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L00-M01",
+      "L00-M10"
+    ],
+    "objective": "Compare major instrument types by ownership, contract structure, trading venue, leverage, expiry, and counterparty risk.",
+    "why": "A symbol that tracks the S&P 500 may represent an ETF share, a futures contract, a CFD, or another derivative. Similar-looking charts do not mean identical rights, costs, or risks.",
+    "core": [
+      "A stock represents an ownership interest in a company.",
+      "An ETF is a pooled product whose shares trade on an exchange and may track a basket or strategy.",
+      "A futures contract is a standardized agreement with defined terms and an expiry or settlement process.",
+      "Retail forex commonly involves leveraged over-the-counter trading through a dealer or broker.",
+      "A CFD is a broker-provided derivative in permitted jurisdictions; the learner must understand local regulation and counterparty terms."
+    ],
+    "scenario": "SPY, an S&P 500 futures contract, and an S&P 500 CFD all respond to related market forces, yet they differ in contract size, trading hours, fees, tax treatment, regulation, and counterparty exposure.",
+    "exercise": "Create a comparison matrix for SPY, ES futures, and one broker’s index CFD. Include ownership, expiry, minimum size, spread/commission, financing, market hours, and regulator.",
+    "quiz": [
+      [
+        "Does buying a CFD make you a shareholder?",
+        "No."
+      ],
+      [
+        "Does a futures contract have standardized terms?",
+        "Yes."
+      ],
+      [
+        "Can related instruments have different costs and risks?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Choosing an instrument only because its chart looks familiar.",
+    "evidence": "Market fact and product-risk practice",
+    "sources": [
+      "INVESTOR_STOCKS",
+      "INVESTOR_ETFS",
+      "CFTC_FUTURES",
+      "CFTC_FOREX"
+    ]
+  },
+  {
+    "id": "L01-M07",
+    "title": "Chart Platforms, Brokers, and Data Feeds",
+    "time": "25 minutes",
+    "visual": "13_data_pipeline.png",
+    "competencies": [
+      "platform_literacy",
+      "data_quality"
+    ],
+    "prerequisites": [
+      "L00-M04",
+      "L01-M06"
+    ],
+    "objective": "Describe the path from venue and data vendor to chart platform and broker execution.",
+    "why": "The chart, broker, and underlying exchange can be separate systems. Small differences in symbols, feeds, sessions, and aggregation can produce different candles and indicator values.",
+    "core": [
+      "A charting platform displays data obtained from one or more providers.",
+      "A broker routes or internalizes orders according to its execution model and product.",
+      "The same market can have multiple symbols, contract months, composite feeds, or broker-specific prices.",
+      "Session settings and adjusted data can change historical candles.",
+      "Platform tools should support analysis; they do not guarantee execution quality."
+    ],
+    "scenario": "Two learners compare a gold CFD chart with COMEX gold futures. The broad direction is similar, but exact highs, lows, spreads, and session behavior differ because the instruments and feeds are not identical.",
+    "exercise": "For one instrument, record platform, symbol, exchange or broker, data status, timezone, session setting, and whether the series is adjusted or continuous.",
+    "quiz": [
+      [
+        "Can two legitimate feeds print slightly different candles?",
+        "Yes."
+      ],
+      [
+        "Is a chart platform always the executing broker?",
+        "No."
+      ],
+      [
+        "Why document the exact symbol?",
+        "To make analysis and review reproducible."
+      ]
+    ],
+    "mistake": "Assuming every symbol with the same nickname is the same product.",
+    "evidence": "Platform and market-data practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M08",
+    "title": "Real-Time, Delayed, and Historical Data",
+    "time": "22 minutes",
+    "visual": "14_data_quality.png",
+    "competencies": [
+      "data_quality",
+      "platform_literacy"
+    ],
+    "prerequisites": [
+      "L01-M07"
+    ],
+    "objective": "Verify whether a chart is real-time, delayed, replayed, or historical before making a time-sensitive decision.",
+    "why": "A clean chart is not necessarily current. Exchanges may require separate market-data permissions, and platforms can display delayed or vendor-dependent information.",
+    "core": [
+      "Real-time data is delivered with minimal distribution delay under the relevant entitlement.",
+      "Delayed data can be suitable for education but unsuitable for live execution decisions.",
+      "Historical and replay modes deliberately show past data.",
+      "Bid/ask data, last-trade data, and indicative prices are different information types.",
+      "Data quality checks belong in every trading checklist."
+    ],
+    "scenario": "A learner sees a breakout on a delayed index feed and enters through a separate broker whose live price has already moved far beyond the planned level.",
+    "exercise": "Audit five symbols on your platform. Record feed source, delay indicator, exchange entitlement, last-trade time, and comparison with your execution venue.",
+    "quiz": [
+      [
+        "Can delayed data look visually normal?",
+        "Yes."
+      ],
+      [
+        "Should a live order be based on an unverified delayed feed?",
+        "No."
+      ],
+      [
+        "Are bid/ask and last price identical concepts?",
+        "No."
+      ]
+    ],
+    "mistake": "Assuming a moving screen equals exchange-grade real-time data.",
+    "evidence": "Data-quality practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L01-M09",
+    "title": "Economic Calendars, Scheduled Risk, and News",
+    "time": "28 minutes",
+    "visual": "15_economic_calendar.png",
+    "competencies": [
+      "macro_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M03",
+      "L01-M04"
+    ],
+    "objective": "Use official release schedules to identify event risk without pretending to know the market reaction in advance.",
+    "why": "Employment, inflation, growth, and central-bank decisions can sharply change volatility, spreads, and liquidity. The release time is knowable; the size and direction of the reaction are not.",
+    "core": [
+      "An economic calendar lists scheduled releases and events.",
+      "Official statistical agencies and central banks are primary sources for timing and published data.",
+      "Consensus forecasts are estimates, not facts.",
+      "A release can cause slippage, spread expansion, and rapid two-way movement.",
+      "The correct response may be reduced size, wider planned risk, waiting, or no trade."
+    ],
+    "scenario": "Inflation data is released at 14:30 local platform time. Price first spikes upward, then reverses sharply. A directional guess was fragile; an event-risk plan was controllable.",
+    "exercise": "Build tomorrow’s event-risk sheet using official sources. Include release time, affected markets, expected volatility window, and your rule for trading or standing aside.",
+    "quiz": [
+      [
+        "Is the release time usually more knowable than the market reaction?",
+        "Yes."
+      ],
+      [
+        "Is a consensus forecast guaranteed?",
+        "No."
+      ],
+      [
+        "Can spreads and slippage increase around news?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Treating the “high impact” label as a guaranteed direction.",
+    "evidence": "Market fact plus risk-management practice",
+    "sources": [
+      "BLS_CALENDAR",
+      "FED_CALENDAR",
+      "BEA_RELEASES"
+    ]
+  },
+  {
+    "id": "L01-M10",
+    "title": "Foundation Assessment: Read the Market Screen",
+    "time": "40 minutes",
+    "visual": "16_market_screen_assessment.png",
+    "competencies": [
+      "chart_reading",
+      "instrument_literacy",
+      "data_quality",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L01-M01",
+      "L01-M02",
+      "L01-M03",
+      "L01-M04",
+      "L01-M05",
+      "L01-M06",
+      "L01-M07",
+      "L01-M08",
+      "L01-M09"
+    ],
+    "objective": "Demonstrate that you can identify what is on a trading screen before analyzing direction or placing a trade.",
+    "why": "Most avoidable beginner errors occur before strategy: wrong symbol, wrong session, wrong timeframe, delayed data, misunderstood product, or unrecognized event risk.",
+    "core": [
+      "Identify the instrument and legal product.",
+      "Confirm venue or broker, contract month if relevant, and price currency.",
+      "Confirm timeframe, timezone, session, and data status.",
+      "Read OHLC and current volatility context.",
+      "Check scheduled event risk and define a no-trade condition."
+    ],
+    "scenario": "You receive a screenshot labeled “NAS100.” It has no visible broker, exchange, data status, timezone, or contract specification. The professional answer is not immediately bullish or bearish; it is a list of missing facts.",
+    "exercise": "Complete the Market Screen Verification Checklist for three instruments: SPY, a DAX futures contract, and a gold CFD. Then explain which comparisons are valid and which are not.",
+    "quiz": [
+      [
+        "What comes before directional analysis?",
+        "Instrument and data verification."
+      ],
+      [
+        "Can a nickname uniquely identify a legal product?",
+        "Not always."
+      ],
+      [
+        "What is a valid outcome when key information is missing?",
+        "No decision until verified."
+      ]
+    ],
+    "mistake": "Starting with pattern recognition before confirming the screen itself.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "INVESTOR_STOCKS",
+      "INVESTOR_ETFS",
+      "CFTC_FUTURES",
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M01",
+    "title": "Swing Highs and Swing Lows",
+    "time": "25 minutes",
+    "visual": "17_swing_points.png",
+    "competencies": [
+      "price_structure",
+      "chart_reading"
+    ],
+    "prerequisites": [
+      "L01-M10"
+    ],
+    "objective": "Identify swing highs and swing lows without forcing structure onto every candle.",
+    "why": "Market structure starts with objective turning points. If a learner cannot mark meaningful swings, every later concept such as trend, pullback, BOS, and CHoCH becomes subjective.",
+    "core": [
+      "A swing high is a local turning point where buying failed to continue and price rotated lower.",
+      "A swing low is a local turning point where selling failed to continue and price rotated higher.",
+      "Not every minor candle wiggle deserves a structural label.",
+      "Useful swing points should be visible enough to influence future decisions."
+    ],
+    "scenario": "A five-minute chart shows many tiny pullbacks during the New York open. The professional task is to separate noise from the points that actually changed the auction path.",
+    "exercise": "Open one clean trending chart and one choppy chart. Mark only the swing points that would matter for a trading decision, then explain why you ignored the rest.",
+    "quiz": [
+      [
+        "What is a swing high?",
+        "A local turning point where price rotates lower after an upward move."
+      ],
+      [
+        "Should every small candle pause be marked?",
+        "No."
+      ],
+      [
+        "Why do swing points matter?",
+        "They form the building blocks of trend and range structure."
+      ]
+    ],
+    "mistake": "Marking every candle fluctuation as structure.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M02",
+    "title": "Trend Structure",
+    "time": "28 minutes",
+    "visual": "18_trend_structure.png",
+    "competencies": [
+      "price_structure",
+      "trend_analysis"
+    ],
+    "prerequisites": [
+      "L02-M01"
+    ],
+    "objective": "Read trend through structural progression rather than through a single indicator line.",
+    "why": "Beginners often call a market bullish because one candle is green. Professional trend reading asks whether buyers or sellers keep defending increasingly favorable prices.",
+    "core": [
+      "An uptrend is generally a sequence of higher highs and higher lows.",
+      "A downtrend is generally a sequence of lower lows and lower highs.",
+      "Healthy trends show continuation and controlled pullbacks.",
+      "A trend is weakened when the side in control fails to defend the prior structural point."
+    ],
+    "scenario": "US100 rallies strongly, pulls back, then fails to break the prior high. A trader should not simply assume the trend is intact; the quality of continuation must be evaluated.",
+    "exercise": "Mark the last three major highs and lows on US30, DAX40, and Gold. Classify each as uptrend, downtrend, or unclear.",
+    "quiz": [
+      [
+        "What defines an uptrend structurally?",
+        "Higher highs and higher lows."
+      ],
+      [
+        "What weakens a trend?",
+        "Failure to continue or failure to defend the prior structural point."
+      ],
+      [
+        "Can a trend be unclear?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Calling one strong candle a trend.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M03",
+    "title": "Ranges and Balance",
+    "time": "28 minutes",
+    "visual": "19_range_balance.png",
+    "competencies": [
+      "price_structure",
+      "range_analysis"
+    ],
+    "prerequisites": [
+      "L02-M02"
+    ],
+    "objective": "Recognize when price is rotating inside a range instead of trending.",
+    "why": "Many losses come from applying trend tactics inside balanced markets. A range requires different expectations: fade extremes, wait for acceptance, or do nothing.",
+    "core": [
+      "A range forms when neither side can sustain continuation.",
+      "Range highs and lows often collect liquidity because many traders place stops beyond obvious extremes.",
+      "The middle of a range usually offers poor reward-to-risk for directional trades.",
+      "A breakout is not confirmed by crossing a line; it needs acceptance or follow-through."
+    ],
+    "scenario": "UK100 spends the London morning oscillating between yesterday's high and the session low. Buying the middle after a green candle has weak context.",
+    "exercise": "Find one chart that is clearly ranging. Mark the range high, range low, midpoint, and two areas where false breaks could trap traders.",
+    "quiz": [
+      [
+        "What is a range?",
+        "A balanced area where price rotates without sustained continuation."
+      ],
+      [
+        "Where is trade location usually weakest?",
+        "Near the middle of the range."
+      ],
+      [
+        "Does a wick outside the range prove breakout?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading the middle of a range as if it were a fresh trend.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M04",
+    "title": "Support and Resistance Zones",
+    "time": "30 minutes",
+    "visual": "20_support_resistance_zones.png",
+    "competencies": [
+      "price_structure",
+      "level_selection"
+    ],
+    "prerequisites": [
+      "L02-M03"
+    ],
+    "objective": "Draw support and resistance as decision zones rather than fragile exact lines.",
+    "why": "Real markets do not always respect a single pixel-perfect price. Zones help learners account for spread, volatility, liquidity sweeps, and different market venues.",
+    "core": [
+      "Support is an area where demand previously overcame supply strongly enough to rotate price higher.",
+      "Resistance is an area where supply previously overcame demand strongly enough to rotate price lower.",
+      "Zones are more practical than exact lines when volatility is meaningful.",
+      "A level is stronger when it aligns with structure, session context, and visible reaction."
+    ],
+    "scenario": "Gold reacts three times around a 10-dollar band, not a single exact tick. Treating the level as one precise price creates unnecessary stop-outs.",
+    "exercise": "Replace three exact horizontal lines on a chart with zones. Explain what evidence justifies each zone.",
+    "quiz": [
+      [
+        "Why use zones?",
+        "Because markets often react around areas, not exact prices."
+      ],
+      [
+        "What gives a zone more value?",
+        "Repeated structural reaction and context."
+      ],
+      [
+        "Should zones become excuses for wide risk?",
+        "No."
+      ]
+    ],
+    "mistake": "Making zones so wide that they no longer support a clear risk decision.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M05",
+    "title": "Impulse and Pullback",
+    "time": "30 minutes",
+    "visual": "21_impulse_pullback.png",
+    "competencies": [
+      "price_structure",
+      "trend_analysis"
+    ],
+    "prerequisites": [
+      "L02-M04"
+    ],
+    "objective": "Distinguish directional expansion from corrective movement.",
+    "why": "A trader who enters during exhaustion often buys after the opportunity has already moved. Understanding impulse and pullback helps students wait for better location.",
+    "core": [
+      "An impulse is a stronger directional movement that expands price away from a prior area.",
+      "A pullback is a counter-move that tests whether the trend side can defend structure.",
+      "Healthy pullbacks are usually smaller and less aggressive than the prior impulse.",
+      "Deep or violent pullbacks warn that the trend may be losing quality."
+    ],
+    "scenario": "DAX40 breaks higher at the London open, then retraces into a prior resistance zone. The question is whether that pullback is controlled or whether sellers have taken control.",
+    "exercise": "On a trending chart, label three impulses and three pullbacks. Note which pullback was healthiest and why.",
+    "quiz": [
+      [
+        "What is an impulse?",
+        "A stronger directional expansion."
+      ],
+      [
+        "What does a pullback test?",
+        "Whether the trend side can defend structure."
+      ],
+      [
+        "What warns of trend weakness?",
+        "A deep, aggressive, or disorderly pullback."
+      ]
+    ],
+    "mistake": "Chasing the impulse after reward-to-risk has already deteriorated.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M06",
+    "title": "Break of Structure",
+    "time": "35 minutes",
+    "visual": "22_break_of_structure.png",
+    "competencies": [
+      "price_structure",
+      "confirmation_logic"
+    ],
+    "prerequisites": [
+      "L02-M05"
+    ],
+    "objective": "Define a break of structure as a meaningful continuation event, not a random wick through a level.",
+    "why": "BOS is powerful only when used precisely. If every minor break becomes confirmation, the learner will overtrade and confuse liquidity grabs with continuation.",
+    "core": [
+      "A bullish BOS occurs when price breaks a meaningful prior structural high in an existing bullish context.",
+      "A bearish BOS occurs when price breaks a meaningful prior structural low in an existing bearish context.",
+      "The broken level must be structurally relevant, not a random candle high or low.",
+      "A better BOS shows displacement, acceptance, or follow-through."
+    ],
+    "scenario": "US500 breaks the prior session high by a few ticks and immediately returns into range. That is not the same quality as a strong accepted break with follow-through.",
+    "exercise": "Find two apparent structure breaks. Label one high-quality BOS and one weak break. Explain the difference.",
+    "quiz": [
+      [
+        "What must a BOS break?",
+        "A meaningful prior structural high or low."
+      ],
+      [
+        "Is every wick through a level a BOS?",
+        "No."
+      ],
+      [
+        "What improves BOS quality?",
+        "Displacement, acceptance, or follow-through."
+      ]
+    ],
+    "mistake": "Treating a liquidity sweep as automatic continuation confirmation.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M07",
+    "title": "Change of Character",
+    "time": "35 minutes",
+    "visual": "23_change_of_character.png",
+    "competencies": [
+      "price_structure",
+      "reversal_analysis"
+    ],
+    "prerequisites": [
+      "L02-M06"
+    ],
+    "objective": "Use change of character as an early warning that the current structural behavior may be shifting.",
+    "why": "Reversals rarely become obvious at the best price. CHoCH helps learners notice when a trend is no longer behaving like the prior trend.",
+    "core": [
+      "A CHoCH is an early structural shift against the prior behavior.",
+      "It is not a guaranteed reversal signal.",
+      "A higher-quality CHoCH appears near meaningful liquidity, support, resistance, or session context.",
+      "A CHoCH often needs additional confirmation before execution."
+    ],
+    "scenario": "Gold trends lower into New York, sweeps a prior low, then breaks a minor lower high. That may be a change of character, but it still requires a trade plan and invalidation.",
+    "exercise": "Mark one possible bullish CHoCH and one possible bearish CHoCH. Write what would confirm or invalidate each idea.",
+    "quiz": [
+      [
+        "What is CHoCH?",
+        "An early structural shift against prior behavior."
+      ],
+      [
+        "Does CHoCH guarantee reversal?",
+        "No."
+      ],
+      [
+        "What improves its value?",
+        "Context and follow-up confirmation."
+      ]
+    ],
+    "mistake": "Entering every CHoCH as if it were a completed reversal.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M08",
+    "title": "Breakout Acceptance and Failure",
+    "time": "32 minutes",
+    "visual": "24_breakout_acceptance_failure.png",
+    "competencies": [
+      "price_structure",
+      "breakout_analysis"
+    ],
+    "prerequisites": [
+      "L02-M07"
+    ],
+    "objective": "Separate accepted breakouts from failed breakouts.",
+    "why": "Breakout traders and reversal traders often fight around the same level. The professional skill is not predicting every break, but reading whether price is accepted beyond the level.",
+    "core": [
+      "Acceptance means price can hold beyond the broken area and continue doing business there.",
+      "Failure means price breaks out but returns quickly into the prior range or structure.",
+      "Failed breakouts can trap traders who entered late.",
+      "Volume, volatility, session timing, and follow-through can help judge breakout quality."
+    ],
+    "scenario": "US100 breaks above a pre-market high before the cash open, stalls, then falls back into the range. The breakout trader must recognize failure quickly instead of hoping.",
+    "exercise": "Find one accepted breakout and one failed breakout. Mark the point where a professional would stop trusting the breakout.",
+    "quiz": [
+      [
+        "What is breakout acceptance?",
+        "Holding and continuing beyond the broken area."
+      ],
+      [
+        "What is breakout failure?",
+        "Returning quickly back into the prior area."
+      ],
+      [
+        "Why are failed breakouts important?",
+        "They can trap late traders and reverse sharply."
+      ]
+    ],
+    "mistake": "Assuming a level break is enough without acceptance.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M09",
+    "title": "Internal and External Structure",
+    "time": "34 minutes",
+    "visual": "25_internal_external_structure.png",
+    "competencies": [
+      "price_structure",
+      "multi_timeframe_analysis"
+    ],
+    "prerequisites": [
+      "L02-M08"
+    ],
+    "objective": "Distinguish minor internal shifts from major external structure changes.",
+    "why": "Many beginners reverse their bias because of a small lower-timeframe move while the higher-timeframe structure remains intact. This creates confusion and overtrading.",
+    "core": [
+      "External structure is the major swing framework that defines broader direction.",
+      "Internal structure is the smaller movement inside that broader framework.",
+      "Internal shifts can provide early clues, but they do not always invalidate the larger structure.",
+      "A trade idea should state which structure level it depends on."
+    ],
+    "scenario": "DAX40 is bullish on the 1H chart but bearish on the 1M pullback. A learner must know whether they are reading execution noise or true directional change.",
+    "exercise": "On one chart, mark external structure in one color and internal structure in another. Write which one controls your bias.",
+    "quiz": [
+      [
+        "What is external structure?",
+        "The major swing framework."
+      ],
+      [
+        "What is internal structure?",
+        "Smaller movement inside the larger framework."
+      ],
+      [
+        "Can internal structure shift before external structure?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Letting minor internal movement constantly flip the higher-timeframe bias.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M10",
+    "title": "Multi-Timeframe Structure Assessment",
+    "time": "45 minutes",
+    "visual": "26_structure_assessment.png",
+    "competencies": [
+      "price_structure",
+      "assessment",
+      "multi_timeframe_analysis"
+    ],
+    "prerequisites": [
+      "L02-M09"
+    ],
+    "objective": "Demonstrate a complete structure read across higher, working, and execution timeframes.",
+    "why": "The academy should not allow learners to advance because they recognize vocabulary. They must prove they can apply structure consistently to a real chart.",
+    "core": [
+      "Start with the higher-timeframe bias.",
+      "Use the working timeframe to define levels and active structure.",
+      "Use the execution timeframe only after context is clear.",
+      "A valid assessment includes invalidation and no-trade conditions."
+    ],
+    "scenario": "You receive three charts of the same market: 4H, 15M, and 1M. Your task is to describe structure, not to force an entry.",
+    "exercise": "Complete a structure assessment for one index and one gold chart. Include trend/range status, key swings, external structure, internal structure, and invalidation.",
+    "quiz": [
+      [
+        "What comes first in multi-timeframe structure?",
+        "Higher-timeframe context."
+      ],
+      [
+        "What is the execution timeframe for?",
+        "Timing after context is clear."
+      ],
+      [
+        "Can no-trade be a correct assessment result?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Using the lowest timeframe to invent a trade before context is understood.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M11",
+    "title": "Candlestick Context",
+    "time": "30 minutes",
+    "visual": "27_candlestick_context.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M10"
+    ],
+    "objective": "Read candles inside market context instead of treating single candles as standalone signals.",
+    "why": "A candle does not mean the same thing in every location. A strong bullish candle at range resistance may be late buying, while the same candle after a controlled pullback may show trend continuation.",
+    "core": [
+      "Candles summarize open, high, low, and close for a selected period.",
+      "A candle's meaning depends on location, prior structure, volatility, and session timing.",
+      "Single-candle patterns are weaker without context.",
+      "Professional reading asks what the candle changed, rejected, confirmed, or failed to do."
+    ],
+    "scenario": "A bullish candle appears on US100. On one chart it breaks from a clean pullback; on another it closes directly into higher-timeframe resistance. Same candle body, different decision quality.",
+    "exercise": "Find three large bullish candles. Label whether each is continuation, exhaustion, breakout, or unclear based on context.",
+    "quiz": [
+      [
+        "Does a candle have the same meaning everywhere?",
+        "No."
+      ],
+      [
+        "What gives a candle meaning?",
+        "Location, structure, volatility, and timing."
+      ],
+      [
+        "Should a single candle replace a trade plan?",
+        "No."
+      ]
+    ],
+    "mistake": "Trading memorized candle patterns without context.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M12",
+    "title": "Candle Body and Commitment",
+    "time": "28 minutes",
+    "visual": "28_candle_body_commitment.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M11"
+    ],
+    "objective": "Use candle bodies to judge directional commitment without confusing size with quality.",
+    "why": "Large bodies show that price closed away from the open, but they can also appear at exhaustion points. The task is to decide whether the close improves or weakens the trade idea.",
+    "core": [
+      "A large body shows directional progress during that candle period.",
+      "A close near the candle extreme often shows stronger control than a close near the middle.",
+      "Body size must be compared with recent volatility.",
+      "A large candle after an extended move can be exhaustion rather than fresh opportunity."
+    ],
+    "scenario": "Gold prints a large bullish candle after a long rally into news resistance. The body is strong, but the location may make new long entries risky.",
+    "exercise": "Mark five large-body candles and classify each as useful commitment or possible exhaustion.",
+    "quiz": [
+      [
+        "What does a large body show?",
+        "Directional progress during the candle period."
+      ],
+      [
+        "Is a large candle always a good entry?",
+        "No."
+      ],
+      [
+        "What must body size be compared with?",
+        "Recent volatility and location."
+      ]
+    ],
+    "mistake": "Assuming the biggest candle is the safest entry candle.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M13",
+    "title": "Wicks and Rejection",
+    "time": "30 minutes",
+    "visual": "29_wicks_rejection.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading"
+    ],
+    "prerequisites": [
+      "L02-M12"
+    ],
+    "objective": "Interpret candle wicks as evidence of attempted price discovery and rejection.",
+    "why": "Wicks often reveal that price tested an area and failed to maintain acceptance there. This is useful for reading liquidity sweeps, failed breakouts, and exhaustion.",
+    "core": [
+      "A wick shows the distance price traveled but did not hold by the candle close.",
+      "A long upper wick can indicate rejected higher prices.",
+      "A long lower wick can indicate rejected lower prices.",
+      "Wicks matter most when they occur at meaningful levels or liquidity areas."
+    ],
+    "scenario": "UK100 sweeps above the morning range high and closes back inside with a long upper wick. That does not automatically mean short, but it warns that breakout acceptance failed.",
+    "exercise": "Find two long upper wicks and two long lower wicks. Explain what area was tested and whether rejection was meaningful.",
+    "quiz": [
+      [
+        "What does a wick show?",
+        "Price traveled there but did not hold by the close."
+      ],
+      [
+        "Where are wicks most useful?",
+        "At meaningful levels or liquidity areas."
+      ],
+      [
+        "Does every wick create a trade?",
+        "No."
+      ]
+    ],
+    "mistake": "Calling every wick a reversal signal.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M14",
+    "title": "Inside Bars, Outside Bars, and Compression",
+    "time": "32 minutes",
+    "visual": "30_inside_outside_compression.png",
+    "competencies": [
+      "price_structure",
+      "candlestick_reading",
+      "volatility_analysis"
+    ],
+    "prerequisites": [
+      "L02-M13"
+    ],
+    "objective": "Use candle range relationships to identify compression and expansion.",
+    "why": "Markets alternate between compression and expansion. Recognizing this rhythm helps learners avoid forcing trades in low-quality areas and prepare for possible breakout conditions.",
+    "core": [
+      "An inside bar stays within the prior candle's high-low range.",
+      "An outside bar exceeds both the prior high and prior low.",
+      "Several small overlapping candles can show compression.",
+      "Compression often precedes expansion, but direction still requires context."
+    ],
+    "scenario": "DAX40 compresses for six candles before the London open. A trader should prepare scenarios instead of predicting blindly.",
+    "exercise": "Mark one compression area and write bullish, bearish, and no-trade conditions for the next expansion.",
+    "quiz": [
+      [
+        "What is an inside bar?",
+        "A candle inside the prior high-low range."
+      ],
+      [
+        "What can compression precede?",
+        "Expansion."
+      ],
+      [
+        "Does compression reveal direction by itself?",
+        "No."
+      ]
+    ],
+    "mistake": "Entering before expansion only because the chart became quiet.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M15",
+    "title": "Volatility-Adjusted Structure",
+    "time": "34 minutes",
+    "visual": "31_volatility_adjusted_structure.png",
+    "competencies": [
+      "price_structure",
+      "volatility_analysis"
+    ],
+    "prerequisites": [
+      "L02-M14"
+    ],
+    "objective": "Adjust structure expectations to the current volatility environment.",
+    "why": "A pullback that is normal during high volatility may be abnormal during a quiet session. Structure cannot be read well without understanding the scale of recent movement.",
+    "core": [
+      "Volatility describes movement size, not direction.",
+      "Structural breaks in high volatility need more room and stricter confirmation.",
+      "Quiet markets require patience because small breaks can be noise.",
+      "A level's importance should be interpreted relative to recent range size."
+    ],
+    "scenario": "US30 moves 150 points in minutes after news. The same stop distance used during quiet pre-market conditions is no longer structurally comparable.",
+    "exercise": "Compare one quiet session and one high-volatility session. Note how swing size, wick size, and invalidation distance differ.",
+    "quiz": [
+      [
+        "Does volatility indicate direction?",
+        "No."
+      ],
+      [
+        "Why adjust structure for volatility?",
+        "Because normal movement size changes."
+      ],
+      [
+        "What happens if risk ignores volatility?",
+        "Stops and targets may become structurally meaningless."
+      ]
+    ],
+    "mistake": "Using the same structural expectations in every volatility regime.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M16",
+    "title": "Session Transitions",
+    "time": "34 minutes",
+    "visual": "32_session_transitions.png",
+    "competencies": [
+      "session_analysis",
+      "price_structure"
+    ],
+    "prerequisites": [
+      "L02-M15"
+    ],
+    "objective": "Read how structure can change when a new trading session begins.",
+    "why": "London, New York, and major cash opens can bring different participants and liquidity. A structure that looked stable before the open may be repriced quickly afterward.",
+    "core": [
+      "Session opens can introduce new liquidity and volatility.",
+      "Pre-session highs and lows often become reference points.",
+      "A new session may accept prior prices, reject them, or expand away from them.",
+      "The first move after an open can be informative, but it can also be a trap."
+    ],
+    "scenario": "Gold is quiet during Asia, sweeps a high near London, then reverses before New York. The session transition explains why the same level attracted different behavior.",
+    "exercise": "Mark Asia range, London open reaction, and New York open reaction on one chart. Explain what changed at each transition.",
+    "quiz": [
+      [
+        "Why do session transitions matter?",
+        "New participants and liquidity can enter."
+      ],
+      [
+        "What reference points matter around an open?",
+        "Pre-session highs and lows."
+      ],
+      [
+        "Is the first move always reliable?",
+        "No."
+      ]
+    ],
+    "mistake": "Ignoring session context when structure suddenly changes speed.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M17",
+    "title": "Trend Quality",
+    "time": "35 minutes",
+    "visual": "33_trend_quality.png",
+    "competencies": [
+      "trend_analysis",
+      "price_structure"
+    ],
+    "prerequisites": [
+      "L02-M16"
+    ],
+    "objective": "Evaluate the quality of a trend rather than only naming its direction.",
+    "why": "A trend can be technically bullish but poor to trade if it is extended, volatile, or losing momentum. Direction and quality are different judgments.",
+    "core": [
+      "High-quality trends show clean continuation and controlled pullbacks.",
+      "Weakening trends show overlap, failed continuation, deep pullbacks, or excessive wicks.",
+      "Late-stage trends can still continue but may offer poor reward-to-risk.",
+      "Trend quality should influence whether to enter, wait, reduce size, or avoid."
+    ],
+    "scenario": "US100 keeps making higher highs, but each new high is smaller and immediately rejected. The trend direction remains up, but the quality is deteriorating.",
+    "exercise": "Rate three trends as high, medium, or low quality. Use structure, pullbacks, wicks, and volatility as evidence.",
+    "quiz": [
+      [
+        "Is trend direction the same as trend quality?",
+        "No."
+      ],
+      [
+        "What shows a high-quality trend?",
+        "Clean continuation and controlled pullbacks."
+      ],
+      [
+        "What can late-stage trend continuation still have?",
+        "Poor reward-to-risk."
+      ]
+    ],
+    "mistake": "Entering every trend without judging whether the trend is still healthy.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M18",
+    "title": "Pullback Models",
+    "time": "36 minutes",
+    "visual": "34_pullback_models.png",
+    "competencies": [
+      "trend_analysis",
+      "trade_planning"
+    ],
+    "prerequisites": [
+      "L02-M17"
+    ],
+    "objective": "Classify pullbacks by depth, speed, and structure before planning continuation trades.",
+    "why": "Not all pullbacks are equal. A shallow controlled pullback, a deep corrective pullback, and a violent reversal attempt require different decisions.",
+    "core": [
+      "A shallow pullback can signal strong trend pressure but may offer limited entry location.",
+      "A moderate pullback can offer better location if structure remains intact.",
+      "A deep pullback may still continue, but it warns that the opposing side has gained influence.",
+      "A pullback plan must define invalidation before entry."
+    ],
+    "scenario": "DAX40 rallies, retraces half the move, and holds above the prior external low. The pullback is deeper than ideal but not automatically bearish.",
+    "exercise": "Label three pullbacks as shallow, moderate, or deep. For each, define where the continuation idea becomes invalid.",
+    "quiz": [
+      [
+        "Why classify pullbacks?",
+        "Different pullbacks imply different trade quality and risk."
+      ],
+      [
+        "What must a pullback plan define?",
+        "Invalidation."
+      ],
+      [
+        "Is a deep pullback always reversal?",
+        "No."
+      ]
+    ],
+    "mistake": "Buying every dip without knowing which structural point must hold.",
+    "evidence": "Professional observation",
+    "sources": [
+      "TV_SUPPORT"
+    ]
+  },
+  {
+    "id": "L02-M19",
+    "title": "No-Trade Structure",
+    "time": "30 minutes",
+    "visual": "35_no_trade_structure.png",
+    "competencies": [
+      "risk_management",
+      "price_structure",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L02-M18"
+    ],
+    "objective": "Identify structure conditions where the professional decision is to avoid trading.",
+    "why": "A strong academy must teach students when not to trade. Avoiding low-quality structure is a real skill, especially for beginners and funded-account traders.",
+    "core": [
+      "No-trade is valid when structure is unclear.",
+      "No-trade is valid when price is in the middle of a range.",
+      "No-trade is valid when volatility makes risk unreadable.",
+      "No-trade is valid before major news if the plan cannot control event risk."
+    ],
+    "scenario": "A chart shows mixed internal shifts inside a tight range five minutes before CPI. The professional answer may be no trade, not more analysis.",
+    "exercise": "Collect three screenshots where you intentionally would not trade. Write the exact structural reason for each.",
+    "quiz": [
+      [
+        "Can no-trade be a professional decision?",
+        "Yes."
+      ],
+      [
+        "Name one no-trade condition.",
+        "Unclear structure, range midpoint, unreadable volatility, or uncontrolled news risk."
+      ],
+      [
+        "Why teach no-trade early?",
+        "It protects beginners from forcing decisions."
+      ]
+    ],
+    "mistake": "Thinking progress requires taking more trades.",
+    "evidence": "Widely accepted professional practice",
+    "sources": [
+      "TV_SUPPORT",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L02-M20",
+    "title": "Structure and Volatility Assessment",
+    "time": "50 minutes",
+    "visual": "36_structure_volatility_assessment.png",
+    "competencies": [
+      "assessment",
+      "price_structure",
+      "volatility_analysis",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L02-M19"
+    ],
+    "objective": "Demonstrate an integrated read of candles, structure, volatility, sessions, and no-trade conditions.",
+    "why": "Learners must prove they can combine concepts. The goal is not to predict the next candle; it is to produce a disciplined market read with clear evidence.",
+    "core": [
+      "Start with higher-timeframe structure.",
+      "Define whether the market is trending, ranging, or unclear.",
+      "Judge candle behavior in context, not in isolation.",
+      "Adjust invalidation to volatility and session conditions.",
+      "State the best trade idea or explain why no trade is justified."
+    ],
+    "scenario": "You receive charts of Gold, US100, and UK100 across multiple timeframes. Your task is to produce a structured assessment before any execution decision.",
+    "exercise": "Complete a written assessment for two markets. Include bias, structure, candle evidence, volatility, session context, invalidation, and no-trade condition.",
+    "quiz": [
+      [
+        "What is the goal of this assessment?",
+        "A disciplined evidence-based market read."
+      ],
+      [
+        "Should candle behavior be read alone?",
+        "No."
+      ],
+      [
+        "Can no-trade pass the assessment?",
+        "Yes, if justified with evidence."
+      ]
+    ],
+    "mistake": "Turning every assessment into an entry hunt.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "TV_SUPPORT",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M01",
+    "title": "Volume Measures Activity, Not Direction",
+    "time": "28 minutes",
+    "visual": "37_volume_activity_not_direction.png",
+    "competencies": [
+      "volume_analysis",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L02-M20"
+    ],
+    "objective": "Explain what chart volume measures and avoid treating a large volume bar as a directional signal by itself.",
+    "why": "Volume shows how much trading activity occurred during a period, but the bar alone does not explain intent or guarantee what price will do next.",
+    "core": [
+      "Stock volume is commonly expressed as shares traded, while futures volume is expressed as contracts traded.",
+      "Volume must be interpreted with price location, structure, and the instrument's data source.",
+      "High activity can accompany continuation, reversal, liquidation, or two-sided balance.",
+      "A professional read separates the observed fact from the story used to explain it."
+    ],
+    "scenario": "US100 prints its highest five-minute volume bar of the session at a prior range high, but price closes back inside the range. The activity is clear; direction still requires context.",
+    "exercise": "Select five unusually large volume bars. Record only the observable price response before writing any interpretation.",
+    "quiz": [
+      [
+        "What does a volume bar measure?",
+        "Trading activity during the selected period."
+      ],
+      [
+        "Does high volume prove buyers are in control?",
+        "No."
+      ],
+      [
+        "What should accompany a volume reading?",
+        "Price, structure, session, and data-source context."
+      ]
+    ],
+    "mistake": "Calling every high-volume bar bullish or bearish without examining the price response.",
+    "evidence": "Platform documentation and professional observation",
+    "sources": [
+      "TV_VOLUME"
+    ]
+  },
+  {
+    "id": "L03-M02",
+    "title": "Reading Price and Volume Together",
+    "time": "32 minutes",
+    "visual": "38_price_volume_effort_result.png",
+    "competencies": [
+      "volume_analysis",
+      "price_structure",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L03-M01"
+    ],
+    "objective": "Compare trading activity with the resulting price movement instead of interpreting either variable alone.",
+    "why": "The same amount of activity can produce a wide expansion, a small rotation, or no progress. The price result changes the meaning of the observation.",
+    "core": [
+      "Expanding range with rising activity can confirm that a move is attracting participation, but it does not remove risk.",
+      "Heavy activity with little price progress can signal two-sided trade or opposition and requires more evidence.",
+      "Low activity during a move can reflect weak participation, a quiet session, or limitations in the available feed.",
+      "Compare like with like: the same instrument, venue, timeframe, and relevant session."
+    ],
+    "scenario": "Gold advances on rising volume and wide candles, then prints heavy volume with a narrow body at resistance. The later bar shows effort without equal progress and deserves a fresh assessment.",
+    "exercise": "Find one example each of high activity with wide progress and high activity with little progress. Describe the difference without predicting the next candle.",
+    "quiz": [
+      [
+        "Why compare price with volume?",
+        "Activity matters differently depending on the price result."
+      ],
+      [
+        "Does heavy activity with little progress prove reversal?",
+        "No."
+      ],
+      [
+        "What comparisons are most reliable?",
+        "Comparable instrument, venue, timeframe, and session data."
+      ]
+    ],
+    "mistake": "Using a single volume rule regardless of price location or market condition.",
+    "evidence": "Platform documentation and professional observation",
+    "sources": [
+      "TV_VOLUME"
+    ]
+  },
+  {
+    "id": "L03-M03",
+    "title": "Relative Volume and the Comparison Baseline",
+    "time": "34 minutes",
+    "visual": "39_relative_volume_baseline.png",
+    "competencies": [
+      "volume_analysis",
+      "comparative_analysis",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L03-M02"
+    ],
+    "objective": "Use relative volume to compare current activity with an explicit historical baseline.",
+    "why": "An absolute volume number is difficult to judge without context. Relative volume makes the comparison visible, but the chosen lookback and session rules still matter.",
+    "core": [
+      "A common relative-volume calculation divides current volume by average volume over a defined lookback.",
+      "A value above one means current activity exceeds that calculation's average, not that price must rise.",
+      "Relative volume at time compares activity with similar historical time points to account for intraday seasonality.",
+      "Lookback length, regular versus extended hours, incomplete bars, and provider rules can change the result."
+    ],
+    "scenario": "A stock shows relative volume of 1.8 shortly after the open. That confirms activity above the selected baseline, but earnings news and opening volatility still shape the risk.",
+    "exercise": "Calculate a simple ten-period relative-volume ratio for three completed bars, then note how the answer changes when the lookback changes.",
+    "quiz": [
+      [
+        "What does relative volume compare?",
+        "Current volume with an average defined by the calculation."
+      ],
+      [
+        "Does relative volume above one predict direction?",
+        "No."
+      ],
+      [
+        "Why compare the same time of day?",
+        "Intraday activity often follows a time-dependent pattern."
+      ]
+    ],
+    "mistake": "Quoting relative volume without knowing its lookback, session, or incomplete-bar treatment.",
+    "evidence": "Documented indicator calculation",
+    "sources": [
+      "TV_RELATIVE_VOLUME"
+    ]
+  },
+  {
+    "id": "L03-M04",
+    "title": "Session Volume and Participation",
+    "time": "32 minutes",
+    "visual": "40_session_volume_participation.png",
+    "competencies": [
+      "volume_analysis",
+      "session_analysis",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M03"
+    ],
+    "objective": "Judge volume against the normal participation pattern of the relevant market session.",
+    "why": "Activity near a major open is not directly comparable with activity during a quiet middle period. Session context prevents false conclusions from raw bar height.",
+    "core": [
+      "Market opens, overlaps, scheduled events, and closes can create recurring changes in participation.",
+      "A bar should be compared with relevant historical bars, not automatically with every bar in the day.",
+      "Extended-hours and regular-session data may be calculated or displayed differently.",
+      "Unusual activity identifies a condition to investigate; it does not supply an entry by itself."
+    ],
+    "scenario": "DAX40 volume at the cash open is much larger than pre-open volume. The increase is expected session behavior until it is compared with prior cash opens.",
+    "exercise": "Map the first hour, middle period, and final hour of five sessions. Record typical activity and any genuinely unusual deviations.",
+    "quiz": [
+      [
+        "Why does session context matter?",
+        "Normal participation changes through the trading day."
+      ],
+      [
+        "Is open volume fairly compared with a quiet midday bar?",
+        "Not without an appropriate baseline."
+      ],
+      [
+        "What does unusual activity provide?",
+        "A condition for further investigation, not an automatic trade."
+      ]
+    ],
+    "mistake": "Treating every opening surge in activity as exceptional.",
+    "evidence": "Documented relative-volume behavior and professional observation",
+    "sources": [
+      "TV_RELATIVE_VOLUME",
+      "TV_VOLUME"
+    ]
+  },
+  {
+    "id": "L03-M05",
+    "title": "VWAP Foundations",
+    "time": "36 minutes",
+    "visual": "41_vwap_foundations.png",
+    "competencies": [
+      "vwap_analysis",
+      "volume_analysis",
+      "indicator_literacy"
+    ],
+    "prerequisites": [
+      "L03-M04"
+    ],
+    "objective": "Explain how VWAP combines price and volume and use it as a contextual reference rather than an automatic signal.",
+    "why": "VWAP is widely visible on intraday charts. Understanding its calculation, anchor, and lag helps learners avoid treating the line as guaranteed support or resistance.",
+    "core": [
+      "VWAP is a cumulative average price weighted by volume over its anchor period.",
+      "The result depends on the selected price source, volume data, and reset or anchor period.",
+      "Price above or below VWAP describes location relative to the weighted average; it does not guarantee continuation or reversal.",
+      "Because VWAP uses accumulated historical data, it is a lagging reference and should be combined with structure and risk controls."
+    ],
+    "scenario": "US100 trades above session VWAP after the open but is approaching a higher-timeframe resistance zone. VWAP location supports context, not a blind long entry.",
+    "exercise": "Plot session VWAP on three completed sessions. Mark where price crossed it and explain which crosses mattered only after adding structure and session context.",
+    "quiz": [
+      [
+        "What does VWAP weight price by?",
+        "Volume."
+      ],
+      [
+        "Why does the anchor matter?",
+        "It determines where the cumulative calculation starts or resets."
+      ],
+      [
+        "Is VWAP guaranteed support or resistance?",
+        "No."
+      ]
+    ],
+    "mistake": "Buying every touch below VWAP or selling every touch above it without context.",
+    "evidence": "Documented indicator calculation",
+    "sources": [
+      "TV_VWAP"
+    ]
+  },
+  {
+    "id": "L03-M06",
+    "title": "VWAP Context: Trend, Balance, and Distance",
+    "time": "36 minutes",
+    "visual": "42_vwap_trend_balance_distance.png",
+    "competencies": [
+      "vwap_analysis",
+      "price_structure",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L03-M05"
+    ],
+    "objective": "Classify price interaction with VWAP in trending, balanced, and extended conditions without turning distance from the line into an automatic trade.",
+    "why": "The same VWAP location can mean different things in a directional session, a rotating range, or an unusually extended move. Structure and session context determine whether the reference is useful.",
+    "core": [
+      "In a directional session, price may remain mostly on one side of VWAP while pullbacks hold away from or near the line.",
+      "In a balanced session, repeated crossings can show rotation around the weighted average rather than a durable directional edge.",
+      "Distance from VWAP is descriptive unless it is compared with the instrument's own historical behavior and current volatility.",
+      "A VWAP cross or touch does not guarantee mean reversion, continuation, support, or resistance."
+    ],
+    "scenario": "US100 remains above session VWAP through the morning, but its distance from the line expands into prior resistance. The context is directional and extended; neither fact authorizes a chase or a blind fade.",
+    "exercise": "Review three completed sessions. Label each as directional, balanced, or unclear, then describe VWAP location, crossings, and distance without proposing an entry.",
+    "quiz": [
+      [
+        "What can repeated VWAP crossings indicate?",
+        "Rotation or balance, subject to structure and session context."
+      ],
+      [
+        "Does large distance from VWAP guarantee mean reversion?",
+        "No."
+      ],
+      [
+        "What makes VWAP distance comparable?",
+        "The instrument's historical behavior, session, and current volatility."
+      ]
+    ],
+    "mistake": "Fading every extended move or trading every VWAP cross without classifying the market condition.",
+    "evidence": "Documented indicator behavior and professional observation",
+    "sources": [
+      "TV_VWAP"
+    ]
+  },
+  {
+    "id": "L03-M07",
+    "title": "Volume on Breakouts and Failed Breakouts",
+    "time": "38 minutes",
+    "visual": "43_volume_breakout_acceptance.png",
+    "competencies": [
+      "volume_analysis",
+      "price_structure",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M06"
+    ],
+    "objective": "Evaluate breakout activity together with acceptance, follow-through, and invalidation rather than using volume as standalone confirmation.",
+    "why": "A large volume bar can appear on both successful and failed breaks. The price response after the level is tested provides essential context.",
+    "core": [
+      "A breakout is a move beyond a defined structural boundary; volume describes activity during that move, not its future success.",
+      "Acceptance requires evidence that price can hold or build beyond the level, while a quick return can indicate rejection or failure.",
+      "Higher-than-baseline activity can strengthen the observation that participation changed, but it cannot guarantee follow-through.",
+      "Risk must be defined from structure before entry, especially when event volatility, gaps, or thin liquidity distort the break."
+    ],
+    "scenario": "Gold breaks a prior session high on high relative volume, pauses above it, then closes back inside the range. The activity was unusual, but the failed acceptance changes the assessment.",
+    "exercise": "Compare two completed breaks of similar levels. Record baseline activity, price acceptance, follow-through, and the earliest objective invalidation for each.",
+    "quiz": [
+      [
+        "Does high volume guarantee a breakout will hold?",
+        "No."
+      ],
+      [
+        "What distinguishes acceptance from a brief excursion?",
+        "Price holding or building beyond the boundary."
+      ],
+      [
+        "Why define invalidation before entry?",
+        "Because active breakouts can reverse quickly and activity does not remove risk."
+      ]
+    ],
+    "mistake": "Calling a breakout confirmed from one high-volume bar before checking acceptance and invalidation.",
+    "evidence": "Documented volume behavior and professional observation",
+    "sources": [
+      "TV_VOLUME",
+      "TV_RELATIVE_VOLUME",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M08",
+    "title": "Absorption, Effort, and Result Without Overclaiming",
+    "time": "40 minutes",
+    "visual": "44_absorption_effort_result.png",
+    "competencies": [
+      "volume_analysis",
+      "data_literacy",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L03-M07"
+    ],
+    "objective": "Describe high activity with limited price progress as an effort-versus-result observation while avoiding unsupported claims about hidden participants.",
+    "why": "Traders often label stalled price on heavy activity as absorption. Chart volume and price can reveal the condition, but they usually cannot prove who traded or why.",
+    "core": [
+      "High activity with limited progress is an observable mismatch between trading effort and price result.",
+      "The label absorption is an interpretation that requires location, repeated response, and follow-up evidence.",
+      "Aggregated chart data usually does not identify participant intent, inventory, or whether one institution caused the response.",
+      "The condition can resolve in either direction, so confirmation and predefined risk remain necessary."
+    ],
+    "scenario": "DAX40 repeatedly trades heavy volume at a range high while candles close within the range. The chart supports an effort-with-limited-result observation, not a claim that a named participant is secretly selling.",
+    "exercise": "Find three examples of high activity with little progress. Separate facts from interpretations, then record what later evidence supported or rejected each interpretation.",
+    "quiz": [
+      [
+        "What is directly observable in an effort-versus-result comparison?",
+        "Activity and the amount of price progress."
+      ],
+      [
+        "Can aggregated chart volume prove institutional intent?",
+        "No."
+      ],
+      [
+        "Does suspected absorption predict direction by itself?",
+        "No."
+      ]
+    ],
+    "mistake": "Presenting a plausible absorption story as proven participant intent or a guaranteed reversal.",
+    "evidence": "Platform data limitations and professional observation",
+    "sources": [
+      "TV_VOLUME"
+    ]
+  },
+  {
+    "id": "L03-M09",
+    "title": "No-Trade Volume Conditions and Data Limitations",
+    "time": "36 minutes",
+    "visual": "45_volume_data_limitations.png",
+    "competencies": [
+      "volume_analysis",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M08"
+    ],
+    "objective": "Recognize when volume information is incomplete, incomparable, or too ambiguous to support a trade decision.",
+    "why": "A disciplined volume process includes conditions that stop analysis. Poor data, mismatched sessions, and unstable event conditions can make apparent precision misleading.",
+    "core": [
+      "Volume availability and meaning vary across centralized exchanges, futures contracts, stocks, indices, CFDs, and foreign-exchange feeds.",
+      "Provider changes, missing bars, contract rolls, extended-hours settings, and partial candles can break historical comparisons.",
+      "Scheduled events, opening gaps, and thin liquidity can create extreme readings that need separate treatment.",
+      "When the baseline or data provenance is unclear, the professional decision is to repair the comparison or stand aside."
+    ],
+    "scenario": "A CFD chart shows a sudden volume spike after the provider reconnects, while the related futures chart does not. Until the feed and session settings are verified, the spike is not decision-grade evidence.",
+    "exercise": "Audit one chart's symbol, venue or provider, session settings, volume type, missing bars, and current-bar status. Write explicit conditions that would make you decline a trade.",
+    "quiz": [
+      [
+        "Why can volume differ across feeds?",
+        "Venue, instrument, provider, and calculation rules can differ."
+      ],
+      [
+        "Should a partial bar be compared directly with completed bars?",
+        "Not without accounting for its incomplete state."
+      ],
+      [
+        "What is appropriate when data provenance is unclear?",
+        "Repair the comparison or stand aside."
+      ]
+    ],
+    "mistake": "Treating every displayed volume series as complete, centralized, and directly comparable.",
+    "evidence": "Platform documentation and risk controls",
+    "sources": [
+      "TV_VOLUME",
+      "TV_RELATIVE_VOLUME",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M10",
+    "title": "Volume and Auction Assessment",
+    "time": "50 minutes",
+    "visual": "46_volume_auction_assessment.png",
+    "competencies": [
+      "assessment",
+      "volume_analysis",
+      "vwap_analysis",
+      "decision_quality"
+    ],
+    "prerequisites": [
+      "L03-M09"
+    ],
+    "objective": "Demonstrate a disciplined volume and VWAP read that distinguishes observed facts, contextual interpretations, risk, and no-trade conditions.",
+    "why": "The first volume-reading assessment tests process rather than prediction. A passing answer must use comparable data and state uncertainty without inventing participant intent.",
+    "core": [
+      "Verify instrument, provider, session, timeframe, and whether bars are complete before interpreting activity.",
+      "Compare current activity with an explicit baseline and describe the accompanying price result.",
+      "Use VWAP as a contextual reference inside trend, balance, structure, and volatility conditions.",
+      "Separate observations from interpretations and identify what evidence would invalidate the interpretation.",
+      "Pass by recommending a controlled plan or a justified no-trade decision; prediction is not required."
+    ],
+    "scenario": "You receive completed intraday charts for Gold and US100 with volume, relative volume, session VWAP, marked structure, and data-source notes. Produce an evidence-led read for each without assuming a trade is necessary.",
+    "exercise": "Complete two written assessments covering data quality, session, baseline activity, price result, VWAP context, structural invalidation, risk, and a trade-or-no-trade conclusion.",
+    "quiz": [
+      [
+        "What must be verified before interpreting volume?",
+        "The instrument, provider, session, timeframe, and bar completeness."
+      ],
+      [
+        "What is the assessment designed to measure?",
+        "A disciplined evidence-based volume process, not prediction."
+      ],
+      [
+        "Can a justified no-trade conclusion pass?",
+        "Yes."
+      ]
+    ],
+    "mistake": "Forcing an entry or inventing intent because an assessment chart contains unusual volume.",
+    "evidence": "Competency assessment",
+    "sources": [
+      "TV_VOLUME",
+      "TV_RELATIVE_VOLUME",
+      "TV_VWAP",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M11",
+    "title": "Volume Profile Maps Activity by Price",
+    "time": "36 minutes",
+    "visual": "47_volume_profile_activity_by_price.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L03-M10"
+    ],
+    "objective": "Explain how a volume profile distributes recorded activity across price levels for a defined dataset and window without treating the profile as a forecast.",
+    "why": "Time-based volume bars show when activity occurred; a volume profile reorganizes the selected data to show where activity accumulated by price.",
+    "core": [
+      "A volume profile is a histogram of recorded activity at price levels across a selected symbol, data source, and window.",
+      "The profile describes where activity occurred in the selected historical sample; it does not reveal participant intent or predict the next move.",
+      "Rows, lower-timeframe inputs, session boundaries, and the platform's volume type can change the displayed distribution.",
+      "Stocks may use trade volume while some indices, forex feeds, and CFDs use tick volume, so provenance must be checked before comparison.",
+      "Profile features are contextual references, not guaranteed support, resistance, entries, stops, or targets."
+    ],
+    "scenario": "Gold shows a broad concentration of activity near the middle of a completed session and little activity near its high. Record the distribution as an observation, then require fresh price and participation evidence before considering any plan.",
+    "exercise": "Build profiles for two completed sessions of the same instrument using identical settings. Record the window, session, data source, row settings, and observed concentrations; finish with either a risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What does a volume profile organize?",
+        "Recorded activity by price for a defined dataset and window."
+      ],
+      [
+        "Does a high-activity price guarantee future support or resistance?",
+        "No."
+      ],
+      [
+        "Which settings must be documented?",
+        "Instrument, data source, window, session, volume type, and profile calculation settings."
+      ]
+    ],
+    "mistake": "Treating a historical concentration of activity as proof of intent or a guaranteed future reaction.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M12",
+    "title": "Building and Comparing Profile Windows",
+    "time": "38 minutes",
+    "visual": "48_profile_window_comparison.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L03-M11"
+    ],
+    "objective": "Build and compare volume profiles with explicit, consistent windows while explaining how window selection changes the distribution shown.",
+    "why": "A profile is inseparable from its selected sample. Comparing windows can reveal different historical distributions, but only when the instrument, data, session, and calculation settings are documented.",
+    "core": [
+      "A profile window defines the bars or session whose recorded activity is distributed by price; changing the window changes the sample and may change every profile feature.",
+      "A fixed range answers a question about a deliberately selected interval, while a session or visible-range profile follows a platform-defined or changing boundary.",
+      "Comparisons are strongest when symbol, provider, volume type, session template, row settings, and calculation method remain consistent.",
+      "Overlapping or unequal windows can answer different questions, so label each boundary and do not present their differences as evidence of participant intent.",
+      "Use completed windows for baseline comparison where possible, then require current price and participation evidence before forming a risk-defined plan."
+    ],
+    "scenario": "Two Gold profiles appear different: one covers the full regular session and the other starts after a major data release. Before interpreting the shapes, label the boundaries and rebuild both with a common session and identical settings.",
+    "exercise": "Create one completed-session profile and one fixed-range profile on the same instrument. Document every boundary and setting, state what each window can and cannot answer, and finish with a conditional hypothesis or a no-trade conclusion.",
+    "quiz": [
+      [
+        "Why can two profiles of the same instrument differ?",
+        "They may use different windows, sessions, data, volume types, or calculation settings."
+      ],
+      [
+        "What should remain consistent in a controlled comparison?",
+        "The symbol, provider, volume type, session template, row settings, and calculation method."
+      ],
+      [
+        "Does a chosen window prove participant intent?",
+        "No."
+      ]
+    ],
+    "mistake": "Comparing unlabeled or mismatched profile windows and treating the resulting differences as a predictive signal.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M13",
+    "title": "Point of Control as a Descriptive Reference",
+    "time": "38 minutes",
+    "visual": "49_point_of_control_reference.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M12"
+    ],
+    "objective": "Identify the Point of Control for a defined volume-profile window and use it as a descriptive reference without assuming that price must return to, hold, or reject it.",
+    "why": "The Point of Control highlights the profile row with the greatest recorded activity in the selected sample. It can help organize context, but its location depends on the data and calculation settings and does not forecast the next price move.",
+    "core": [
+      "The Point of Control, or POC, is the price row with the highest recorded activity in a defined volume-profile window under the platform's calculation method.",
+      "Changing the symbol, provider, volume type, window, session, row size, or lower-timeframe data can move the displayed POC.",
+      "A POC records where activity concentrated in the selected sample; it does not identify participant intent or prove fair value.",
+      "Price trading above, below, through, or near a prior POC is descriptive until structure, current participation, and price response provide additional evidence.",
+      "A POC is not guaranteed support, resistance, a magnet, an entry, a stop, or a target; unclear data or conflicting context supports a no-trade decision."
+    ],
+    "scenario": "A completed Gold session has a POC near the middle of its range. The next session opens above it and later rotates toward it. Record the approach and price response without assuming attraction or support, then require current participation, structure, and predefined invalidation before considering a plan.",
+    "exercise": "Mark the POC on three completed, consistently configured session profiles. Document the data and settings, describe each later interaction using only observable facts, and finish with either a conditional risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What does a volume-profile POC identify?",
+        "The price row with the highest recorded activity in the defined sample under the selected calculation settings."
+      ],
+      [
+        "Can changing the profile window or row settings move the POC?",
+        "Yes."
+      ],
+      [
+        "Does a prior POC guarantee support, resistance, or a return to that price?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating the POC as proven fair value or as a guaranteed price magnet, support, resistance, entry, stop, or target.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M14",
+    "title": "Value Area, VAH, and VAL",
+    "time": "40 minutes",
+    "visual": "50_value_area_vah_val.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M13"
+    ],
+    "objective": "Define the value area and identify its upper and lower boundaries for a documented volume-profile sample without treating VAH or VAL as guaranteed trade levels.",
+    "why": "The value area summarizes where a platform assigns a selected share of profile activity. Its boundaries can organize context, but they depend on the sample and calculation method and cannot predict acceptance, rejection, or direction.",
+    "core": [
+      "A value area is the set of profile rows selected by the platform's calculation method to contain a configured share of recorded activity, commonly but not universally 70 percent.",
+      "Value Area High, or VAH, is the upper boundary of that calculated area, while Value Area Low, or VAL, is its lower boundary.",
+      "Changing the symbol, provider, volume type, profile window, session, row size, lower-timeframe input, target percentage, or allocation method can change the value area and its boundaries.",
+      "VAH and VAL describe a historical distribution; they do not prove fair value, participant intent, acceptance, rejection, support, resistance, or a likely return inside the area.",
+      "A plan requires current price response, participation, structural context, predefined invalidation, and controlled risk; inconsistent settings or unclear evidence supports no trade."
+    ],
+    "scenario": "A completed Gold session displays a 70-percent value area. The next session opens above VAH and later tests that boundary. Record the location and observable response without assuming rejection or acceptance, then require current participation, structure, and predefined invalidation before considering a plan.",
+    "exercise": "Calculate and mark VAH and VAL on three completed session profiles of the same instrument using consistent settings. Document the provider, volume type, window, session, row size, lower-timeframe input, target percentage, and allocation method; describe later interactions and finish with a conditional risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What does a value area represent?",
+        "The profile rows selected by the platform's method to contain a configured share of recorded activity in a defined sample."
+      ],
+      [
+        "Can changing the target percentage or row settings move VAH and VAL?",
+        "Yes."
+      ],
+      [
+        "Does trading at VAH or VAL guarantee acceptance, rejection, support, or resistance?",
+        "No."
+      ]
+    ],
+    "mistake": "Treating a calculated value-area boundary as proven fair value or as an automatic entry, stop, target, support, resistance, acceptance, or rejection signal.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M15",
+    "title": "High- and Low-Volume Nodes",
+    "time": "40 minutes",
+    "visual": "51_high_low_volume_nodes.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M14"
+    ],
+    "objective": "Identify high- and low-volume nodes in a documented volume-profile sample and use them as descriptive context without treating either node type as a guaranteed trade level.",
+    "why": "Nodes show where a selected profile records relatively more or less activity by price. They can help describe the shape of that historical distribution, but their location depends on the sample and settings and does not predict future price behavior.",
+    "core": [
+      "A high-volume node, or HVN, is a price region where the selected profile records relatively high activity compared with nearby rows; a low-volume node, or LVN, records relatively low activity compared with nearby rows.",
+      "HVNs and LVNs are relative features of a particular distribution, not universal thresholds; the symbol, venue, provider, volume type, profile window, session, row size, and allocation method can change their shape and location.",
+      "A node describes completed activity by price; it does not reveal participant intent or prove fair value, acceptance, rejection, support, resistance, a price magnet, or a fast-travel zone.",
+      "Observe current price response and participation before forming a hypothesis because similar-looking nodes can produce different outcomes in different structural and volatility contexts.",
+      "If the node is poorly defined, the data is incomplete, settings are inconsistent, or current evidence is mixed, no trade is a valid conclusion."
+    ],
+    "scenario": "A completed index-futures session profile contains one broad HVN and a thin LVN above it. During the next session, price approaches the LVN. Record the node and the current price-and-volume response without assuming that price must accelerate, reverse, or return to the HVN; require structural confirmation, predefined invalidation, and controlled risk before considering a plan.",
+    "exercise": "Mark the clearest HVN and LVN on three completed profiles of the same instrument using consistent settings. Document the provider, volume type, window, session, row size, and allocation method; separate the historical node observation from later interpretation and finish with a conditional risk-defined hypothesis or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What distinguishes an HVN from an LVN?",
+        "An HVN records relatively high activity compared with nearby profile rows, while an LVN records relatively low activity in the selected sample."
+      ],
+      [
+        "Can changing the profile window or row size move the nodes?",
+        "Yes."
+      ],
+      [
+        "Does an LVN guarantee fast movement or an HVN guarantee support, resistance, or a return?",
+        "No."
+      ]
+    ],
+    "mistake": "Converting a descriptive node into an automatic entry, stop, target, support, resistance, price magnet, or fast-travel prediction.",
+    "evidence": "Official platform calculation documentation",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M16",
+    "title": "Balance, Imbalance, and Auction Rotation",
+    "time": "42 minutes",
+    "visual": "52_balance_imbalance_auction_rotation.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M15"
+    ],
+    "objective": "Describe balance, imbalance, and rotation from observable price-and-volume behavior while avoiding assumptions about participant intent or guaranteed continuation and reversal.",
+    "why": "Auction language can organize how price explores and revisits an area, but these labels are interpretations of observed behavior rather than predictive signals. A disciplined process separates the record from the hypothesis and preserves no trade when evidence is mixed.",
+    "core": [
+      "Balance describes a contextual condition in which price repeatedly trades across an overlapping area; define the window and observable overlap instead of treating balance as a fixed pattern.",
+      "Imbalance describes directional displacement or reduced two-way overlap during the selected window; it does not identify who caused the move or guarantee continuation.",
+      "Auction rotation is a descriptive sequence of price moving through and revisiting parts of a defined area; rotation is not proof that every boundary will hold or that price must cross the area again.",
+      "Classify the completed evidence first, then test a conditional hypothesis with current participation, structure, volatility, and price response because balance can persist, break, or reorganize.",
+      "Define invalidation and controlled risk before acting; incomplete volume, inconsistent settings, unclear boundaries, or conflicting evidence makes no trade a valid outcome."
+    ],
+    "scenario": "A completed index-futures session repeatedly crosses an overlapping middle region, then the next session displaces above that region with greater observed participation. Record the balance and later displacement without claiming intent or guaranteed continuation; require acceptance evidence, structural invalidation, and controlled risk, or choose no trade if price immediately rotates back and evidence conflicts.",
+    "exercise": "Review three completed sessions of the same instrument with consistent data and settings. Mark observable overlap, directional displacement, and any later rotation; label each statement as observation or interpretation, define what would invalidate the hypothesis, and finish with either a risk-defined conditional plan or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What evidence supports a description of balance?",
+        "Repeated trade and overlap across a defined area and window."
+      ],
+      [
+        "Does directional displacement prove participant intent or guarantee continuation?",
+        "No."
+      ],
+      [
+        "What should follow an auction-context label before considering a trade?",
+        "Current participation and structure evidence, predefined invalidation, controlled risk, and a no-trade option."
+      ]
+    ],
+    "mistake": "Turning balance, imbalance, or rotation into an automatic reversal, breakout, continuation, entry, stop, or target rule.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M17",
+    "title": "Acceptance and Rejection Without Certainty",
+    "time": "42 minutes",
+    "visual": "53_acceptance_rejection_without_certainty.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M16"
+    ],
+    "objective": "Evaluate acceptance and rejection as conditional interpretations of observable price and participation evidence without treating either label as certain or predictive.",
+    "why": "Price moving beyond or away from a reference is only an observation. Acceptance and rejection become useful hypotheses when subsequent trade, participation, structure, and time support them, but the evidence can remain mixed or change.",
+    "core": [
+      "Acceptance is a contextual interpretation that price is continuing to trade and build activity beyond a defined reference; specify the reference, window, and observable evidence rather than inferring intent.",
+      "Rejection is a contextual interpretation that price tested an area and then moved away without sustained trade there; a wick, single close, or brief response alone does not prove rejection.",
+      "Evidence can include time spent beyond the reference, repeated closes or overlap, developing activity by price, relative participation, and later retests, but no single measure guarantees the conclusion.",
+      "The same initial move can develop into acceptance, rejection, or unresolved rotation, so update the hypothesis as completed evidence arrives and preserve an uncertain classification when signals conflict.",
+      "Before acting, verify data and settings, require structural context, define invalidation and controlled risk, and choose no trade when the response is incomplete, late, or ambiguous."
+    ],
+    "scenario": "Gold trades above a prior session's VAH, holds there for several completed bars, and begins building activity above the boundary. Record those facts as possible acceptance evidence, not proof. If price then returns through VAH while participation and structure conflict, reclassify the situation as unresolved and stand aside unless a new risk-defined hypothesis becomes clear.",
+    "exercise": "Review four completed interactions with a consistently configured profile reference. For each, separate the initial observation from later acceptance, rejection, or unresolved evidence; document data limitations, structural context, invalidation, and controlled risk, then finish with a conditional plan or justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What turns a move beyond a reference into possible acceptance evidence?",
+        "Subsequent trade and activity beyond the defined reference across a stated window, supported by current participation and structure."
+      ],
+      [
+        "Does a wick or one close prove rejection?",
+        "No."
+      ],
+      [
+        "What is appropriate when acceptance and rejection evidence conflicts?",
+        "Keep the classification unresolved, update it as completed evidence arrives, and choose no trade when a risk-defined plan is not clear."
+      ]
+    ],
+    "mistake": "Labeling the first move through or away from a profile reference as confirmed acceptance or rejection and treating it as an automatic entry, stop, target, or directional forecast.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M18",
+    "title": "Combining Profile Context with Market Structure",
+    "time": "44 minutes",
+    "visual": "54_combining_profile_context_market_structure.png",
+    "competencies": [
+      "volume_analysis",
+      "auction_context",
+      "market_structure",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M17"
+    ],
+    "objective": "Combine documented volume-profile references with observable market structure to form conditional, risk-defined hypotheses without turning either evidence set into a standalone signal.",
+    "why": "Profile context describes where activity occurred in a selected sample, while market structure describes observable price organization. Using both can clarify a hypothesis, but agreement does not create certainty and disagreement may be a reason to wait.",
+    "core": [
+      "Begin with separate observations: document the profile instrument, venue, provider, volume type, window, session, row settings, and reference, then record completed structural evidence such as swings, overlap, displacement, and closes.",
+      "A profile reference and a structural feature can coincide, but that confluence is still historical context; it does not prove support, resistance, acceptance, rejection, direction, or participant intent.",
+      "Build a conditional hypothesis only after current price response and participation provide evidence, and state which observation would invalidate the idea before considering risk.",
+      "When profile and structure evidence disagree, preserve both observations instead of forcing a narrative; wait for completed evidence or classify the situation as unresolved.",
+      "Use controlled risk and a valid no-trade outcome. Incomplete volume, inconsistent settings, unclear structure, excessive volatility, poor reward relative to invalidation, or late evidence can each justify standing aside."
+    ],
+    "scenario": "A prior-session LVN aligns with a recently broken swing high. Price later returns to that area, but the first response is a single wick on declining participation. Record the LVN and swing separately; do not call the area support or rejection. Require completed structural and participation evidence, define invalidation below observable structure, and choose no trade if the response remains mixed or the required risk is excessive.",
+    "exercise": "Review four completed interactions where a documented POC, value-area boundary, HVN, or LVN sits near an observable swing or balance boundary. Separate profile facts, structure facts, and interpretation; note data limitations, specify confirmation and invalidation, estimate controlled risk, and finish with a conditional hypothesis or justified no-trade conclusion.",
+    "quiz": [
+      [
+        "Does a profile reference aligning with a structural level guarantee a reaction?",
+        "No."
+      ],
+      [
+        "What should be recorded before combining profile and structure context?",
+        "The profile data and settings, the exact reference, and completed structural observations should be documented separately."
+      ],
+      [
+        "What is appropriate when profile context and market structure conflict?",
+        "Keep the evidence separate, wait for completed confirmation, or choose no trade when a risk-defined hypothesis is not clear."
+      ]
+    ],
+    "mistake": "Calling confluence a high-probability signal and entering because a profile reference overlaps a swing or range boundary without current evidence, predefined invalidation, and controlled risk.",
+    "evidence": "Official platform calculation documentation and exchange risk education",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M19",
+    "title": "No-Trade Profile Conditions and Data Limitations",
+    "time": "40 minutes",
+    "visual": "55_no_trade_profile_conditions_data_limitations.png",
+    "competencies": [
+      "volume_analysis",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M18"
+    ],
+    "objective": "Identify volume-profile data, configuration, and market conditions that make a no-trade decision more appropriate than forcing a directional interpretation.",
+    "why": "A profile can look precise even when its input data, window, or calculation settings are incomplete or inconsistent. A disciplined process treats data quality and comparability as prerequisites and preserves no trade when the evidence is not decision-grade.",
+    "core": [
+      "Document the instrument, venue or provider, volume type, profile window, session template, row size, value-area setting, contract treatment, and whether the current sample is complete before comparing profile references.",
+      "Centralized exchange volume may represent activity on that venue, while foreign-exchange, CFD, index, and some composite feeds can be decentralized, provider-specific, proxy-based, or otherwise incomplete; a displayed profile is not automatically a complete market record.",
+      "Missing bars, feed reconnects, contract rolls, symbol changes, partial sessions, extended-hours changes, and different row or value-area settings can move POC, VAH, VAL, HVNs, and LVNs without any change in the underlying trading hypothesis.",
+      "Event-driven volatility, thin participation, opening gaps, unstable developing profiles, unclear structural invalidation, or excessive distance to invalidation can make a profile reference unsuitable for a controlled-risk decision even when the data itself is valid.",
+      "Repair the dataset or comparison when possible. Otherwise label the evidence unresolved and choose no trade; do not replace missing evidence with assumptions about intent, support, resistance, or future direction."
+    ],
+    "scenario": "A CFD profile appears to shift its POC after a provider reconnect, while the related centralized futures profile shows no comparable change and the session templates differ. Record the mismatch, stop the comparison, and verify feeds and settings. If a comparable dataset cannot be established before the opportunity passes, choose no trade rather than treating either POC as a directional signal.",
+    "exercise": "Audit four profile charts: one centralized instrument, one provider-specific or decentralized feed, one contract-roll period, and one developing event session. Record provenance and settings, identify comparability failures and risk constraints, state what could be repaired, and finish each case with either a conditional evidence plan or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "Does a displayed volume profile necessarily represent complete market-wide activity?",
+        "No. Coverage depends on the instrument, venue, provider, volume type, and dataset."
+      ],
+      [
+        "What should be checked before comparing profile references?",
+        "Data provenance, instrument and contract, window, session, completion state, and calculation settings should be consistent and documented."
+      ],
+      [
+        "What is appropriate when profile data cannot be made comparable or risk cannot be controlled?",
+        "Label the evidence unresolved and choose no trade."
+      ]
+    ],
+    "mistake": "Forcing a trade because profile levels look precise while ignoring incomplete feeds, inconsistent settings, unstable samples, unclear invalidation, or excessive required risk.",
+    "evidence": "Official platform data and calculation documentation plus exchange risk education",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "TV_VOLUME",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L03-M20",
+    "title": "Volume Profile and Auction Assessment",
+    "time": "55 minutes",
+    "visual": "56_volume_profile_auction_assessment.png",
+    "competencies": [
+      "assessment",
+      "volume_analysis",
+      "auction_context",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M19"
+    ],
+    "objective": "Demonstrate an evidence-based volume-profile and auction read that documents data limitations, separates observation from interpretation, and reaches a controlled plan or justified no-trade decision.",
+    "why": "The completed Volume and Auction track requires judgment rather than memorized level rules. A passing assessment must show that profile references depend on their dataset and settings and that uncertainty can make no trade the strongest conclusion.",
+    "core": [
+      "Audit the instrument, venue or provider, volume type, profile window, session, completion state, row and value-area settings, and contract treatment before interpreting POC, VAH, VAL, HVNs, or LVNs.",
+      "Record profile features, market structure, price response, participation, and volatility as separate observations before proposing acceptance, rejection, balance, imbalance, or rotation as a conditional interpretation.",
+      "Do not convert confluence, a boundary test, a wick, or a node into proof of intent, fair value, support, resistance, direction, or a guaranteed entry, stop, or target.",
+      "A passing plan states the current evidence, confirmation requirement, structural invalidation, controlled risk, and the evidence that would cancel the idea; prediction is not required.",
+      "Choose no trade when data is incomplete or incomparable, settings are inconsistent, the sample is unstable, evidence conflicts, confirmation is late, or required risk is excessive."
+    ],
+    "scenario": "You receive completed and developing profiles for Gold and an index CFD, plus a related centralized futures chart. The charts include prior POC, value-area boundaries, nodes, structure, and current participation, but one provider reconnected and two session templates differ. Audit comparability, classify only supported auction context, and produce a risk-defined decision for each market without assuming that either requires a trade.",
+    "exercise": "Complete two written assessments. For each, document provenance and settings; separate profile, structure, and current-response observations from interpretation; evaluate acceptance, rejection, balance, or rotation; state confirmation, invalidation, and controlled risk; and finish with a conditional plan or a justified no-trade conclusion.",
+    "quiz": [
+      [
+        "What must be verified before comparing or interpreting profile references?",
+        "The instrument, venue or provider, volume type, window, session, completion state, calculation settings, and contract treatment."
+      ],
+      [
+        "Does agreement between a profile reference and market structure prove a reaction or direction?",
+        "No."
+      ],
+      [
+        "Can an assessment pass with no trade?",
+        "Yes, when data, evidence, timing, or risk limitations are identified and the conclusion is justified."
+      ]
+    ],
+    "mistake": "Passing the assessment by naming profile levels and forcing a directional trade while ignoring data provenance, conflicting evidence, invalidation, or excessive risk.",
+    "evidence": "Competency assessment based on official platform data and calculation documentation plus exchange risk education",
+    "sources": [
+      "TV_VOLUME_PROFILE",
+      "TV_VOLUME",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M01",
+    "title": "Liquidity: Spread, Depth, and Cost to Trade",
+    "time": "35 minutes",
+    "visual": "57_liquidity_spread_depth_cost.png",
+    "competencies": [
+      "liquidity",
+      "market_mechanics",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L03-M20"
+    ],
+    "objective": "Distinguish liquidity from trading volume and assess spread, displayed depth, order size, and expected execution cost as separate evidence.",
+    "why": "A market can print substantial volume yet still be expensive or difficult to enter and exit at a particular moment. Liquidity must be assessed relative to order size, venue, time, and current conditions.",
+    "core": [
+      "Liquidity is multi-dimensional. Common observable measures include the bid-ask spread, available quantity at price levels, the cost to trade a stated size, and how quickly the book changes after orders and trades.",
+      "Depth is size-specific: a book that can absorb a small order near the best price may still produce material price impact for a larger order.",
+      "Volume records completed trading activity, while displayed depth records resting interest that is currently shown in the order book. They answer different questions.",
+      "Compare liquidity only across equivalent instruments, venues, session windows, data feeds, and order sizes. A raw depth number without these conditions is not decision-grade.",
+      "Displayed liquidity can be added, reduced, executed, or cancelled. Treat it as a current state, not as a promise that the quantity will remain available."
+    ],
+    "scenario": "An index future shows a one-tick spread and substantial quantity at the best bid and ask during the main session. Ten minutes before a scheduled release, the spread widens and nearby depth falls. The earlier volume total does not remove the new execution risk.",
+    "exercise": "Compare three snapshots of the same instrument: normal session, thin session, and scheduled-event conditions. Record spread, depth within five levels, hypothetical cost to trade two different sizes, and whether the evidence supports participation or no trade.",
+    "quiz": [
+      [
+        "Is high traded volume the same as deep current liquidity?",
+        "No. Volume is completed activity; depth is displayed resting quantity and can change."
+      ],
+      [
+        "Why must order size be stated when assessing liquidity?",
+        "Because the expected price impact and cost depend on how much quantity must be executed."
+      ],
+      [
+        "What makes two liquidity observations comparable?",
+        "The instrument, venue, session, feed, measurement method, and order size should be equivalent."
+      ]
+    ],
+    "mistake": "Calling a market liquid from the daily volume total while ignoring the current spread, nearby depth, order size, and event conditions.",
+    "evidence": "Exchange liquidity methodology and exchange risk education",
+    "sources": [
+      "CME_LIQUIDITY_METHOD",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M02",
+    "title": "The Limit Order Book: Price, Queue, and Displayed Size",
+    "time": "38 minutes",
+    "visual": "58_limit_order_book_price_queue.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "market_mechanics"
+    ],
+    "prerequisites": [
+      "L04-M01"
+    ],
+    "objective": "Explain how displayed limit orders are organized by price and priority, and distinguish price-level summaries from individual-order data.",
+    "why": "A depth ladder compresses a changing queue into numbers. Understanding what the feed contains prevents false claims about participant identity, queue position, or guaranteed execution.",
+    "core": [
+      "A central limit order book organizes executable bids and offers by price. Orders at the same price are then handled according to the venue and product matching algorithm.",
+      "Market-by-price data aggregates quantity and order count at each price level. Market-by-order data can expose anonymous individual orders, full depth, and queue information, but not customer identity.",
+      "Price-time priority is common in some products, but matching rules can also include pro-rata, size-priority, or hybrid allocation. Never assume universal first-in-first-out behavior.",
+      "Queue position affects the probability and timing of a resting order fill. A displayed quantity ahead of an order can execute, cancel, or change before the market reaches the price.",
+      "Iceberg, synthetic, implied, hidden, and cross-venue interest can make the visible book an incomplete representation of total trading interest."
+    ],
+    "scenario": "Two traders place limit buys at the same price. One feed shows only total quantity at that level; another provides anonymous order-level records. Even with order-level data, the product matching algorithm must be known before estimating priority.",
+    "exercise": "For one futures contract, document whether the feed is market-by-price or market-by-order, the number of levels shown, the matching algorithm, and what queue information is and is not available. Finish with three statements you are not entitled to make from the display.",
+    "quiz": [
+      [
+        "Does market-by-price data show each individual order?",
+        "No. It normally aggregates quantity and order count by price level."
+      ],
+      [
+        "Is every electronic market matched strictly by price-time priority?",
+        "No. Matching algorithms vary by venue and product."
+      ],
+      [
+        "Does an anonymous order ID reveal the customer behind the order?",
+        "No. Order-level transparency does not provide customer identity."
+      ]
+    ],
+    "mistake": "Treating the displayed quantity at a price as one participant, assuming FIFO without checking the product rules, or claiming a known fill from an estimated queue.",
+    "evidence": "Official exchange market-by-order and matching-algorithm documentation",
+    "sources": [
+      "CME_MBO",
+      "CME_MATCHING_ALGORITHMS",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M03",
+    "title": "Depth of Market: A Moving Snapshot",
+    "time": "38 minutes",
+    "visual": "59_dom_moving_snapshot.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M02"
+    ],
+    "objective": "Read a depth-of-market ladder as a time-sensitive display of bids and asks while documenting feed, venue, refresh, and aggregation limitations.",
+    "why": "DOM numbers change continuously. A single screenshot can be useful for observation, but it cannot prove that displayed liquidity will remain, execute, or predict the next move.",
+    "core": [
+      "A DOM displays bid and ask quantities at multiple prices. The visible data comes from a broker, venue, or data provider and may differ from the chart feed.",
+      "Top-of-book shows the best bid and ask; deeper levels show additional displayed quantity. The number of levels and aggregation method depend on the subscription and feed.",
+      "Orders can be added, modified, executed, or cancelled between updates. Read changes over time rather than treating one large number as permanent support or resistance.",
+      "Compare displayed depth with actual trades and subsequent price response. Resting quantity and executed volume are different datasets.",
+      "Stale updates, dropped packets, delayed subscriptions, provider mismatches, and fast markets can make the DOM unsuitable for a controlled decision."
+    ],
+    "scenario": "A large offer appears three ticks above price, then repeatedly reduces before price reaches it. Record the additions and cancellations, but do not claim the participant intent. Wait for execution and price-response evidence or choose no trade.",
+    "exercise": "Record a 60-second DOM observation at normal speed and around a scheduled event. Note best bid/ask, five-level depth, additions, reductions, trades, and feed status. Explain which conclusions remain unsupported.",
+    "quiz": [
+      [
+        "What does the DOM primarily show?",
+        "Displayed bid and ask quantities at different prices from the connected data source."
+      ],
+      [
+        "Does a large displayed order guarantee that price will stop there?",
+        "No. It can execute, change, or cancel."
+      ],
+      [
+        "Why compare the DOM with trades?",
+        "Because resting orders and executed volume describe different parts of market activity."
+      ]
+    ],
+    "mistake": "Freezing one DOM snapshot and converting the largest displayed quantity into a guaranteed barrier or directional signal.",
+    "evidence": "Official DOM, exchange order-book, and liquidity methodology documentation",
+    "sources": [
+      "TV_DOM",
+      "CME_LIQUIDITY_METHOD",
+      "CME_MBO"
+    ]
+  },
+  {
+    "id": "L04-M04",
+    "title": "Liquidity Zones, Stop Orders, and Hidden Information",
+    "time": "40 minutes",
+    "visual": "60_liquidity_zones_hidden_information.png",
+    "competencies": [
+      "liquidity",
+      "market_structure",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M03"
+    ],
+    "objective": "Separate observable liquidity from inferred chart zones and explain why stop orders, hidden size, and cross-venue interest cannot be read directly from a normal price chart.",
+    "why": "Traders often label prior highs, lows, or range edges as liquidity pools. These locations may attract activity, but the chart does not reveal the exact quantity, ownership, order type, or intent waiting there.",
+    "core": [
+      "Observable liquidity includes displayed bids and offers from a specified order-book feed. Executed trades are observed separately in trade or volume data.",
+      "A chart-based liquidity zone is an inference that orders may cluster near a visible reference such as a prior high, low, range boundary, or round price. The quantity is unknown unless a suitable feed shows it.",
+      "Stop orders are conditional. In the equity example described by Investor.gov, a stop becomes a market order when the stop price is reached; broker and venue policies can differ.",
+      "Hidden, iceberg, synthetic, implied, and cross-venue orders mean the displayed book may not contain all available interest.",
+      "Use precise language: observed displayed depth, observed executions, or inferred potential order concentration. Do not merge these categories."
+    ],
+    "scenario": "Price approaches a prior session high that many analysts call a buy-stop pool. The chart confirms the reference but not the stop quantity. A DOM shows some offers, while hidden and off-venue interest remain unknown. Plan only around observable response and controlled invalidation.",
+    "exercise": "Mark six commonly cited liquidity zones on historical charts. For each, list what is directly observed, what is inferred, what data would be needed to strengthen the claim, and what would justify no trade.",
+    "quiz": [
+      [
+        "Can a price chart show the exact quantity of stop orders above a prior high?",
+        "No. The location may be inferred, but the quantity and ownership are not visible on a normal chart."
+      ],
+      [
+        "Is displayed depth the complete market interest?",
+        "Not necessarily. Hidden, iceberg, synthetic, implied, and other-venue interest can be absent."
+      ],
+      [
+        "What language should distinguish evidence quality?",
+        "Label displayed orders and executions as observed, and potential order concentrations as inferred."
+      ]
+    ],
+    "mistake": "Presenting every prior high or low as a measured pool of stop orders and describing unknown participants or intent as fact.",
+    "evidence": "Official order-type and exchange order-book documentation",
+    "sources": [
+      "SEC_STOP",
+      "CME_MBO",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M05",
+    "title": "Sweeps, Breaks, and Post-Event Evidence",
+    "time": "42 minutes",
+    "visual": "61_sweeps_breaks_post_event.png",
+    "competencies": [
+      "liquidity",
+      "market_structure",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M04"
+    ],
+    "objective": "Classify a move through a reference level without assuming manipulation, then evaluate acceptance, rejection, execution conditions, and invalidation after the event.",
+    "why": "A brief move beyond a prior high or low can be called a sweep, stop run, breakout, or failed break. The label does not explain cause or determine the next direction.",
+    "core": [
+      "Describe the observable event first: price traded beyond a defined reference, available depth changed, trades occurred, and price either remained beyond or returned.",
+      "A market order prioritizes execution, not a guaranteed price. When liquidity is thin or orders are triggered together, fills can occur across several prices.",
+      "Post-event acceptance requires evidence over time, such as sustained trading beyond the level, compatible structure, participation, and a clear invalidation. A single wick is insufficient.",
+      "Rejection is also contextual. A return inside a range can fail again, and neither rejection nor acceptance proves participant intent.",
+      "Use the event to update a scenario, not to manufacture certainty. Late confirmation, excessive stop distance, or conflicting data can require no trade."
+    ],
+    "scenario": "Gold trades above a prior session high during a data release, fills across several prices, and closes back below. The move is observable; whether it was a stop run, failed breakout, or temporary volatility is interpretive. Assess the next completed evidence and the required risk.",
+    "exercise": "Review ten moves through prior highs or lows. Record the reference, spread and depth conditions, executed response, time spent beyond the level, structural outcome, and whether a controlled plan existed after confirmation.",
+    "quiz": [
+      [
+        "Does trading beyond a prior high prove manipulation?",
+        "No. The event is observable, but cause and intent require evidence not supplied by the price path alone."
+      ],
+      [
+        "What does a market order guarantee?",
+        "It prioritizes execution, but it does not guarantee the execution price."
+      ],
+      [
+        "When should a post-sweep idea be rejected?",
+        "When confirmation is absent or late, structure invalidates, data conflicts, or required risk is excessive."
+      ]
+    ],
+    "mistake": "Buying or selling automatically after any wick through a prior level and explaining the move with unobservable participant intent.",
+    "evidence": "Official execution, volume-profile context, and exchange risk education",
+    "sources": [
+      "SEC_EXECUTION",
+      "TV_VOLUME_PROFILE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M06",
+    "title": "Footprint Charts: Traded Volume at Price",
+    "time": "45 minutes",
+    "visual": "62_footprint_traded_volume_price.png",
+    "competencies": [
+      "order_flow",
+      "volume_analysis",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M05"
+    ],
+    "objective": "Explain what a footprint chart displays, distinguish executed volume from resting orders, and verify how the platform classifies bid and ask activity.",
+    "why": "Footprints add price-level detail inside each bar, but platforms can construct them from different data. Without checking the method, similar-looking cells can represent materially different evidence.",
+    "core": [
+      "A footprint or numbers bar distributes traded activity across price levels within each chart bar. It may show bid volume, ask volume, total volume, delta, or comparison thresholds.",
+      "Executed volume is not the same as displayed depth. A footprint records trades after they occur; a DOM or heatmap records resting orders before execution or cancellation.",
+      "With suitable tick data, trades can be classified relative to the bid and ask. Some platforms instead estimate buy and sell categories from lower-timeframe price movement.",
+      "Historical precision can change with the intrabar interval, available tick history, row size, aggregation, and session settings. Document these before comparison.",
+      "Cell imbalance, POC, value area, and delta are descriptive calculations. They do not independently establish direction, support, resistance, or participant identity."
+    ],
+    "scenario": "Two footprint platforms display different delta at the same bar. One uses historical bid/ask trade data; the other categorizes lower-timeframe volume by intrabar direction. The visual disagreement is a methodology difference, not automatically a data error.",
+    "exercise": "Build the same footprint view on two platforms or data settings. Document symbol, venue, session, tick or intrabar source, row size, buy/sell classification method, and resulting differences.",
+    "quiz": [
+      [
+        "Does a footprint display resting limit orders?",
+        "No. It primarily displays executed volume at price; resting orders belong to depth data."
+      ],
+      [
+        "Can two platforms calculate different footprint values?",
+        "Yes. Data source, trade classification, intrabar precision, and row settings can differ."
+      ],
+      [
+        "Does a highlighted imbalance guarantee continuation?",
+        "No. It is a descriptive comparison that requires price, structure, and risk context."
+      ]
+    ],
+    "mistake": "Assuming every footprint cell is true exchange bid/ask volume and treating a highlighted imbalance as a direct entry signal.",
+    "evidence": "Official footprint and numbers-bars platform documentation",
+    "sources": [
+      "TV_FOOTPRINT",
+      "SIERRA_NUMBERS_BARS",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M07",
+    "title": "Delta: Aggressive Trade Imbalance Without Certainty",
+    "time": "42 minutes",
+    "visual": "63_delta_imbalance_without_certainty.png",
+    "competencies": [
+      "order_flow",
+      "volume_analysis",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M06"
+    ],
+    "objective": "Calculate and interpret volume delta as a difference between classified buy-side and sell-side activity without treating its sign as a price forecast.",
+    "why": "Positive or negative delta describes how a platform classified executed activity. Price can advance, stall, or reverse under the same delta sign, so the response matters more than the number alone.",
+    "core": [
+      "In bid/ask trade data, delta is commonly calculated as ask volume minus bid volume for a price level, bar, or period.",
+      "In estimated implementations, lower-timeframe price movement can be used to assign volume to positive or negative categories. This is not equivalent to direct exchange bid/ask classification.",
+      "Positive delta means the classified buy-side volume exceeded the classified sell-side volume for the selected calculation. It does not guarantee a higher close or future rise.",
+      "Compare delta with price progress, location, volatility, and structure. Large delta with limited progress is an observation that may justify further testing, not proof of absorption.",
+      "Normalize expectations by instrument, session, bar type, and feed. Raw delta values from different markets or settings are not directly comparable."
+    ],
+    "scenario": "A footprint bar shows strongly positive delta at a prior range high, but price makes little progress and closes inside the range. Record the aggressive buy-side imbalance and weak price result separately; do not assume either immediate reversal or continuation.",
+    "exercise": "Collect twenty bars with extreme positive or negative delta. Classify the price result as progress, stall, rejection, or unresolved, then test whether context improves the interpretation over delta sign alone.",
+    "quiz": [
+      [
+        "How is bid/ask volume delta commonly calculated?",
+        "Ask volume minus bid volume."
+      ],
+      [
+        "Does positive delta guarantee a rising price?",
+        "No. It describes classified executed activity, not the next price move."
+      ],
+      [
+        "Why can delta differ between platforms?",
+        "The trade data, classification algorithm, intrabar precision, bar type, and session settings can differ."
+      ]
+    ],
+    "mistake": "Buying every positive-delta bar or selling every negative-delta bar without considering methodology, price response, structure, and risk.",
+    "evidence": "Official bid/ask numbers-bars and estimated volume-delta documentation",
+    "sources": [
+      "SIERRA_NUMBERS_BARS",
+      "TV_VOLUME_DELTA",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M08",
+    "title": "Cumulative Volume Delta: Anchor, Reset, and Data Integrity",
+    "time": "45 minutes",
+    "visual": "64_cvd_anchor_reset_integrity.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "volume_analysis"
+    ],
+    "prerequisites": [
+      "L04-M07"
+    ],
+    "objective": "Interpret cumulative volume delta only after verifying the underlying delta method, reset anchor, session, and historical data completeness.",
+    "why": "CVD converts a sequence of delta values into a running total. A different starting point, session template, or classification method can change the entire path and any apparent divergence.",
+    "core": [
+      "CVD adds each bar or trade delta to a running total. The calculation may reset at the start of a trading day or another selected anchor period.",
+      "A direct bid/ask implementation requires historical bid-volume and ask-volume data. Missing historical fields can produce incomplete or empty results.",
+      "An estimated CVD may classify lower-timeframe volume from price movement. Lower intervals improve granularity but can reduce historical coverage.",
+      "Price-CVD divergence is a descriptive disagreement between paths. It is not a stand-alone reversal or continuation signal and can persist.",
+      "Compare CVD only when symbol, venue, contract, session, anchor, data source, bar construction, and calculation method are documented and equivalent."
+    ],
+    "scenario": "One CVD chart resets at the cash-session open and uses bid/ask trades; another anchors weekly and estimates delta from one-minute intrabars. Their slopes disagree. The correct response is to stop the comparison until method and anchor are aligned.",
+    "exercise": "Recalculate one session using two reset anchors and, where available, two delta methods. Document how the path and any apparent divergence change, then state what evidence would be needed before using CVD in a plan.",
+    "quiz": [
+      [
+        "What is CVD?",
+        "A running sum of volume delta over a defined period or session."
+      ],
+      [
+        "Why does the reset anchor matter?",
+        "Changing the starting point changes every subsequent cumulative value."
+      ],
+      [
+        "Does a price-CVD divergence guarantee reversal?",
+        "No. It is a contextual observation and can persist or disappear with different data and settings."
+      ]
+    ],
+    "mistake": "Comparing CVD lines with different anchors or methods and treating any divergence as a guaranteed turning point.",
+    "evidence": "Official direct and estimated cumulative-delta platform documentation",
+    "sources": [
+      "SIERRA_CVD",
+      "TV_CVD",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M09",
+    "title": "Heatmaps, Order Changes, and Liquidity Reliability",
+    "time": "45 minutes",
+    "visual": "65_heatmap_order_changes_reliability.png",
+    "competencies": [
+      "liquidity",
+      "order_flow",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M08"
+    ],
+    "objective": "Use an order-book heatmap to observe displayed liquidity through time while avoiding unsupported conclusions about permanence, intent, or spoofing.",
+    "why": "A heatmap preserves the history of visible order-book changes that a single DOM snapshot loses. It still shows displayed orders, not private intent, and the result depends on feed depth, latency, and aggregation.",
+    "core": [
+      "An order-book heatmap maps displayed quantity by price and time. Greater visual intensity normally represents more displayed resting liquidity in the chosen feed.",
+      "Because the display retains history, the learner can observe where quantity was added, reduced, cancelled, executed against, or left untouched as price approached.",
+      "An order cancellation is not automatically deceptive. Legitimate orders are routinely modified or cancelled as conditions change.",
+      "Spoofing is a legal and intent-based concept: bidding or offering with the intent to cancel before execution. A chart pattern alone does not establish that intent.",
+      "Feed depth, aggregation, hidden orders, venue coverage, latency, and replay reconstruction can make heatmaps incomparable. Validate settings and combine them with trades and price response."
+    ],
+    "scenario": "A bright offer band appears, moves away twice, and disappears before price reaches it. The heatmap proves displayed changes in the chosen feed, but not why they occurred. Record the sequence and avoid accusing a participant or predicting direction.",
+    "exercise": "Replay five heatmap events. Separate displayed additions, reductions, executions, and price response; document feed limitations; and write one neutral interpretation plus one reason to choose no trade.",
+    "quiz": [
+      [
+        "What does heatmap intensity normally represent?",
+        "The amount of displayed resting liquidity at a price in the selected feed."
+      ],
+      [
+        "Is every cancelled order spoofing?",
+        "No. Spoofing depends on intent to cancel before execution and broader facts and circumstances."
+      ],
+      [
+        "What should accompany a heatmap observation?",
+        "Feed and setting documentation, executed trades, price response, structure, and risk."
+      ]
+    ],
+    "mistake": "Calling every disappearing order spoofing or treating every bright band as guaranteed support or resistance.",
+    "evidence": "Official heatmap explanation, exchange order-book documentation, and CFTC spoofing guidance",
+    "sources": [
+      "BOOKMAP_HEATMAP",
+      "CME_MBO",
+      "CFTC_SPOOFING_GUIDANCE",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M10",
+    "title": "Liquidity and Order Flow Assessment",
+    "time": "60 minutes",
+    "visual": "66_liquidity_order_flow_assessment.png",
+    "competencies": [
+      "assessment",
+      "liquidity",
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M09"
+    ],
+    "objective": "Demonstrate a reproducible liquidity and order-flow review that separates resting orders, executed trades, estimates, interpretations, and risk decisions.",
+    "why": "Order-flow tools create dense and persuasive displays. A passing assessment must prove that the learner understands the data pipeline and can decline a trade when evidence or execution quality is insufficient.",
+    "core": [
+      "Audit the instrument, venue, contract, session, feed, depth level, latency status, bar construction, footprint classification, delta method, CVD anchor, and heatmap settings before interpretation.",
+      "Separate displayed resting orders, executed trades, estimated classifications, price structure, and narrative interpretation into distinct evidence categories.",
+      "Use DOM and heatmap changes to describe displayed liquidity; use footprint, delta, and CVD to describe classified executions. Do not treat either dataset as participant identity or intent.",
+      "A passing conditional plan states confirmation, structural invalidation, expected execution risk, maximum loss, and evidence that cancels the idea. Tool agreement is not a substitute for these controls.",
+      "Choose no trade when feeds are stale or mismatched, methods are incomparable, visible liquidity is unstable, confirmation is late, or slippage and invalidation cannot be bounded."
+    ],
+    "scenario": "You receive a futures DOM and heatmap, a true bid/ask footprint, an estimated CVD from another platform, and a CFD chart for the same underlying theme. The tools appear to agree directionally, but the venues and methods differ. Audit comparability before deciding whether any plan is valid.",
+    "exercise": "Complete two assessment cases. For each, submit a data-provenance sheet, observation-versus-interpretation table, liquidity and execution review, structure map, confirmation and invalidation plan, risk statement, and final conditional-trade or no-trade decision.",
+    "quiz": [
+      [
+        "What is the first task in an order-flow assessment?",
+        "Audit the instrument, venue, feed, data method, session, and settings."
+      ],
+      [
+        "Can agreement among DOM, footprint, and CVD replace risk controls?",
+        "No. Confirmation, invalidation, execution risk, and maximum loss remain mandatory."
+      ],
+      [
+        "Can no trade receive a passing assessment?",
+        "Yes, when data, comparability, timing, liquidity, or risk limitations are correctly identified and justified."
+      ]
+    ],
+    "mistake": "Passing the assessment by showing several colourful tools that appear aligned while ignoring data provenance, method differences, slippage, and invalidation.",
+    "evidence": "Competency assessment based on official exchange, regulator, and platform documentation",
+    "sources": [
+      "CME_LIQUIDITY_METHOD",
+      "CME_MBO",
+      "TV_FOOTPRINT",
+      "SIERRA_CVD",
+      "CFTC_SPOOFING_GUIDANCE",
+      "CME_RISK"
+    ]
+  }
+]

@@ -13,7 +13,7 @@ Trend, range, swing points, support/resistance, BOS, CHoCH, multi-timeframe anal
 Volume, volume profile, POC, VAH, VAL, HVN, LVN, auction theory, VWAP.
 
 ## Level 4 — Liquidity and Order Flow
-Liquidity pools, sweeps, footprint, delta, CVD, absorption, DOM, heatmaps.
+Spread, depth, limit-order-book structure, displayed versus hidden liquidity, DOM, inferred liquidity zones, sweeps, footprint methodology, delta, CVD, heatmaps, absorption, exhaustion, and data-integrity controls.
 
 ## Level 5 — Planning and Execution
 Setup qualification, entries, invalidation, stops, targets, management, R-multiples, no-trade decisions.
