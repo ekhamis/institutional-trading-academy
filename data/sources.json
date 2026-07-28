@@ -128,5 +128,60 @@
     "title": "Volume Profile Indicators: Basic Concepts - TradingView Help Center",
     "url": "https://www.tradingview.com/support/solutions/43000502040-volume-profile-indicators-basic-concepts/",
     "kind": "official"
+  },
+  "CME_LIQUIDITY_METHOD": {
+    "title": "Understanding the CME Liquidity Tool Methodology - CME Group",
+    "url": "https://www.cmegroup.com/education/articles-and-reports/understanding-the-cme-liquidity-tool-methodology",
+    "kind": "official"
+  },
+  "CME_MBO": {
+    "title": "Market by Order (MBO) - CME Group",
+    "url": "https://www.cmegroup.com/articles/faqs/market-by-order-mbo.html",
+    "kind": "official"
+  },
+  "CME_MATCHING_ALGORITHMS": {
+    "title": "How CME Group Ag Markets Operate - Matching Algorithms",
+    "url": "https://www.cmegroup.com/education/articles-and-reports/overview-what-makes-ags-markets-work",
+    "kind": "official"
+  },
+  "TV_DOM": {
+    "title": "Depth of Market (DOM) - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000516459-depth-of-market-dom-what-it-is-and-how-traders-can-use-it/",
+    "kind": "official"
+  },
+  "TV_FOOTPRINT": {
+    "title": "Volume Footprint Charts: A Complete Guide - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000726164-volume-footprint-charts-a-complete-guide/",
+    "kind": "official"
+  },
+  "TV_VOLUME_DELTA": {
+    "title": "Volume Delta - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000725057-volume-delta/",
+    "kind": "official"
+  },
+  "TV_CVD": {
+    "title": "Cumulative Volume Delta - TradingView Help Center",
+    "url": "https://www.tradingview.com/support/solutions/43000725058-cumulative-volume-delta/",
+    "kind": "official"
+  },
+  "SIERRA_NUMBERS_BARS": {
+    "title": "Numbers Bars - Sierra Chart Documentation",
+    "url": "https://www.sierrachart.com/index.php?page=doc%2FNumbersBars.php",
+    "kind": "official"
+  },
+  "SIERRA_CVD": {
+    "title": "Cumulative AskVolume and BidVolume Difference Bars - Sierra Chart Documentation",
+    "url": "https://www.sierrachart.com/index.php?page=doc%2Fhelpdetails71.html",
+    "kind": "official"
+  },
+  "BOOKMAP_HEATMAP": {
+    "title": "Heatmap in Trading: Market Depth Visualization - Bookmap",
+    "url": "https://bookmap.com/blog/heatmap-in-trading-the-complete-guide-to-market-depth-visualization",
+    "kind": "official"
+  },
+  "CFTC_SPOOFING_GUIDANCE": {
+    "title": "CFTC Interpretive Guidance on Disruptive Practices and Spoofing",
+    "url": "https://www.cftc.gov/LawRegulation/FederalRegister/FinalRules/2013-12365.html",
+    "kind": "official"
   }
 }

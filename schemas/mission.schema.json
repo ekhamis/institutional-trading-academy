@@ -1,55 +1,115 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ITA Canonical Mission",
+  "title": "ITA Canonical English Mission",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "id",
-    "level",
-    "status",
+    "title",
+    "time",
+    "visual",
     "competencies",
     "prerequisites",
-    "source_ids",
-    "illustration_id"
+    "objective",
+    "why",
+    "core",
+    "scenario",
+    "exercise",
+    "quiz",
+    "mistake",
+    "evidence",
+    "sources"
   ],
   "properties": {
     "id": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^L\\d{2}-M\\d{2}$"
     },
-    "level": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "minLength": 1
     },
-    "status": {
-      "enum": [
-        "draft",
-        "review",
-        "content_locked",
-        "published"
-      ]
+    "time": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visual": {
+      "type": "string",
+      "minLength": 1
     },
     "competencies": {
       "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     },
     "prerequisites": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^L\\d{2}-M\\d{2}$"
       }
     },
-    "source_ids": {
+    "objective": {
+      "type": "string",
+      "minLength": 1
+    },
+    "why": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core": {
       "type": "array",
+      "minItems": 3,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     },
-    "illustration_id": {
-      "type": "string"
+    "scenario": {
+      "type": "string",
+      "minLength": 1
     },
-    "localized_content": {
-      "description": "Stored separately under content/<locale>/",
-      "type": "boolean"
+    "exercise": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quiz": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "string",
+            "minLength": 1
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "mistake": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     }
   }
 }
