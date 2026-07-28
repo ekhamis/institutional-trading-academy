@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
       - name: Generate validation report
         run: python scripts/validate_project.py | tee validation-report.txt
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: validation-report
           path: validation-report.txt
