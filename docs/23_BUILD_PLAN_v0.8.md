@@ -2,7 +2,7 @@
 
 ## Status
 
-Authorized in the canonical Institutional Trading Academy development thread and built on `agent/ita-v0.8.0-master-build` from the verified v0.7.0 repository state. This candidate must pass local and GitHub workflow validation before it can be described as release-ready. Tagging and GitHub release publication remain separate operations.
+Completed and merged to `main` through pull request #5. The exact merged commit is `be51bd1a0a88dd44e444279ceffc868146b122b3`. Local validation, the candidate-branch workflow, the automatic `main` workflow, and a manual `main` workflow all passed with 70 canonical English missions, 0 errors, and 0 warnings. Tagging and GitHub release publication remain separate operations requiring explicit authorization.
 
 ## Goal
 
@@ -35,8 +35,8 @@ This increment covers foundational liquidity and order-flow data literacy. Advan
 - Curriculum, knowledge graph, localization status, README, handbook source, schema, validator, roadmap, and build-status documentation agree on v0.8.0 and 70 missions.
 - English remains the canonical source language; Arabic authoring remains deferred until English v1.0.0 lock.
 - The validator discovers the current canonical dataset and release-status document dynamically rather than requiring future hard-coded mission counts.
-- Local validation reports 70 canonical English missions, 0 errors, and 0 warnings.
-- The handbook is regenerated from canonical data and contains exactly 70 mission headings.
+- Local and GitHub validation report 70 canonical English missions, 0 errors, and 0 warnings.
+- The handbook contains exactly 70 mission headings.
 - The v0.8.0 ZIP is generated only after validation passes.
 - Publication remains separate from candidate packaging and requires explicit authorization.
 
@@ -51,8 +51,8 @@ This increment covers foundational liquidity and order-flow data literacy. Advan
 
 ## Release discipline
 
-Keep v0.8.0 work on the build branch until the complete candidate passes validation. A locally generated ZIP and a workflow artifact are build evidence, not a published release. Do not tag v0.8.0 or dispatch the release workflow without separate authorization.
+The v0.8.0 candidate is merged and validated on `main`. Do not create tag `v0.8.0` or publish the GitHub release until explicit publication authorization is recorded. The release tag must point to the final release-readiness commit after the metadata and workflow-runtime correction is merged.
 
 ## Exact next action
 
-Use the guarded candidate push script to create `agent/ita-v0.8.0-master-build`, open a draft pull request, verify the `Validate and package` workflow, then record the workflow run and artifact in `docs/24_BUILD_STATUS_v0.8.md`.
+Merge the release-readiness correction, confirm `Validate and package` succeeds on the resulting `main` commit without Node.js 20 deprecation warnings, then request explicit authorization to create tag `v0.8.0` and publish the GitHub release from that exact commit.
