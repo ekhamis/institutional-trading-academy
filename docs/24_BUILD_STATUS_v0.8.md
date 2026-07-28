@@ -2,7 +2,7 @@
 
 ## Summary
 
-The v0.8.0 build candidate begins the English-first Liquidity and Order Flow track and expands the canonical curriculum to 70 missions. It is a validated local candidate pending GitHub workflow verification. It is not tagged or published.
+The v0.8.0 release candidate begins the English-first Liquidity and Order Flow track and expands the canonical curriculum to 70 missions. Pull request #5 was squash-merged to `main` as commit `be51bd1a0a88dd44e444279ceffc868146b122b3`. The candidate is release-ready but is not yet tagged or published.
 
 ## Added
 
@@ -21,7 +21,7 @@ The v0.8.0 build candidate begins the English-first Liquidity and Order Flow tra
 - Canonical mission dataset: `data/missions_en-US_01_70.json`
 - Cumulative handbook source: `handbooks/ITA_English_Handbook_Missions_01_70_v0.8.md`
 - Dynamic handbook and validation scripts for future mission counts
-- Corrected mission schema aligned to the actual canonical record format
+- Corrected mission schema aligned to the canonical record format
 
 ## Educational safeguards
 
@@ -37,12 +37,25 @@ English remains the canonical source language. Arabic authoring remains deferred
 
 ## Validation state
 
-Local validation passes with 70 canonical English missions, 0 errors, and 0 warnings. The cumulative handbook was regenerated through mission 70, all ten new illustrations passed reference and dimension checks, and the package utility created `dist/institutional-trading-academy-v0.8.0.zip`. GitHub workflow verification remains pending the initial build-branch push.
+- Local candidate validation: 70 canonical English missions, 0 errors, and 0 warnings.
+- Candidate-branch workflow `Validate and package` #10: successful.
+- Automatic `main` workflow #11 at merged commit `be51bd1`: successful.
+- Manual `main` workflow #12: successful.
+- Validation, versioned packaging, and artifact upload completed successfully on `main`.
 
-## Repository handoff
+## Repository state
 
-The connected repository integration permitted inspection but rejected build-branch creation with `403 Resource not accessible by integration`. No remote repository state changed. The candidate includes `scripts/push_v0.8_candidate.ps1` and `release/v0.8.0/update_manifest.txt` for a guarded GitHub CLI push and draft pull request. Full handoff details are recorded in `docs/26_RELEASE_HANDOFF_v0.8.md`.
+- Candidate branch: `agent/ita-v0.8.0-master-build`
+- Pull request: #5
+- Pull request state: merged
+- Main commit after squash merge: `be51bd1a0a88dd44e444279ceffc868146b122b3`
+- Canonical version: `0.8.0`
+- Canonical English missions: 70
+
+## Release readiness
+
+Release-ready on `main`, subject only to merging the metadata and workflow-runtime correction and confirming the final `main` workflow. The correction updates stale candidate wording and moves GitHub-maintained actions to Node.js 24-compatible major versions.
 
 ## Publication state
 
-Unpublished candidate on `agent/ita-v0.8.0-master-build`. Packaging is not publication. Do not tag v0.8.0 or publish a GitHub release without separate authorization after the candidate passes branch and main validation.
+Unpublished. No `v0.8.0` tag or GitHub release should be created until the final release-readiness commit passes `Validate and package` and publication is explicitly authorized.

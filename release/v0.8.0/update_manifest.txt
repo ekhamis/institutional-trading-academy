@@ -1,5 +1,8 @@
-README.md
+.github/workflows/manual-content-check.yml
+.github/workflows/release.yml
+.github/workflows/validate-and-package.yml
 PUSH_v0.8.0.cmd
+README.md
 VERSION
 assets/illustrations/57_liquidity_spread_depth_cost.png
 assets/illustrations/58_limit_order_book_price_queue.png
