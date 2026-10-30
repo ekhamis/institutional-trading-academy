@@ -21,6 +21,7 @@ def release_context() -> tuple[str, int, str, Path, Path]:
 def main() -> int:
     version, count, _series, source, output = release_context()
     missions = json.loads(source.read_text(encoding="utf-8"))
+    sources = json.loads((ROOT / "data/sources.json").read_text(encoding="utf-8"))
     if len(missions) != count:
         raise ValueError(f"Canonical dataset contains {len(missions)} missions; curriculum expects {count}")
 
@@ -42,6 +43,10 @@ def main() -> int:
             "**Core ideas:**",
         ])
         lines.extend(f"- {idea}" for idea in mission["core"])
+        if mission.get("visual"):
+            lines.extend(["", f"![{mission['title']}](../assets/illustrations/{mission['visual']})", ""])
+        if mission.get("scenario"):
+            lines.extend(["**Case:**", "", mission["scenario"], ""])
         lines.extend([
             "",
             f"**Practice:** {mission['exercise']}",
@@ -49,6 +54,14 @@ def main() -> int:
             f"**Common mistake:** {mission['mistake']}",
             "",
         ])
+        lines.extend(["**Knowledge checks and answer rationale:**", ""])
+        for question, answer in mission.get("quiz", []):
+            lines.extend([f"- {question}", f"  Answer: {answer}"])
+        lines.extend(["", "**References:**"])
+        for key in mission.get("sources", []):
+            ref = sources[key]
+            lines.append(f"- [{ref['title']}]({ref['url']})")
+        lines.append("")
 
     output.write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"Created {output.relative_to(ROOT)} with {len(missions)} missions")

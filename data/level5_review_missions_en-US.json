@@ -1,0 +1,402 @@
+[
+  {
+    "id": "L05-M11",
+    "title": "Partial Exits and Weighted R",
+    "time": "45 minutes",
+    "visual": "091_review_11.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M10"
+    ],
+    "objective": "Apply partial exits and weighted r to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Weight every exit by its fraction of the original quantity. Keep the original risk denominator.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A simulated position starts with $100 planned risk. Half exits at +1R and half at +3R. Total costs are $12.",
+    "exercise": "Compute gross and net R; compare with exiting all at +3R without assuming that target always fills.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "0.5 x 1 + 0.5 x 3 = 2 gross R; ($200 - $12) / $100 = 1.88 net R."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M12",
+    "title": "Precommitted Time Stops",
+    "time": "45 minutes",
+    "visual": "092_review_12.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M11"
+    ],
+    "objective": "Apply precommitted time stops to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Distinguish an entry expiry from a time-based exit of an existing position. Define the clock, timezone and exact rule before replay.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A synthetic plan requires a review after six completed five-minute bars. Price has not reached its trigger at that time.",
+    "exercise": "Write separate expiry and filled-position exit rules. Mark which applies to this unfilled case.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "The entry plan expires after 30 minutes under this exercise rule. There is no filled position to exit."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M13",
+    "title": "Breakeven Is Not Risk-Free",
+    "time": "45 minutes",
+    "visual": "093_review_13.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M12"
+    ],
+    "objective": "Apply breakeven is not risk-free to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "A stop trigger at entry does not guarantee a flat net result. Trailing rules change the payoff distribution and require testing.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A simulated long fills at 100 and its stop moves to 100. The exit fills at 99.8; quantity is 50 and total costs are $5.",
+    "exercise": "Calculate net P/L and explain why moving a stop cannot be called removing all risk.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "(99.8 - 100) x 50 - 5 = -$15. Gaps, slippage and costs remain."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M14",
+    "title": "Correlated Portfolio Scenarios",
+    "time": "45 minutes",
+    "visual": "094_review_14.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M13"
+    ],
+    "objective": "Apply correlated portfolio scenarios to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "More tickers do not establish independent exposures. Evaluate common drivers and stressed combined loss; correlations are not fixed.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "Two index-related simulated positions each have $100 planned risk. A common shock causes losses of $140 and $160.",
+    "exercise": "Compare the sum of planned stop risks with the stated common-shock result. Do not infer a covariance matrix from this example.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "$200 planned risk versus $300 scenario loss. The shock exceeds the planned sum by 50%."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M15",
+    "title": "Journal Evidence and Missing Fills",
+    "time": "45 minutes",
+    "visual": "095_review_15.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M14"
+    ],
+    "objective": "Apply journal evidence and missing fills to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Separate plan, submitted order, confirmed execution and claimed result. Preserve unknowns; do not turn annotations into audited performance.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A chart box shows a target reached. The journal has no order confirmation, quantity or exit fill.",
+    "exercise": "Create a record with timestamp, instrument/feed, plan version, order IDs, fill quantities/prices and costs. Leave unsupported fields unknown.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "This is an unverified outcome, not a realized winner. Missing evidence is a review task, not permission to invent fills."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M16",
+    "title": "Expectancy and Sample Uncertainty",
+    "time": "45 minutes",
+    "visual": "096_review_16.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M15"
+    ],
+    "objective": "Apply expectancy and sample uncertainty to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Sample mean is an estimate, not proof of future edge. Dependence, changing conditions and selective reporting can invalidate simple confidence arguments.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "Ten synthetic outcomes contain four +2R wins and six -1R losses before costs. Modeled costs total 1R.",
+    "exercise": "Compute gross and net mean R. List missing evidence before accepting the strategy.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "(4 x 2 - 6) / 10 = +0.2R gross per trade; (2 - 1) / 10 = +0.1R net. Ten outcomes do not establish a stable edge."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M17",
+    "title": "Drawdown and Recovery",
+    "time": "45 minutes",
+    "visual": "097_review_17.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M16"
+    ],
+    "objective": "Apply drawdown and recovery to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Measure drawdown from a prior peak, not the starting deposit. Recovery uses the smaller current balance as denominator.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A synthetic equity series starts at 10000, peaks at 12000 and falls to 9000.",
+    "exercise": "Calculate peak-to-trough drawdown and the percentage gain needed to regain the peak. Ignore deposits and withdrawals in this example.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "(12000 - 9000) / 12000 = 25% drawdown. 3000 / 9000 = 33.33% recovery gain."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M18",
+    "title": "Losing Streaks and Risk Controls",
+    "time": "45 minutes",
+    "visual": "098_review_18.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M17"
+    ],
+    "objective": "Apply losing streaks and risk controls to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Compounding changes risk dollars. Streak probabilities require assumptions; a small backtest cannot guarantee a maximum future losing streak.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "Five simulated losses each remove 1% of then-current equity from an initial 10000, ignoring costs.",
+    "exercise": "Compute remaining equity. Write a precommitted pause/review rule without increasing size to recover losses.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "10000 x 0.99^5 = 9509.90, approximately 4.90% drawdown. The next trade is not owed a win."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M19",
+    "title": "Held-Out Testing Without Leakage",
+    "time": "45 minutes",
+    "visual": "099_review_19.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M18"
+    ],
+    "objective": "Apply held-out testing without leakage to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "A test set used for tuning is no longer untouched. Split chronologically, preserve configurations and account for overlapping labels or forward-looking features.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "A researcher tunes rules on January-June, evaluates July-August, then repeatedly changes rules after viewing September-October test results.",
+    "exercise": "Design training, validation and final held-out periods. Explain how contaminated results must be labeled.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "September-October became development data. Freeze a new specification and evaluate on new untouched data; do not relabel the old test as independent evidence."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  },
+  {
+    "id": "L05-M20",
+    "title": "Performance Review Assessment",
+    "time": "90 minutes",
+    "visual": "100_review_20.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M19"
+    ],
+    "objective": "Apply performance review assessment to a reproducible decision record.",
+    "why": "Honest measurement prevents outcome bias and unsupported claims.",
+    "core": [
+      "Score arithmetic, evidence integrity, risk aggregation, uncertainty, test separation and remediation from 0 to 2. Require 10/12 and no critical failure.",
+      "Every example here is original and synthetic. It is not verified historical performance or a trading recommendation.",
+      "Arithmetic is illustrative; rules and assessment thresholds are curriculum policy, not evidence of profitable edge."
+    ],
+    "scenario": "Review an unseen synthetic journal containing partial exits, costs, a missing fill, correlated positions and an overstated result.",
+    "exercise": "Submit calculations, corrected unknowns, a stress scenario and a reproducible evaluation plan. A fabricated fill, hidden cost or leaked test is a critical failure.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Advance only after the rubric passes and all critical failures are repaired on a new case. This is an internal educational assessment, not accreditation."
+      ],
+      [
+        "What evidence must remain unknown?",
+        "Any execution, cost or timing field not established by the supplied record."
+      ]
+    ],
+    "mistake": "Treating an attractive chart or small sample as proof of net realized performance.",
+    "evidence": "Official general risk guidance plus original educational arithmetic and research-design practice; not a validated strategy.",
+    "sources": [
+      "CME_RISK",
+      "SEC_DIVERSIFICATION",
+      "CFTC_HYPOTHETICAL"
+    ]
+  }
+]

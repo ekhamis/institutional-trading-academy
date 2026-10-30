@@ -189,5 +189,15 @@
     "url": "https://www.sierrachart.com/index.php?page=doc/ReplayChart.html",
     "kind": "official",
     "checked": "2026-10-30"
+  },
+  "SEC_DIVERSIFICATION": {
+    "title": "Asset Allocation and Diversification - Investor.gov",
+    "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "kind": "official"
+  },
+  "CFTC_HYPOTHETICAL": {
+    "title": "Commodity Trading Systems Sold on the Internet - CFTC",
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_tradingsystem.html",
+    "kind": "official"
   }
 }
