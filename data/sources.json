@@ -199,5 +199,45 @@
     "title": "Commodity Trading Systems Sold on the Internet - CFTC",
     "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_tradingsystem.html",
     "kind": "official"
+  },
+  "CME_ES_SPEC": {
+    "title": "E-mini S&P 500 Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/equities/sp/e-mini-sandp500.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_NQ_SPEC": {
+    "title": "E-mini Nasdaq-100 Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/equities/nasdaq/e-mini-nasdaq-100.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_GC_SPEC": {
+    "title": "Gold Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/metals/precious/gold.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_MICRO_EQUITY": {
+    "title": "Micro E-mini Equity Index Futures - CME Group",
+    "url": "https://www.cmegroup.com/markets/equities/micro-e-mini-futures.html",
+    "kind": "official"
+  },
+  "CME_MGC_SPEC": {
+    "title": "Micro Gold Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/metals/precious/e-micro-gold.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_HOURS": {
+    "title": "CME Group Holiday and Trading Hours",
+    "url": "https://www.cmegroup.com/trading-hours.html",
+    "kind": "official"
+  },
+  "CME_DELAYED": {
+    "title": "Delayed Quotes - CME Group",
+    "url": "https://www.cmegroup.com/market-data/browse-data/delayed-quotes.html",
+    "kind": "official"
+  },
+  "CME_DATA": {
+    "title": "Real-Time and Historical Data - CME Group",
+    "url": "https://www.cmegroup.com/market-data/real-time-and-historical-data.html",
+    "kind": "official"
   }
 }

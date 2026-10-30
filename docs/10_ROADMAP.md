@@ -2,13 +2,15 @@
 
 ## Current build increment
 
+v0.12.0 adds ten instrument and session verification missions for CME equity-index and COMEX gold futures, bringing the English master to 110 missions. It covers contract identity, multipliers, tick grids, micro/mini sizing, sessions and trade dates, cash/futures/ETF distinctions, rolls, gold delivery, feed provenance and assessment. Specifications are source-stamped but must be rechecked before use.
+
 v0.11.0 completes ten Trade Management and Performance Review missions, bringing the English master to 100 missions. Cases and illustrations are original synthetic exercises. The handbook now retains visuals, scenarios, answer rationale and references.
 
 v0.10.0 adds ten Planning and Execution missions, bringing the English master to 90 missions. It adds decision-before-outcome practice, loss-budget sizing, execution uncertainty, cost-adjusted payoffs, daily risk controls, losing and skipped trades, ambiguous evidence and an assessment. See docs/29_CASE_TEACHING_STANDARD.md.
 
 ## Next curriculum increment
 
-The next increment should establish instrument-specific specification and session verification for indices and gold before specialist playbooks. Verify current exchange specifications and data-feed differences. Private source images remain outside all public deliverables.
+The next increment should use the verified specification foundation to introduce specialist index and gold playbooks without presenting patterns as signals or proven edge. Private source images remain outside all public deliverables.
 
 ## Phase 1
 Lock charter, MVP curriculum, first 10 missions, illustration standards, clickable prototype.
