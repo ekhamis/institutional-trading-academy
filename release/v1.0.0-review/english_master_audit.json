@@ -1,0 +1,21 @@
+{
+  "audit": "English master pre-lock",
+  "generated_at_utc": "2026-10-30T10:13:51.126568+00:00",
+  "repository_version": "0.13.0",
+  "canonical_dataset": "data/missions_en-US_01_120.json",
+  "canonical_english_missions": 120,
+  "english_mission_markdown_files": 120,
+  "registered_sources": 54,
+  "sources_used": 54,
+  "official_sources": 52,
+  "arabic_translated_missions": 0,
+  "errors": [],
+  "warnings": [],
+  "automated_gate": "PASS",
+  "manual_gates_remaining": [
+    "Editorial review of all 120 English missions",
+    "Independent instructional and risk-language review",
+    "Source freshness spot-check before v1.0.0 lock",
+    "Final package privacy review"
+  ]
+}
