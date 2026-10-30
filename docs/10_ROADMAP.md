@@ -2,11 +2,11 @@
 
 ## Current build increment
 
-v0.9.0 begins Level 4, Liquidity and Order Flow, with spread and depth, limit-order-book structure, DOM, observable versus inferred liquidity, post-sweep evidence, footprint methodology, delta, cumulative delta, heatmaps, data limitations, and a practical assessment. The authorized scope and acceptance criteria are defined in `docs/23_BUILD_PLAN_v0.8.md`.
+v0.10.0 adds ten Planning and Execution missions, bringing the English master to 90 missions. It adds decision-before-outcome practice, loss-budget sizing, execution uncertainty, cost-adjusted payoffs, daily risk controls, losing and skipped trades, ambiguous evidence and an assessment. See docs/29_CASE_TEACHING_STANDARD.md.
 
 ## Next curriculum increment
 
-The next English-first increment should deepen Level 4 with absorption and exhaustion tests, stacked imbalances, order-flow divergence, book resiliency, replay methodology, advanced no-trade conditions, and a Level 4 completion assessment. The exact mission count and version remain subject to validation of the v0.9.0 candidate.
+The next increment should complete trade-management and performance review: partial exits, time stops, correlated risk, journal integrity, expectancy uncertainty, drawdown and held-out testing. Validate prerequisites and scope before setting the release count. Private source images remain outside all public deliverables.
 
 ## Phase 1
 Lock charter, MVP curriculum, first 10 missions, illustration standards, clickable prototype.

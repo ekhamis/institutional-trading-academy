@@ -4,11 +4,11 @@ English-first, dual-language-ready trading and market-intelligence education pla
 
 ## Current release candidate
 
-- Version: **0.9.0** candidate on build/v0.9.0; publication follows validation
+- Version: **0.10.0** candidate on build/v0.10.0; publication follows validation
 - Canonical language: **English (`en-US`)**
 - Arabic: **architecture and RTL scaffolding only; content deferred until English v1.0.0 lock**
-- Authored missions: **80**
-- Handbook: English Missions 01-80 source package; prior PDF/DOCX handbook assets remain historical
+- Authored missions: **90**
+- Handbook: English Missions 01-90 Markdown source; prior PDF/DOCX handbook assets remain historical
 - Prototype: browser dashboard in `prototype/` (prototype content refresh is outside this release scope)
 
 ## Repository structure
