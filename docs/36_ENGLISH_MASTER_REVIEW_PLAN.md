@@ -21,6 +21,11 @@ Run `python scripts/audit_english_master.py --write` to refresh the machine-read
 3. Spot-check time-sensitive specifications against the official sources in `data/sources.json` immediately before lock.
 4. Rebuild the package and inspect it for private source originals, Discord channel names, handles and identifying metadata.
 
+Recorded evidence:
+
+- Official-source freshness spot-check: `release/v1.0.0-review/source_freshness_spot_check.md` (passed 2026-10-30; repeat if lock occurs later).
+- Final package privacy review: `release/v1.0.0-review/package_privacy_review.md` (passed 2026-10-30; repeat after any content change).
+
 ## Release rule
 
 Do not change `VERSION` to `1.0.0`, start Arabic authoring, tag or publish until the automated gate passes and every manual gate has recorded evidence. Review corrections use the `build/v1.0.0-review` branch and preserve the 120-mission scope unless a documented defect requires a content change.

@@ -80,6 +80,30 @@ def main() -> int:
     if translated_arabic:
         errors.append(f"Arabic has {translated_arabic} translated missions before English lock.")
 
+    source_freshness_evidence = (
+        ROOT / "release" / "v1.0.0-review" / "source_freshness_spot_check.md"
+    )
+    package_privacy_evidence = (
+        ROOT / "release" / "v1.0.0-review" / "package_privacy_review.md"
+    )
+    manual_gates_remaining = [
+        "Editorial review of all 120 English missions",
+        "Independent instructional and risk-language review",
+    ]
+    manual_gates_completed = []
+    if source_freshness_evidence.exists():
+        manual_gates_completed.append(
+            "Source freshness spot-check before v1.0.0 lock"
+        )
+    else:
+        manual_gates_remaining.insert(
+            2, "Source freshness spot-check before v1.0.0 lock"
+        )
+    if package_privacy_evidence.exists():
+        manual_gates_completed.append("Final package privacy review")
+    else:
+        manual_gates_remaining.append("Final package privacy review")
+
     report = {
         "audit": "English master pre-lock",
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -94,12 +118,8 @@ def main() -> int:
         "errors": errors,
         "warnings": warnings,
         "automated_gate": "PASS" if not errors else "FAIL",
-        "manual_gates_remaining": [
-            "Editorial review of all 120 English missions",
-            "Independent instructional and risk-language review",
-            "Source freshness spot-check before v1.0.0 lock",
-            "Final package privacy review",
-        ],
+        "manual_gates_completed": manual_gates_completed,
+        "manual_gates_remaining": manual_gates_remaining,
     }
 
     rendered = json.dumps(report, indent=2, ensure_ascii=False) + "\n"
