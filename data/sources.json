@@ -183,5 +183,11 @@
     "title": "CFTC Interpretive Guidance on Disruptive Practices and Spoofing",
     "url": "https://www.cftc.gov/LawRegulation/FederalRegister/FinalRules/2013-12365.html",
     "kind": "official"
+  },
+  "SIERRA_REPLAY": {
+    "title": "Replay Chart - Sierra Chart",
+    "url": "https://www.sierrachart.com/index.php?page=doc/ReplayChart.html",
+    "kind": "official",
+    "checked": "2026-10-30"
   }
 }

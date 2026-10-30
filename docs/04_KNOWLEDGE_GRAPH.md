@@ -31,9 +31,9 @@ Financial Literacy
 - Funded-account preparation requires drawdown and consistency-rule competence.
 - Certifications require practical assessment.
 
-## Authored mission chain - v0.8.0
+## Authored mission chain - v0.9.0
 
-The current English-first build candidate contains 70 canonical English missions through L04-M10.
+The current English-first build candidate contains 80 canonical English missions through L04-M10.
 
 L00-M01 through L00-M10 establish purpose, participants, execution, orders, risk, and leverage.
 
