@@ -1,0 +1,452 @@
+[
+  {
+    "id": "L06-M01",
+    "title": "Verify the Tradable Contract",
+    "time": "45 minutes",
+    "visual": "101_instrument_01.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M20"
+    ],
+    "objective": "Apply verify the tradable contract with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "An index value, ETF, CFD and futures contract are different instruments. Record venue, product, contract month, currency and data source before calculating risk.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A note says only \"S&P at 6200\" with no venue, symbol, expiry or feed.",
+    "exercise": "Rewrite the note as a verification checklist and leave every unsupported field unknown.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "The note is not execution-ready. A complete identity might name CME ES plus a specific month, but the case supplies no basis to invent one."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M02",
+    "title": "Index Futures Multipliers",
+    "time": "45 minutes",
+    "visual": "102_instrument_02.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M01"
+    ],
+    "objective": "Apply index futures multipliers with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Contract value changes by price move times the exchange multiplier. Current specifications must be checked at the exchange rather than copied from memory.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A synthetic ES move is 8.00 index points and a synthetic NQ move is 25.00 points, one contract each.",
+    "exercise": "Using the cited specifications, compute gross changes before fees and explain why equal point moves are not equal risk.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "ES uses $50 per index point, so 8 points is $400. NQ uses $20 per index point, so 25 points is $500."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M03",
+    "title": "Minimum Tick and Order Validity",
+    "time": "45 minutes",
+    "visual": "103_instrument_03.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M02"
+    ],
+    "objective": "Apply minimum tick and order validity with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "A price must conform to the contract minimum fluctuation. Display precision is not permission to submit every decimal value.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A learner proposes an ES limit at 6200.10 and a GC limit at 2750.05.",
+    "exercise": "Check both prices against the cited minimum ticks and provide the nearest valid prices on either side.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "ES trades in 0.25-point increments, so 6200.10 is invalid; adjacent ticks are 6200.00 and 6200.25. GC trades in $0.10 increments, so 2750.05 is invalid; adjacent ticks are 2750.00 and 2750.10."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M04",
+    "title": "E-mini, Micro and Gold Sizing",
+    "time": "45 minutes",
+    "visual": "104_instrument_04.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M03"
+    ],
+    "objective": "Apply e-mini, micro and gold sizing with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Similar product names can hide tenfold size differences. Verify the exact product and calculate dollar risk from stop distance before choosing quantity.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A plan compares one ES, one MES, one GC and one MGC without recording multipliers.",
+    "exercise": "Create a four-row specification card with multiplier, tick and a clearly labeled hypothetical stop distance.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "The exercise must show that product selection changes exposure. Margin is not the maximum possible loss and must not replace stop-risk arithmetic."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M05",
+    "title": "Trading Hours and Trade Date",
+    "time": "45 minutes",
+    "visual": "105_instrument_05.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M04"
+    ],
+    "objective": "Apply trading hours and trade date with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Globex sessions can cross midnight and use exchange trade dates. Timezone, daylight-saving rule, session template and holiday schedule must accompany timestamps.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A platform chart labels a Sunday-evening fill as Monday while a local export shows Sunday.",
+    "exercise": "Normalize the record to UTC and exchange time, then state which label remains platform-defined.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Both timestamps may describe the same event. Preserve the original timezone and trade-date fields; do not infer an error from the calendar label alone."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M06",
+    "title": "Cash Index, Futures and ETF",
+    "time": "45 minutes",
+    "visual": "106_instrument_06.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M05"
+    ],
+    "objective": "Apply cash index, futures and etf with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Cash indices, futures and ETFs have different construction, trading hours and carrying relationships. Alignment requires instrument identity and synchronized timestamps.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A screenshot overlays an S&P 500 cash index, ES futures and an ETF, then claims every price difference is bad data.",
+    "exercise": "List the evidence required before comparing the three series. Do not force them onto one price scale.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Record symbol, venue, currency, adjustment method, timestamp, session and whether the value is indicative, executable or calculated."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M07",
+    "title": "Expiry and Roll Verification",
+    "time": "45 minutes",
+    "visual": "107_instrument_07.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M06"
+    ],
+    "objective": "Apply expiry and roll verification with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Futures expire. Continuous-series providers can roll on different dates and can back-adjust prices, changing historical levels without changing individual contracts.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A continuous futures chart jumps when its provider changes the lead contract.",
+    "exercise": "Separate the raw contract series from the continuous series and document the provider roll rule.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "A roll gap is not automatically a market gap. Reproduce analysis on named contracts and preserve the continuous-series transformation."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M08",
+    "title": "Gold Settlement and Delivery Risk",
+    "time": "45 minutes",
+    "visual": "108_instrument_08.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M07"
+    ],
+    "objective": "Apply gold settlement and delivery risk with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "GC is a physically delivered COMEX contract. Delivery procedures and broker liquidation rules require current verification; education must not imply that a stop guarantees exit before delivery obligations.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A learner holds a GC contract toward expiry believing every futures position is always cash settled.",
+    "exercise": "Build a pre-expiry checklist using the contract page and broker-specific unknowns.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Confirm contract month, last trading day, delivery mechanism, account eligibility and broker cutoffs. If any operational fact is unknown, escalate before trading."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M09",
+    "title": "Feed Delay and Data Provenance",
+    "time": "45 minutes",
+    "visual": "109_instrument_09.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M08"
+    ],
+    "objective": "Apply feed delay and data provenance with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Public CME quotes are delayed by at least ten minutes, while licensed products can provide real-time, delayed or end-of-day data. Vendors may also use different aggregation and session settings.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "A public CME quote, broker chart and paid API show different last prices at the same wall-clock moment.",
+    "exercise": "Create a provenance record that can explain the difference without choosing a winner by appearance.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Record source, entitlement, delay, timestamp semantics, trade or quote field, aggregation, session and corrections. Compare like with like."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  },
+  {
+    "id": "L06-M10",
+    "title": "Instrument Verification Assessment",
+    "time": "90 minutes",
+    "visual": "110_instrument_10.png",
+    "competencies": [
+      "instrument_literacy",
+      "risk_management",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L06-M09"
+    ],
+    "objective": "Apply instrument verification assessment with a source-stamped specification record.",
+    "why": "Instrument identity and current specifications are prerequisites for valid risk and execution decisions.",
+    "core": [
+      "Score identity, specification arithmetic, session normalization, expiry handling, delivery awareness and provenance from 0 to 2. Require 10/12 and no critical failure.",
+      "Every example is original and synthetic. Verify live specifications, schedules and broker rules before any real decision.",
+      "This curriculum is educational and does not recommend a product, provider or trade."
+    ],
+    "scenario": "An unseen case mixes ES, NQ and GC records with invalid ticks, missing expiries, ambiguous timestamps and a delayed feed.",
+    "exercise": "Submit corrected specification cards, calculations and a source-stamped decision log. Trading an unidentified contract or inventing a missing field is a critical failure.",
+    "quiz": [
+      [
+        "Explain the result and its limitations.",
+        "Advance only after a fresh case passes. Specifications and schedules can change, so every card needs an as-of date and official source."
+      ],
+      [
+        "What must be rechecked before use?",
+        "The current exchange specification, schedule, data entitlement and any broker-specific operational rule."
+      ]
+    ],
+    "mistake": "Using a familiar ticker or chart label as proof of contract identity and current specifications.",
+    "evidence": "Official CME product, schedule and market-data pages, checked 2026-10-30; original educational scenarios.",
+    "sources": [
+      "CME_ES_SPEC",
+      "CME_NQ_SPEC",
+      "CME_GC_SPEC",
+      "CME_MICRO_EQUITY",
+      "CME_MGC_SPEC",
+      "CME_HOURS",
+      "CME_DELAYED",
+      "CME_DATA"
+    ]
+  }
+]

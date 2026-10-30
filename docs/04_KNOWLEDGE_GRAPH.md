@@ -31,9 +31,11 @@ Financial Literacy
 - Funded-account preparation requires drawdown and consistency-rule competence.
 - Certifications require practical assessment.
 
-## Authored mission chain - v0.11.0
+## Authored mission chain - v0.12.0
 
-The current English-first build candidate contains 100 canonical English missions through L05-M20.
+The current English-first build candidate contains 110 canonical English missions through L06-M10.
+
+L06-M01 through L06-M10 require L05-M20 and establish instrument identity, contract arithmetic, valid tick grids, product sizing, session normalization, cross-instrument distinctions, expiry and rolls, delivery awareness, feed provenance and assessment.
 
 L05-M11 through L05-M20 extend L05-M10 with weighted exits, time rules, execution risk, portfolio scenarios, evidence integrity, expectancy uncertainty, drawdown, streaks, held-out testing and assessment. Each mission requires its predecessor.
 
