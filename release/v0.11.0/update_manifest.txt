@@ -33,14 +33,4 @@ scripts/build_handbook.py
 scripts/build_v011.py
 scripts/push_v0.11_candidate.ps1
 scripts/test_review_arithmetic.py
-content/en-US/performance-review/L05-M11.md
-content/en-US/performance-review/L05-M12.md
-content/en-US/performance-review/L05-M13.md
-content/en-US/performance-review/L05-M14.md
-content/en-US/performance-review/L05-M15.md
-content/en-US/performance-review/L05-M16.md
-content/en-US/performance-review/L05-M17.md
-content/en-US/performance-review/L05-M18.md
-content/en-US/performance-review/L05-M19.md
-content/en-US/performance-review/L05-M20.md
 VERSION
