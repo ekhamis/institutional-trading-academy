@@ -1,0 +1,440 @@
+[
+  {
+    "id": "L04-M11",
+    "title": "Absorption Hypotheses",
+    "time": "35 minutes",
+    "visual": "67_level4_11.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M10"
+    ],
+    "objective": "Evaluate absorption hypotheses using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Aggressive volume with limited price progress is consistent with absorption, but does not establish a hidden seller or reversal.",
+      "Compare equal-duration windows, volatility, trade classification and price location. Resting size alone cannot establish absorption.",
+      "Wait for a defined structural response; invalidate the reversal hypothesis on accepted continuation above the test.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "700 ask-classified contracts trade while the high advances only one tick; 100 contracts traded in the comparison window.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Aggressive volume with limited price progress is consistent with absorption, but does not establish a hidden seller or reversal."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Wait for a defined structural response; invalidate the reversal hypothesis on accepted continuation above the test."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_NUMBERS_BARS",
+      "CME_MBO"
+    ]
+  },
+  {
+    "id": "L04-M12",
+    "title": "Exhaustion Hypotheses",
+    "time": "35 minutes",
+    "visual": "68_level4_12.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M11"
+    ],
+    "objective": "Evaluate exhaustion hypotheses using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Declining participation and progress can support an exhaustion hypothesis. A quiet period or incomplete feed can produce similar observations.",
+      "Absorption emphasizes opposing liquidity against aggressive trades; exhaustion emphasizes declining aggressive activity. They can coexist.",
+      "Reject the hypothesis if participation and directional progress return; avoid inferring direction from low volume alone.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "A push trades 300 contracts across six ticks; the next equal-duration push trades 80 across one tick.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Declining participation and progress can support an exhaustion hypothesis. A quiet period or incomplete feed can produce similar observations."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Reject the hypothesis if participation and directional progress return; avoid inferring direction from low volume alone."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_NUMBERS_BARS"
+    ]
+  },
+  {
+    "id": "L04-M13",
+    "title": "Stacked Imbalances",
+    "time": "35 minutes",
+    "visual": "69_level4_13.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M12"
+    ],
+    "objective": "Evaluate stacked imbalances using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "The ratios are 4, 3.75 and 4.5, so all three satisfy this explicitly defined synthetic rule.",
+      "Platform diagonal conventions, zero handling, tick grouping and minimum-volume filters change results. A stack describes a calculation, not a profitable entry.",
+      "Require contextual acceptance; cancel if price returns through the tested area or the settings cannot be reproduced.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Three consecutive diagonal ask/bid comparisons are 120/30, 150/40 and 90/20. The test ratio is 3 and minimum numerator is 80.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "The ratios are 4, 3.75 and 4.5, so all three satisfy this explicitly defined synthetic rule."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Require contextual acceptance; cancel if price returns through the tested area or the settings cannot be reproduced."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_NUMBERS_BARS"
+    ]
+  },
+  {
+    "id": "L04-M14",
+    "title": "Price and Delta Divergence",
+    "time": "35 minutes",
+    "visual": "70_level4_14.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M13"
+    ],
+    "objective": "Evaluate price and delta divergence using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Price and delta are not obliged to move together. Passive liquidity and different volume distributions can explain divergence.",
+      "Use the same contract, venue, session boundaries and classification method. Do not compare estimated spot/CFD delta with exchange futures delta as identical evidence.",
+      "Accepted higher prices can invalidate a bearish interpretation despite divergence.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Price highs move from 5000 to 5002 while comparable-window delta falls from +600 to +200.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Price and delta are not obliged to move together. Passive liquidity and different volume distributions can explain divergence."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Accepted higher prices can invalidate a bearish interpretation despite divergence."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_CVD",
+      "SIERRA_NUMBERS_BARS"
+    ]
+  },
+  {
+    "id": "L04-M15",
+    "title": "Book Resiliency",
+    "time": "35 minutes",
+    "visual": "71_level4_15.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M14"
+    ],
+    "objective": "Evaluate book resiliency using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "The observed recovery is 200 contracts in 500 milliseconds; it does not show that the same participant replenished.",
+      "Separate cancellations, additions and executions. Timestamp resolution and feed gaps can invalidate a recovery-time estimate.",
+      "Avoid execution when spread and depth fail to recover within the predefined observation window.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Displayed depth falls from 400 to 100 after a trade burst, then recovers to 300 after 500 milliseconds.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "The observed recovery is 200 contracts in 500 milliseconds; it does not show that the same participant replenished."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Avoid execution when spread and depth fail to recover within the predefined observation window."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "CME_MBO"
+    ]
+  },
+  {
+    "id": "L04-M16",
+    "title": "Order Flow Confluence",
+    "time": "35 minutes",
+    "visual": "72_level4_16.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M15"
+    ],
+    "objective": "Evaluate order flow confluence using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "These can be three representations of the same executions, rather than three independent confirmations.",
+      "List each observation and its underlying input. Structure and execution cost answer different questions from signed traded volume.",
+      "A repeated metric cannot compensate for an invalid structural plan or excessive spread.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Footprint ask-minus-bid equals +250, candle delta is +250 and CVD increases by +250.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "These can be three representations of the same executions, rather than three independent confirmations."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "A repeated metric cannot compensate for an invalid structural plan or excessive spread."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_NUMBERS_BARS",
+      "SIERRA_CVD"
+    ]
+  },
+  {
+    "id": "L04-M17",
+    "title": "Replay Without Lookahead",
+    "time": "35 minutes",
+    "visual": "73_level4_17.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M16"
+    ],
+    "objective": "Evaluate replay without lookahead using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Save the decision timestamp, visible data window, settings and written conditional plan before revealing the outcome.",
+      "A chart screenshot taken afterward can contain hindsight labels. Mark which evidence was genuinely available at the pause.",
+      "Discard a trial if future bars or outcomes were seen before recording the decision.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Pause at 09:35, record a plan, then reveal the 09:36 bar. The later high is unavailable at decision time.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Save the decision timestamp, visible data window, settings and written conditional plan before revealing the outcome."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Discard a trial if future bars or outcomes were seen before recording the decision."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_REPLAY"
+    ]
+  },
+  {
+    "id": "L04-M18",
+    "title": "Replay Measurement and Costs",
+    "time": "35 minutes",
+    "visual": "74_level4_18.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M17"
+    ],
+    "objective": "Evaluate replay measurement and costs using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Net result is 5 ticks. Cost assumptions must match size, instrument and execution conditions; a replay fill is not proof of a live fill.",
+      "Select sessions before viewing outcomes, retain losses and no-trades, separate development from held-out evaluation, and report sample size and uncertainty.",
+      "Stop evaluation if fills are modeled from unavailable depth or if the test set influenced parameter selection.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "A synthetic trade earns 10 gross ticks; fees equal 2 ticks and modeled slippage is 3 ticks.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Net result is 5 ticks. Cost assumptions must match size, instrument and execution conditions; a replay fill is not proof of a live fill."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Stop evaluation if fills are modeled from unavailable depth or if the test set influenced parameter selection."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "SIERRA_REPLAY",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M19",
+    "title": "Advanced No-Trade Conditions",
+    "time": "35 minutes",
+    "visual": "75_level4_19.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M18"
+    ],
+    "objective": "Evaluate advanced no-trade conditions using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "A stale depth snapshot and current price are not a synchronized order-flow view. Restore and verify timestamps before interpreting.",
+      "No trade is justified for missing history, inconsistent sessions, unsuitable venue comparisons, late confirmation or unbounded execution cost.",
+      "Resume observation only after the original data and risk conditions can be verified again.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "A depth feed is 2 seconds stale during a burst while the price feed updates every 100 milliseconds.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "A stale depth snapshot and current price are not a synchronized order-flow view. Restore and verify timestamps before interpreting."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Resume observation only after the original data and risk conditions can be verified again."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "CME_MBO",
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L04-M20",
+    "title": "Level 4 Completion Assessment",
+    "time": "75 minutes",
+    "visual": "76_level4_20.png",
+    "competencies": [
+      "order_flow",
+      "data_literacy",
+      "risk_management"
+    ],
+    "prerequisites": [
+      "L04-M19"
+    ],
+    "objective": "Evaluate level 4 completion assessment using reproducible observations and a conditional risk decision.",
+    "why": "Separating observation from interpretation makes the decision auditable and exposes alternatives before risk is taken.",
+    "core": [
+      "Submit provenance, settings, observations, competing hypotheses, conditional confirmation, invalidation, costs and a trade/no-trade conclusion for both cases.",
+      "Score provenance 25, interpretation 25, replay integrity 20 and risk 30. Require 80/100 and no critical failure: lookahead, unbounded loss or false data equivalence.",
+      "Case B should be declined until comparability is established. Case A still needs a defensible risk plan; bullish evidence alone is insufficient.",
+      "All numeric examples are synthetic and must not be interpreted as historical performance."
+    ],
+    "scenario": "Case A has synchronized futures data; case B combines delayed depth with estimated CFD delta. Both appear bullish.",
+    "exercise": "Recalculate the worked case, state one alternative explanation, and submit a decision-time record with data settings, confirmation, invalidation, costs and a justified no-trade condition.",
+    "quiz": [
+      [
+        "What does the worked case establish?",
+        "Submit provenance, settings, observations, competing hypotheses, conditional confirmation, invalidation, costs and a trade/no-trade conclusion for both cases."
+      ],
+      [
+        "What cancels or limits the interpretation?",
+        "Case B should be declined until comparability is established. Case A still needs a defensible risk plan; bullish evidence alone is insufficient."
+      ],
+      [
+        "Does this example establish a profitable strategy?",
+        "No. It is a synthetic reasoning exercise; an edge requires separate cost-aware evaluation."
+      ]
+    ],
+    "mistake": "Inferring participant identity or a trade signal from a descriptive metric without validating data and risk.",
+    "evidence": "Platform documentation plus explicitly labelled practitioner hypotheses and synthetic exercises",
+    "sources": [
+      "CME_MBO",
+      "SIERRA_NUMBERS_BARS",
+      "SIERRA_REPLAY",
+      "CME_RISK"
+    ]
+  }
+]
