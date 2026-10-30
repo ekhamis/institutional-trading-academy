@@ -31,9 +31,9 @@ Financial Literacy
 - Funded-account preparation requires drawdown and consistency-rule competence.
 - Certifications require practical assessment.
 
-## Authored mission chain - v0.12.0
+## Authored mission chain - v0.13.0
 
-The current English-first build candidate contains 110 canonical English missions through L06-M10.
+The current English-first build candidate contains 120 canonical English missions through L06-M20.
 
 L06-M01 through L06-M10 require L05-M20 and establish instrument identity, contract arithmetic, valid tick grids, product sizing, session normalization, cross-instrument distinctions, expiry and rolls, delivery awareness, feed provenance and assessment.
 
@@ -52,3 +52,5 @@ L02-M01 through L02-M20 establish price action, structure, contextual invalidati
 L03-M01 through L03-M20 complete the Volume and Auction track from participation and VWAP foundations through volume profile, auction context, data limitations, and assessment.
 
 L04-M01 through L04-M10 begin Liquidity and Order Flow with spread, depth, limit-order-book structure, DOM, inferred liquidity zones, sweeps, footprint methodology, delta, CVD, heatmaps, and a data-provenance assessment.
+
+L06-M11 through L06-M20 add conditional specialist index and gold playbooks with explicit eligibility, evidence, invalidation, risk, execution and no-trade gates.

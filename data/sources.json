@@ -239,5 +239,35 @@
     "title": "Real-Time and Historical Data - CME Group",
     "url": "https://www.cmegroup.com/market-data/real-time-and-historical-data.html",
     "kind": "official"
+  },
+  "CME_ES": {
+    "title": "E-mini S&P 500 Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/equities/sp/e-mini-sandp500.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_NQ": {
+    "title": "E-mini Nasdaq-100 Futures Contract Specs - CME Group",
+    "url": "https://www.cmegroup.com/markets/equities/nasdaq/e-mini-nasdaq-100.contractSpecs.html",
+    "kind": "official"
+  },
+  "CME_GOLD": {
+    "title": "Gold Futures - CME Group",
+    "url": "https://www.cmegroup.com/markets/metals/precious/gold.html",
+    "kind": "official"
+  },
+  "CFTC_BASICS": {
+    "title": "Basics of Futures Trading - CFTC",
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/FuturesMarketBasics/index.htm",
+    "kind": "official"
+  },
+  "FED_CAL": {
+    "title": "FOMC Calendars - Federal Reserve",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "kind": "official"
+  },
+  "BLS_CAL": {
+    "title": "BLS Release Calendar - U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/schedule/",
+    "kind": "official"
   }
 }
