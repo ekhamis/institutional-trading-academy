@@ -1,0 +1,442 @@
+[
+  {
+    "id": "L06-M11",
+    "title": "Index Opening Context",
+    "time": "45 minutes",
+    "visual": "111_playbook_11.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M10"
+    ],
+    "objective": "Build and test a conditional index opening context playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Separate the overnight auction, cash open, and prior-session references. An opening location is context, not a direction forecast.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "ES opens above the prior synthetic value area after an overnight rise.",
+    "exercise": "Write bullish, bearish, and no-trade hypotheses with observable invalidation.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "A valid plan states what would disconfirm each path and avoids treating the opening location as a signal."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M12",
+    "title": "Trend-Day Hypothesis",
+    "time": "45 minutes",
+    "visual": "112_playbook_12.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M11"
+    ],
+    "objective": "Build and test a conditional trend-day hypothesis playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "A trend-day label is a revisable hypothesis based on acceptance, range expansion, and failed counter-auctions.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "Synthetic NQ holds above an opening range while pullbacks become shallower.",
+    "exercise": "Define two confirmation observations and two invalidation observations.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "The playbook remains conditional; a strong early move alone does not prove a trend day."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M13",
+    "title": "Failed Breakout Decision Tree",
+    "time": "45 minutes",
+    "visual": "113_playbook_13.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M12"
+    ],
+    "objective": "Build and test a conditional failed breakout decision tree playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "A breakout and a failed breakout require acceptance tests, time windows, and explicit risk limits rather than narrative hindsight.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "ES trades above a prior synthetic high, then returns inside the range.",
+    "exercise": "Build continue, fail, and stand-aside branches without choosing one in advance.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "Branching rules protect against converting one rejected price into a guaranteed reversal call."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M14",
+    "title": "Rotation and Mean-Reversion Limits",
+    "time": "45 minutes",
+    "visual": "114_playbook_14.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M13"
+    ],
+    "objective": "Build and test a conditional rotation and mean-reversion limits playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Mean reversion is a regime-dependent hypothesis. Expansion, event risk, thin liquidity, or changing value can invalidate it.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "Synthetic ES rotates repeatedly through a reference price in a balanced session.",
+    "exercise": "Specify eligibility, entry evidence, target logic, and hard invalidation.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "A rotation playbook is valid only while balance evidence persists; it is not a promise that extremes will hold."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M15",
+    "title": "Index Event-Risk Protocol",
+    "time": "45 minutes",
+    "visual": "115_playbook_15.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M14"
+    ],
+    "objective": "Build and test a conditional index event-risk protocol playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Scheduled events can change liquidity, volatility, spreads, and correlation. The safe default is to reduce assumptions and predefine exposure.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "A position idea overlaps a scheduled FOMC announcement and employment release.",
+    "exercise": "Create before, during, and after-event gates including a no-trade option.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "The protocol manages uncertainty; it does not predict the announcement or market response."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M16",
+    "title": "Gold Catalyst Map",
+    "time": "45 minutes",
+    "visual": "116_playbook_16.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M15"
+    ],
+    "objective": "Build and test a conditional gold catalyst map playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Gold can respond to rates, currencies, inflation expectations, risk sentiment, and positioning, but relationships vary through time.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "GC moves sharply while the dollar and yields also change in a synthetic scenario.",
+    "exercise": "List competing explanations and the evidence needed to distinguish them.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "Cross-market moves are context, not causal proof or automatic confirmation."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M17",
+    "title": "Gold Session and Liquidity Plan",
+    "time": "45 minutes",
+    "visual": "117_playbook_17.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M16"
+    ],
+    "objective": "Build and test a conditional gold session and liquidity plan playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Session participation and order-book conditions affect slippage and stop behavior. A chart pattern cannot substitute for liquidity checks.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "A GC setup appears during a thin synthetic interval before a major release.",
+    "exercise": "Define minimum liquidity evidence, maximum execution uncertainty, and cancellation rules.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "The plan stands aside when execution conditions cannot be bounded."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M18",
+    "title": "Gold Curve and Basis Context",
+    "time": "45 minutes",
+    "visual": "118_playbook_18.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M17"
+    ],
+    "objective": "Build and test a conditional gold curve and basis context playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Futures curves reflect financing, storage, convenience, expectations, and contract mechanics. A spread is not a simple spot-direction signal.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "Near and deferred synthetic gold contracts show different prices.",
+    "exercise": "Compare like-for-like contracts and record expiry, units, timestamp, and source.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "A defensible comparison normalizes contract identity and avoids inferring direction from curve shape alone."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M19",
+    "title": "Cross-Market Confirmation Limits",
+    "time": "45 minutes",
+    "visual": "119_playbook_19.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M18"
+    ],
+    "objective": "Build and test a conditional cross-market confirmation limits playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "Confirmation is sensitive to window, lag, common catalysts, and data quality. Correlation can change or be coincidental.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "ES, NQ, GC, yields, and a currency index move together for fifteen minutes.",
+    "exercise": "Create a confirmation score that includes disagreement and missing-data penalties.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "Divergence and missing evidence reduce confidence; they are not permission to invent a story."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  },
+  {
+    "id": "L06-M20",
+    "title": "Specialist Playbook Assessment",
+    "time": "90 minutes",
+    "visual": "120_playbook_20.png",
+    "competencies": [
+      "playbook_design",
+      "risk_management",
+      "evidence_reasoning"
+    ],
+    "prerequisites": [
+      "L06-M19"
+    ],
+    "objective": "Build and test a conditional specialist playbook assessment playbook.",
+    "why": "Specialist practice requires explicit evidence, invalidation, risk and stand-aside rules.",
+    "core": [
+      "A specialist playbook is a precommitted decision process with eligibility, evidence, invalidation, sizing, execution, and review.",
+      "Every example is original and synthetic. No pattern is presented as a signal or proven edge.",
+      "Verify live specifications, schedules, data entitlements and broker rules before any real decision."
+    ],
+    "scenario": "An unseen case combines an index open, a scheduled event, GC curve data, and conflicting cross-market evidence.",
+    "exercise": "Submit an index or gold playbook plus a source-stamped decision log.",
+    "quiz": [
+      [
+        "What makes the playbook falsifiable?",
+        "Pass only when the learner can choose no trade, identify invalidation, and separate evidence from inference."
+      ],
+      [
+        "What remains uncertain?",
+        "Outcome, liquidity, slippage, correlations, event response and whether the observed regime persists."
+      ]
+    ],
+    "mistake": "Treating contextual agreement as proof of direction or edge.",
+    "evidence": "Official exchange, regulator and economic-calendar sources checked 2026-10-30; original synthetic cases.",
+    "sources": [
+      "CME_ES",
+      "CME_NQ",
+      "CME_GOLD",
+      "CME_HOURS",
+      "CFTC_BASICS",
+      "FED_CAL",
+      "BLS_CAL"
+    ]
+  }
+]

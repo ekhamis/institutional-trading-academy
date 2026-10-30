@@ -1,6 +1,6 @@
 {
   "academy": "Institutional Trading Academy",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "levels": [
     {
       "id": "L0",
@@ -43,9 +43,9 @@
       "missions": 40
     }
   ],
-  "authored_missions": 110,
+  "authored_missions": 120,
   "content_status": {
-    "en-US": "missions_01_110_authored",
+    "en-US": "missions_01_120_authored",
     "ar": "structure_only"
   }
 }
