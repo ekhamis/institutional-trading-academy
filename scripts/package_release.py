@@ -8,7 +8,8 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_DIRS = {".git", "dist", "__pycache__", ".venv", "venv"}
+EXCLUDED_DIRS = {".git", "dist", "__pycache__", ".venv", "venv",
+                 "private-research", "private-sources", "discord-downloads"}
 EXCLUDED_NAMES = {".DS_Store", "Thumbs.db"}
 
 

@@ -1,0 +1,432 @@
+[
+  {
+    "id": "L05-M01",
+    "title": "A Conditional Trading Plan",
+    "time": "40 minutes",
+    "visual": "81_planning_01.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L04-M20"
+    ],
+    "objective": "Demonstrate a conditional trading plan with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Context is not an entry. Separate the observation, testable hypothesis, trigger, invalidation and execution instruction.",
+      "Write the plan before revealing later bars. The correct outcome here is no trade, not a retrospective entry.",
+      "Do not trade without the stated trigger; cancel after the observation window expires.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A synthetic index trades at 5000 below resistance at 5004. Plan a short only after a test above 5004 and a close back below 5003. The trigger never occurs.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "No trade. Record an untriggered plan rather than inventing a fill."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Do not trade without the stated trigger; cancel after the observation window expires."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M02",
+    "title": "Invalidation and Protective Stops",
+    "time": "40 minutes",
+    "visual": "82_planning_02.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M01"
+    ],
+    "objective": "Demonstrate invalidation and protective stops with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "The planned price risk is 2.2 per unit; the gross reward is 3, or approximately 1.36R.",
+      "Place a stop for a stated invalidation, then size to the budget. Do not tighten it merely to manufacture a preferred reward/risk ratio. Stops may fill worse than their trigger.",
+      "Skip if the minimum tradable size exceeds the budget or the expected fill cannot be bounded sufficiently.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A hypothetical long entry is 100, structural invalidation is below 98, planned stop is 97.8 and the nearest target is 103.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "3 / 2.2 = 1.36 gross R, before fees and slippage; this is not a guarantee."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Skip if the minimum tradable size exceeds the budget or the expected fill cannot be bounded sufficiently."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M03",
+    "title": "Sizing From a Loss Budget",
+    "time": "40 minutes",
+    "visual": "83_planning_03.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M02"
+    ],
+    "objective": "Demonstrate sizing from a loss budget with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Modeled risk is 12 x 2 + 6 = $30 per contract. Floor(100 / 30) gives 3 contracts and $90 modeled loss.",
+      "Check currency, multiplier, tick size, minimum quantity and cost units. Margin is not the loss budget. A gap can exceed this model.",
+      "Reject the order if contract specifications are unknown or even one unit exceeds the budget.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "An educational simulation has a $100 risk budget, a 12-point stop, $2 per point per contract and $6 modeled round-trip cost per contract.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "Three contracts; four would model $120 and breach the budget."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Reject the order if contract specifications are unknown or even one unit exceeds the budget."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M04",
+    "title": "Order Choice and Fill Uncertainty",
+    "time": "40 minutes",
+    "visual": "84_planning_04.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M03"
+    ],
+    "objective": "Demonstrate order choice and fill uncertainty with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "A touched price does not prove that a queued limit order filled. Record no confirmed fill until execution evidence exists.",
+      "A market order prioritizes execution over price; a limit controls the worst acceptable price but may not fill. Stop-limit orders can remain unfilled.",
+      "Do not turn an unfilled limit into a market chase without a new documented plan.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A buy limit at 100 is touched but no execution confirmation appears. The next bar rises to 102.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "Unconfirmed, not a winning trade. Price movement alone cannot establish queue priority."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Do not turn an unfilled limit into a market chase without a new documented plan."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M05",
+    "title": "Costs Change the Decision",
+    "time": "40 minutes",
+    "visual": "85_planning_05.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M04"
+    ],
+    "objective": "Demonstrate costs change the decision with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Net target is 17 ticks and modeled loss is 13 ticks, giving 17 / 13 = 1.31 reward/risk.",
+      "At those fixed outcomes the break-even win fraction is 13 / 30 = 43.33%, ignoring other costs. The original gross 2R label overstates this modeled payoff.",
+      "Skip if costs consume the planned advantage; actual distributions and gap risk require separate testing.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A modeled setup risks 10 ticks and targets 20. Round-trip fees equal 2 ticks and adverse slippage is modeled at 1 tick on either outcome.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "1.31 modeled net reward/risk; break-even 43.33% under the stated assumptions only."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Skip if costs consume the planned advantage; actual distributions and gap risk require separate testing."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M06",
+    "title": "Daily Loss and Correlated Exposure",
+    "time": "40 minutes",
+    "visual": "86_planning_06.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M05"
+    ],
+    "objective": "Demonstrate daily loss and correlated exposure with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Only $50 remains under the session ceiling before existing open risk. The new $60 plan does not fit.",
+      "Aggregate open risk and related exposures rather than counting each chart as independent. A daily limit is an operational control, not a guaranteed cap during gaps.",
+      "Stop opening risk when the remaining budget is insufficient; do not increase the ceiling to recover losses.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A simulated session loss ceiling is $200. Two completed trades lost $70 and $80. A new plan risks $60; another Nasdaq-related position is already open.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "Decline the new plan; include open exposure before calculating any remaining capacity."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Stop opening risk when the remaining budget is insufficient; do not increase the ceiling to recover losses."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M07",
+    "title": "Managing a Losing Trade",
+    "time": "40 minutes",
+    "visual": "87_planning_07.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M06"
+    ],
+    "objective": "Demonstrate managing a losing trade with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Planned 1R is 2 price units. Gross realized result is -2.2 / 2 = -1.1R before costs.",
+      "Keep the original denominator for review. Do not widen the stop, add to a loser or redefine R afterward to hide the loss.",
+      "Follow the planned exit and record slippage; investigate whether execution conditions exceeded assumptions.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A synthetic long is filled at 100 with a protective stop at 98 and a target at 104. Price trades down and the exit fills at 97.8.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "-1.1 gross R, with a worse net result after costs. A planned stop did not guarantee -1R."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Follow the planned exit and record slippage; investigate whether execution conditions exceeded assumptions."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M08",
+    "title": "A Disciplined Skipped Trade",
+    "time": "40 minutes",
+    "visual": "88_planning_08.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M07"
+    ],
+    "objective": "Demonstrate a disciplined skipped trade with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "The appropriate action is to skip under this plan even if later price reaches the target.",
+      "Grade compliance using evidence available at decision time. A profitable counterfactual does not make breaking a risk rule correct.",
+      "Resume only when the written event window and post-event spread conditions are satisfied.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A valid-looking gold pattern appears immediately before a scheduled announcement. The written simulator rule excludes new positions within five minutes of that event.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "A compliant no-trade. The five-minute window is an exercise assumption, not a universal safety rule."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Resume only when the written event window and post-event spread conditions are satisfied."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M09",
+    "title": "Ambiguous Evidence and Review",
+    "time": "40 minutes",
+    "visual": "89_planning_09.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M08"
+    ],
+    "objective": "Demonstrate ambiguous evidence and review with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "A chart annotation and reported outcome are not verified execution. Preserve an explicit unknown status.",
+      "Request the missing evidence before calculating realized R. Review the reasoning independently of whether the reported result is positive.",
+      "Do not use an unverifiable claim as proof of edge, certification or a real trade record.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "A chart contains a risk/reward box and a claimed 6R result, but no timestamped plan, quantity, fills, stop history or costs.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "Insufficient evidence. Do not invent entry, stop, quantity, fill sequence or net performance."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Do not use an unverifiable claim as proof of edge, certification or a real trade record."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  },
+  {
+    "id": "L05-M10",
+    "title": "Level 5 Planning Assessment",
+    "time": "90 minutes",
+    "visual": "90_planning_10.png",
+    "competencies": [
+      "risk_management",
+      "trade_planning",
+      "data_literacy"
+    ],
+    "prerequisites": [
+      "L05-M09"
+    ],
+    "objective": "Demonstrate level 5 planning assessment with a timestamped, cost-aware decision.",
+    "why": "Assess decisions before outcomes and preserve unknowns rather than reward hindsight.",
+    "core": [
+      "Score six dimensions from 0 to 2: context, trigger, invalidation, sizing and costs, contradictory evidence, and review integrity.",
+      "Require at least 10/12 plus no critical safety failure. Missing loss budget, lookahead, fabricated fills or publishing private source material is a critical failure regardless of score.",
+      "Remediate failed dimensions with a new unseen case before advancing; this internal assessment is not professional accreditation.",
+      "All cases are original synthetic exercises, not live recommendations or historical performance."
+    ],
+    "scenario": "Submit four synthetic cases: one triggered loss, one untriggered plan, one announcement skip and one ambiguous reported result.",
+    "exercise": "Record the visible evidence, alternative explanation, exact trigger, cancellation, entry/stop/target, size and modeled costs before revealing the result. State unknown fields explicitly. Then grade the decision, not the profit.",
+    "quiz": [
+      [
+        "What is the correct interpretation of this case?",
+        "Include a decision-time record and outcome evidence for each case. Correctly declining a case can earn full credit."
+      ],
+      [
+        "What prevents or cancels the trade?",
+        "Remediate failed dimensions with a new unseen case before advancing; this internal assessment is not professional accreditation."
+      ],
+      [
+        "Does a good process guarantee profit?",
+        "No. Losses and execution uncertainty remain; separate strategy testing is required."
+      ]
+    ],
+    "mistake": "Using a favorable outcome to excuse missing risk controls or fabricated execution evidence.",
+    "evidence": "Official risk principles plus original synthetic practice rules; thresholds are curriculum policy, not proven trading edges.",
+    "sources": [
+      "CME_RISK"
+    ]
+  }
+]
